@@ -35,8 +35,8 @@ Alle neun sind Lücken der Karte, Band 9-10. Eine Seite je Baustein, Reihenfolge
 
 - Pfad: `src/<kapitel>/chapter.yaml`, Seiten `src/<kapitel>/<seite>.yaml`, Bilder `src/images/`, Audio `src/audio/`.
 - Jede Seite (außer den Wiederholungsseiten) hat die Abschnitts-IDs `einstieg` (Vorwissens-Frage als `single-choice`, „Das kannst du danach“), `lesestueck` (zuerst ein `vocabulary` „Wörter zum Text“ als Randglossar, dann der Text in `text`-Blöcken mit nummerierten Zeilen „**[1]** …“, 300 bis 600 Wörter, Titel neutral), `neu` (Erklärung, Werkzeugkarte, Merke), `uebung` (drei Stufen: Verstehen, Belegen mit Zeile, Meinung; mindestens vier Übungen), `anwenden` (`open-task` mit `points` und `solution`, dazu `speaking-task`) und `weiter` (Eintrag für die Lese- und Sehliste, Ausblick). Titel sagen, was der Abschnitt tut. Die Wiederholungsseiten haben nur Text, keine oder höchstens zwei Übungen.
-- Werkzeugkarte = `note` mit Titel „Werkzeugkarte · <Begriff>“ und drei Zeilen: Fachbegriff (englisch, mit deutscher Bedeutung), **Leitfrage** (englisch, ein Satz) und **Satzanfang** (englisch, „The narrator …“). Der Werkzeugkasten wächst: jede Seite legt höchstens ein bis vier neue Karten an; das Wort „Kasten“ meint die Karten bisher.
-- Zeilen: ein `text`-Block hat höchstens drei bis fünf nummerierte Zeilen; Belege stehen als `(l. 4)` oder `(ll. 2-5)`. Gedichte und Szenen: jede Verszeile oder Sprechzeile eine Nummer.
+- Werkzeugkarten stehen als Zeilen einer `table` „Werkzeugkasten · Karten“ mit den Spalten Karte, Leitfrage (englisch, ein Satz), Satzanfang (englisch, „The narrator tells …“); vorher ein Satz, der sagt, dass die drei Punkte die Lernenden ergänzen; dazu je Fachbegriff ein `definition` (Glossar) und eine Zeichnung `werkzeugkasten-<seite>.svg` (Muster `werkzeugkasten-fachbegriffe.svg`). Der Werkzeugkasten wächst: jede Seite legt höchstens ein bis vier neue Karten an, die Seite sagt, dass weitere kommen.
+- Zeilen: vor dem Text steht ein Satz „Die Zahlen in eckigen Klammern sind die Zeilennummern des Textes.“; ein `text`-Block hat höchstens drei bis fünf nummerierte Zeilen; Belege stehen als `(l. 4)` oder `(ll. 2-5)`. Gedichte und Szenen: jede Verszeile oder Sprechzeile eine Nummer.
 - Länge: Erklärtext höchstens 350 Wörter, das Lesestück zählt nicht mit (Konventionen §8); der Hinweis `explainer-text-load` ist bei diesen Seiten bewusst. Höchstens etwa 25 Items und 10 Übungen.
 - Fall: Die Lernenden stellen die Lese- und Sehliste für Year 10 zusammen. `weiter` jeder Seite fordert einen Listeneintrag (ein bis zwei Sätze, Satzanfang der Karte, Zeilenangabe); `film-analysieren` fragt nach der Empfehlung mit zwei Gründen. **Keine Figuren-Einführung im Seitentext**, keine erfundenen Kinder, keine Szenenbilder mit Figuren; Sophie kommt nicht vor. Die Figuren der Lesestücke sind Erwachsene.
 - Anrede „du“. Texte sachlich, keine Gewalt- und Verstörungsthemen ohne Not.
@@ -70,7 +70,7 @@ Aufbau leicht → schwer, drei Stufen je Seite. Je Übung `mistakes` mit eigener
 
 ## Built (Stand)
 
-Noch nichts gebaut; dieser Abschnitt wird nach jedem Baustein ergänzt (Seiten, Übungs-IDs, Hörsätze).
+- `kurzgeschichten/das-brauchst-du` (Wiederholung, keine Übung), `kurzgeschichten/text-fachbegriffe` (Musterseite; Übungen `fachbegriffe-start`, `-erzaehler`, `-dan`, `-beleg`, `-plot`, `-wirkung`, `-karte`, `-hoeren`, `-schreiben`, `-nachsprechen`; Lesestück „Eine Kurzgeschichte“ mit 14 Zeilen). Weitere Seiten werden nach jedem Baustein ergänzt.
 
 ## Sources
 
@@ -78,7 +78,11 @@ Karte `https://lernapps.net/apps/map/englisch.json` und Baustein-Seiten `https:/
 
 ## Hörliste (Sätze, die die Ersteller:in gezielt abhört)
 
-Hörsätze bleiben natürlich: kein Name wird nur wegen des Klangs angehängt. `regen_audio.py` schneidet das Ausklingen ab; Sätze, die auf ein einsilbiges Wort enden, stehen hier zum gezielten Abhören. Noch keine.
+Hörsätze bleiben natürlich: kein Name wird nur wegen des Klangs angehängt. `regen_audio.py` schneidet das Ausklingen ab; Sätze, die auf ein einsilbiges Wort enden, und Sätze mit Schnitt stehen hier zum gezielten Abhören:
+- „The plot follows the baker through the night.“ (einsilbiges Ende, Schnitt 45 ms)
+- „The plot begins with a broken window.“ (zweisilbiges Ende)
+- „The setting is an old bakery in a quiet village.“ (zweisilbiges Ende, Schnitt 85 ms; ein angeschnittenes „village“ ist ein Fehler)
+- „The old kitchen is the setting of the whole story.“ (der Anfang war im Lerner-Check schwer zu verstehen)
 
 ## Adding a chapter or round
 
@@ -101,3 +105,6 @@ Aus den Vorgängern (#470 bis #482) und den Konventionen übernommen:
 - Keine Figuren-Einführung im Seitentext, keine erfundenen Kinder (Stufe 9-10); Titel der Lesestücke neutral.
 - Bilder: Beschriftungen innerhalb des `viewBox`, `alt` verrät nie die Lösung.
 - Ein Lesestück je Seite; Vokabelblock statt Wörter-Tabellen; „Ding“ steht nur für Gegenstände.
+- Belege in Übungen: In einer Aufgabe mit Lücken (`mode: gap`) darf eine Klammer `( )` keine Lücke `[ ]` enthalten und ein Beleg wie „(l. 9)“ steht besser in einer Schreibaufgabe (`mode: write`, Klammern ohne `|` sind Text) mit `mistakes` für fehlende oder falsche Zeile (Lerner-Check der Musterseite).
+- `hint` steht an der Aufgabe, nie an einem Item. Ein Beleg-Item sagt in der Aufgabe, ob eine Zeile verlangt ist; eine Mehrfachauswahl „Welche Zeilen …“ bietet nur Zeilen an, die eindeutig dazugehören oder eindeutig nicht (Lerner-Check).
+- Eine Werkzeugkarte wird nicht zweimal erklärt (Definition, Zeichnung, Tabelle): Definition kurz, Tabelle mit Leitfrage und Satzanfang, Zeichnung sagt in der Bildunterschrift, dass weitere Karten kommen.
