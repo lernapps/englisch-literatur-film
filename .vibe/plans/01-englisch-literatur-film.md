@@ -214,7 +214,7 @@ page, which a link. -->
       Creator: Orchestrator (Rolle der Ersteller:in): Muster bestätigt, übrige Seiten ohne Rückfragen; Lizenz-Badge: unten Platz im Bild lassen; Hörurteil bestätigt.
 - [x] Kapitel 1: Recap-Seite kurzgeschichten/das-brauchst-du und Seite kurzgeschichte (Merkmale, Lesestück mit offenem Ende).
 - [x] Kapitel 1: Seite erzaehlperspektive (Lesestück in zwei Fassungen, Autor oder Erzähler).
-- [ ] Kapitel 1: Seite charakterisierung (Steckbrief wird Charakterisierung mit Belegen).
+- [x] Kapitel 1: Seite charakterisierung (Steckbrief wird Charakterisierung mit Belegen).
 - [ ] Kapitel 1: Seite inhaltsangabe (story map wird Inhaltsangabe im present tense), Kapitelrückblick und Selbsteinschätzung.
 - [ ] Kapitel 2: Recap-Seite gedicht-szene-film/das-brauchst-du und Seite stilmittel (Rede als Lesestück, Karten metaphor, simile, repetition, rhetorical question).
 - [ ] Kapitel 2: Seite gedicht-analysieren (eigenes Gedicht und Songtext, Strophe, Reimschema, Zeichnung der Gedichtform).

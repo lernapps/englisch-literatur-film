@@ -16,5 +16,11 @@
   "src/audio/erzaehlperspektive-hoeren-3.mp3": "I always tell the story from my own point of view.",
   "src/audio/erzaehlperspektive-nachsprechen-1.mp3": "The writer invents the narrator.",
   "src/audio/erzaehlperspektive-nachsprechen-2.mp3": "A first-person narrator is part of the story.",
-  "src/audio/erzaehlperspektive-nachsprechen-3.mp3": "He knows what the other person thinks."
+  "src/audio/erzaehlperspektive-nachsprechen-3.mp3": "He knows what the other person thinks.",
+  "src/audio/charakterisierung-hoeren-1.mp3": "The writer shows the character through her actions.",
+  "src/audio/charakterisierung-hoeren-2.mp3": "What other people say can be wrong.",
+  "src/audio/charakterisierung-hoeren-3.mp3": "A good description needs one clear example.",
+  "src/audio/charakterisierung-nachsprechen-1.mp3": "The character is kind, because she listens.",
+  "src/audio/charakterisierung-nachsprechen-2.mp3": "His words show how he feels.",
+  "src/audio/charakterisierung-nachsprechen-3.mp3": "She is not what people expect."
 }
