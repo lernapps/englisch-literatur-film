@@ -28,5 +28,11 @@
   "src/audio/inhaltsangabe-hoeren-3.mp3": "Please leave your own opinion out of it.",
   "src/audio/inhaltsangabe-nachsprechen-1.mp3": "The story is about a woman and an old letter.",
   "src/audio/inhaltsangabe-nachsprechen-2.mp3": "She finds something that belongs to someone else.",
-  "src/audio/inhaltsangabe-nachsprechen-3.mp3": "A summary is short and easy to read."
+  "src/audio/inhaltsangabe-nachsprechen-3.mp3": "A summary is short and easy to read.",
+  "src/audio/stilmittel-hoeren-1.mp3": "A metaphor calls one thing by the name of another.",
+  "src/audio/stilmittel-hoeren-2.mp3": "Repeated words make a sentence stronger.",
+  "src/audio/stilmittel-hoeren-3.mp3": "The speaker asks a question and expects no answer.",
+  "src/audio/stilmittel-nachsprechen-1.mp3": "The audience listens carefully.",
+  "src/audio/stilmittel-nachsprechen-2.mp3": "A simile uses like or as to compare.",
+  "src/audio/stilmittel-nachsprechen-3.mp3": "The question makes the listeners wonder."
 }

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Das brauchst du hier
+description: "Eine kurze Wiederholung: Reime, Lieder und Gedichte und Dialoge schreiben."
+recap: [englisch/gedichte-reime, englisch/dialog-schreiben]
+scope: "Die Seite wiederholt, was Kapitel 2 voraussetzt, und übt nichts Neues. Reime, Lieder und kurze Gedichte kann man vortragen, und man kann Reimwörter finden, die am Ende ähnlich klingen. Ein Dialog oder eine Spielszene hat Sprecher und ihre Zeilen. Nicht hier, weil es neue Seiten sind, nämlich Stilmittel, Strophe und Reimschema, Regieanweisungen und Kameraeinstellungen."
+blocks:
+  - type: section
+    id: wiederholung
+    title: Was du schon kannst
+    blocks:
+      - type: text
+        text: |
+          Dieses Kapitel baut auf zwei Dingen auf. Prüfe im Kopf, ob du sie kannst.
+
+          - **Reime, Lieder und Gedichte:** Ich kann Reime, Lieder und kurze Gedichte vortragen und Reimwörter finden. Ein Reim ist der Gleichklang am Ende von Wörtern, zum Beispiel bei *light* und *night*. Es kommt auf den Klang an, nicht auf die Schreibung.
+          - **Dialog schreiben:** Ich kann einen kurzen Dialog oder eine Spielszene schreiben. Dort steht vor jeder Zeile, wer spricht, und Anweisungen stehen getrennt vom Gesprochenen.
+      - type: text
+        text: "In diesem Kapitel untersuchst du Gedichte genauer und liest eine Szene mit Anweisungen. Wenn eines der beiden noch wackelt, lies es zuerst auf der Lernlandkarte nach."

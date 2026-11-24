@@ -1,0 +1,249 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Stilmittel und ihre Wirkung"
+description: "Du erkennst Metapher, Vergleich, Wiederholung und rhetorische Frage und beschreibst ihre Wirkung."
+competencies: [stilmittel]
+scope: "Die Seite führt vier Stilmittel (stylistic devices) als Werkzeugkarten ein und übt sie an einer Rede. Eine Metapher (metaphor) nennt etwas mit dem Namen von etwas anderem, ohne Vergleichswort. Ein Vergleich (simile) verbindet zwei Dinge mit like oder as … as. Eine Wiederholung (repetition) betont durch wiederkehrende Wörter. Eine rhetorische Frage (rhetorical question) braucht keine Antwort und lässt die Zuhörer nachdenken. Zu jeder Karte gehören Leitfrage und Satzanfang. Wichtig ist nicht nur, das Stilmittel zu benennen, sondern seine Wirkung zu beschreiben, mit einer Zeile als Beleg. Nicht hier, weil es spätere Seiten sind, nämlich Strophe und Reimschema, Regieanweisungen und Kameraeinstellungen. Stilmittel kommen später in Texten über Meinung und Werbung wieder vor."
+blocks:
+  - type: section
+    id: einstieg
+    title: Wie klingt ein Text?
+    blocks:
+      - type: single-choice
+        id: stilmittel-start
+        text: Welcher Satz vergleicht zwei Dinge mit dem Wort like?
+        options:
+          - text: He runs like the wind
+            correct: true
+            info: Der Satz vergleicht das Laufen mit dem Wind und benutzt dafür like.
+          - text: He is the wind
+            correct: false
+            info: Hier fehlt das Wort like. Der Satz nennt ihn direkt Wind.
+          - text: He runs very fast
+            correct: false
+            info: Dieser Satz sagt nur, wie schnell er ist. Er vergleicht nichts.
+        explanation: Auf dieser Seite lernst du den Vergleich und drei weitere Stilmittel kennen.
+      - type: text
+        text: "**Das kannst du danach:** Du erkennst Metapher, Vergleich, Wiederholung und rhetorische Frage in einem Text und beschreibst, wie sie auf die Zuhörer wirken."
+  - type: section
+    id: lesestueck
+    title: Eine Rede
+    blocks:
+      - type: vocabulary
+        caption: Wörter zum Text
+        languages: { source: de, target: en }
+        entries:
+          - target: heap
+            source: Haufen
+          - target: spade
+            source: Spaten
+          - target: tyre
+            source: Reifen
+          - target: shed
+            source: Schuppen
+          - target: weed
+            source: Unkraut
+          - target: bed
+            source: Beet
+          - target: guard
+            source: Wächter, Wache
+          - target: bridge
+            source: Brücke
+      - type: text
+        text: "Die Zahlen in eckigen Klammern sind die Zeilennummern des Textes. Die Rede hält die Gründerin eines Gemeinschaftsgartens, der heute eröffnet wird."
+      - type: text
+        text: |
+          **[1]** Good evening, everyone, and welcome to the garden.
+
+          **[2]** A year ago this place was a heap of broken bricks and old tyres. Nobody looked at it. Nobody wanted it. Today it is the green heart of our town.
+
+          **[3]** We dug. We planted. We waited. And when the first beans came up, the whole street came to see them.
+
+          **[4]** On rainy Saturdays only the brave came. We drank tea in the shed and made plans. Some of us could not tell a weed from a flower. Now they give lessons.
+      - type: text
+        text: |
+          **[5]** Did anyone believe that a few people with spades could change a car park? Did anyone think the neighbours would come with tea and cake?
+
+          **[6]** I did not. I thought we would fail, and I was ready to be quiet about it.
+
+          **[7]** But look at the beds now. The tomatoes are as red as a fire engine. The sunflowers stand in a row like tall guards. In the evening the whole garden is as quiet as a sleeping cat.
+
+          **[8]** This garden is not only soil and seeds. It is a bridge between people who never said hello.
+      - type: text
+        text: |
+          **[9]** Together we built it. Together we looked after it. Together we will keep it.
+
+          **[10]** So, what do we do next? We open the gate, we invite everyone in, and we plant again. Thank you.
+  - type: section
+    id: neu
+    title: Vier Stilmittel und ihre Wirkung
+    blocks:
+      - type: text
+        text: "**Stilmittel** (stylistic devices) sind sprachliche Mittel, mit denen ein Text wirkt. Wichtiger als der Name ist die Wirkung: Was soll der Hörer oder Leser fühlen oder denken?"
+      - type: figure
+        image: images/werkzeugkasten-stilmittel.svg
+        alt: Vier weiße Karten nebeneinander. Auf der ersten steht A = B und metaphor, auf der zweiten ein Zeichen für ungefähr gleich und simile, auf der dritten zwei Kreise mit einem Strich und repetition, auf der vierten ein Fragezeichen und rhetorical question.
+        caption: Vier neue Karten für deinen Werkzeugkasten.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Werkzeugkasten · neue Karten
+        header: [Karte, Leitfrage, Satzanfang]
+        rows:
+          - [metaphor, "What is called something that it is not?", "The metaphor … shows that …"]
+          - [simile, "What is compared with like or as … as?", "The simile compares … with …"]
+          - [repetition, "Which words come back?", "The repetition emphasises …"]
+          - [rhetorical question, "Which question needs no answer?", "The rhetorical question makes the listeners …"]
+      - type: table
+        caption: Vier Beispiele aus anderen Texten
+        header: [Stilmittel, Beispiel]
+        rows:
+          - [metaphor, "Time is a thief."]
+          - [simile, "as brave as a lion"]
+          - [repetition, "Never, never, never give up."]
+          - [rhetorical question, "Who needs homework anyway?"]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Benenne das Stilmittel und beschreibe die Wirkung.** „Das ist eine Metapher“ reicht nicht. Schreibe, was sie zeigt oder bewirkt, und gib die Zeile an.
+
+              Der Unterschied: Ein **Vergleich** hat das Wort *like* oder *as … as*. Eine **Metapher** hat es nicht, sie nennt eine Sache einfach mit dem Namen einer anderen.
+  - type: section
+    id: uebung
+    title: Finde die Stilmittel in der Rede
+    blocks:
+      - type: matching
+        id: stilmittel-zuordnen
+        text: Ordne jede Stelle aus der Rede dem Stilmittel zu.
+        pairs:
+          - left: "Today it is the green heart of our town."
+            right: metaphor
+          - left: "as quiet as a sleeping cat"
+            right: simile
+          - left: "We dug. We planted. We waited."
+            right: repetition
+          - left: "Did anyone think the neighbours would come with tea and cake?"
+            right: rhetorical question
+        explanation: Die Metapher hat kein Vergleichswort, der Vergleich hat as … as. Die Wiederholung bringt Wörter oder Satzmuster zurück. Die rhetorische Frage verlangt keine Antwort.
+      - type: multiple-choice
+        id: stilmittel-metapher
+        text: In welchen Zeilen steht eine Metapher?
+        options:
+          - text: Zeile 2
+            correct: true
+            info: Der Garten wird „the green heart of our town“ genannt. Es steht kein like und kein as dabei.
+          - text: Zeile 3
+            correct: false
+            info: In Zeile 3 kommen Sätze mit gleichem Aufbau wieder. Das ist eine Wiederholung.
+          - text: Zeile 5
+            correct: false
+            info: In Zeile 5 stehen Fragen ohne Antwort, rhetorische Fragen.
+          - text: Zeile 7
+            correct: false
+            info: In Zeile 7 stehen Vergleiche mit as … as und like. Das sind keine Metaphern.
+          - text: Zeile 8
+            correct: true
+            info: Der Garten wird „a bridge between people“ genannt. Ein Vergleichswort fehlt.
+        explanation: Die Zeilen 2 und 8 nennen den Garten etwas, das er nicht wörtlich ist.
+      - type: single-choice
+        id: stilmittel-wirkung
+        text: Welcher Satz beschreibt die Wirkung der Wiederholung in Zeile 9 am besten?
+        options:
+          - text: "The repetition of “Together” emphasises that the work belongs to everyone (l. 9)"
+            correct: true
+            info: Der Satz benennt das Stilmittel, beschreibt die Wirkung und nennt die Zeile.
+          - text: "The repetition shows that the speaker forgot the next word (l. 9)"
+            correct: false
+            info: Das ist keine Wirkung auf die Zuhörer, sondern eine Behauptung ohne Grund im Text.
+          - text: "The repetition is a simile that compares the people with a team (l. 9)"
+            correct: false
+            info: Ein Vergleich braucht like oder as. In Zeile 9 steht keins von beidem.
+          - text: "The repetition makes the speech longer (l. 9)"
+            correct: false
+            info: Das beschreibt die Länge, nicht die Wirkung. Die Wiederholung hebt etwas hervor.
+        explanation: Eine gute Antwort nennt das Stilmittel, seine Wirkung und die Zeile.
+      - type: language-task
+        id: stilmittel-beleg
+        languages: { source: de, target: en }
+        task: Schreibe einen Satz mit dem Satzanfang der Karte metaphor und gib die Zeile als Beleg an. Was zeigt die Metapher vom grünen Herzen?
+        form: { punctuation: ok, case: ok }
+        items:
+          - cue: metaphor · show · garden · important · town
+            target: The metaphor shows that the garden is (very |)important for the town (l. 2).
+            mistakes:
+              - answer: The simile shows that the garden is important for the town (l. 2).
+                message: In Zeile 2 steht kein like und kein as. Das ist eine Metapher, kein Vergleich.
+              - answer: The metaphor shows that the garden is important for the town (l. 8).
+                message: Das grüne Herz steht in einer anderen Zeile. Zeile 8 enthält eine andere Metapher.
+              - answer: The metaphor shows that the garden is important for the town.
+                message: Es fehlt der Beleg. Gib am Ende die Zeile an, in der Form (l. 3).
+        hint: Das Herz ist das Wichtigste im Körper. Was heißt das für den Garten?
+        explanation: Der Satz nennt die Karte, die Wirkung und die Zeile.
+      - type: single-choice
+        id: stilmittel-frage
+        text: Warum stellt die Sprecherin in Zeile 5 Fragen und wartet nicht auf Antworten?
+        options:
+          - text: Die Zuhörer sollen selbst darüber nachdenken
+            correct: true
+            info: Eine rhetorische Frage braucht keine Antwort. Sie lässt die Zuhörer die Antwort selbst finden.
+          - text: Sie kennt die Antwort nicht
+            correct: false
+            info: Sie sagt in Zeile 6 selbst, was sie gedacht hat. Sie kennt die Antwort.
+          - text: Sie wartet auf Antworten aus dem Publikum
+            correct: false
+            info: Dann wäre es eine echte Frage. Im Text antwortet niemand.
+          - text: Die Fragen gehören zur Handlung des Gartens
+            correct: false
+            info: Die Fragen sind Teil der Rede, nicht der Handlung.
+        explanation: Die rhetorische Frage zieht die Zuhörer in den Gedanken hinein.
+      - type: language-task
+        id: stilmittel-hoeren
+        languages: { source: de, target: en }
+        task: Hör den Satz und schreibe ihn auf.
+        form: { punctuation: ok, case: hint }
+        items:
+          - audio: stilmittel-hoeren-1.mp3
+            target: A metaphor calls one thing by the name of another.
+          - audio: stilmittel-hoeren-2.mp3
+            target: Repeated words make a sentence stronger.
+          - audio: stilmittel-hoeren-3.mp3
+            target: The speaker asks a question and expects no answer.
+        explanation: Die Sätze benutzen die Begriffe in neuen Zusammenhängen.
+  - type: section
+    id: anwenden
+    title: Beschreibe die Wirkung der Rede
+    blocks:
+      - type: open-task
+        id: stilmittel-schreiben
+        task: Wähle drei Stilmittel der Rede und beschreibe in drei englischen Sätzen ihre Wirkung. Nutze je den Satzanfang der Karte und gib eine Zeile an.
+        points:
+          - text: Drei verschiedene Stilmittel sind gewählt und richtig benannt.
+            source: /gedicht-szene-film/stilmittel/#neu
+          - text: Jeder Satz beschreibt eine Wirkung auf die Zuhörer, nicht nur den Namen.
+            source: /gedicht-szene-film/stilmittel/#neu
+          - text: Jeder Satz nennt eine passende Zeile.
+            source: /gedicht-szene-film/stilmittel/#lesestueck
+          - text: Ganze Sätze im simple present, jede Zeile in der Form (l. 3).
+            kind: form
+        solution: |
+          The metaphor “the green heart of our town” shows that the garden is very important for the town (l. 2). The repetition of “Together” emphasises that the work belongs to everyone (l. 9). The rhetorical question makes the listeners think about what a few people can change (l. 5).
+
+          Die App bewertet deinen Text nicht. Prüfe ihn selbst an den Punkten.
+      - type: speaking-task
+        id: stilmittel-nachsprechen
+        language: en
+        task: Hör dir jeden Satz an, sprich ihn nach und nimm dich auf. Höre dich dann an und bewerte deine Aussprache selbst.
+        items:
+          - audio: stilmittel-nachsprechen-1.mp3
+            text: The audience listens carefully.
+          - audio: stilmittel-nachsprechen-2.mp3
+            text: A simile uses like or as to compare.
+          - audio: stilmittel-nachsprechen-3.mp3
+            text: The question makes the listeners wonder.
+  - type: section
+    id: weiter
+    title: Dein sechster Listeneintrag
+    blocks:
+      - type: text
+        text: "Schreibe für die Lese- und Sehliste einen Satz zur Rede mit einem Stilmittel, das dich überzeugt hat, zum Beispiel „The simile … compares … with …“, und nenne die Zeile. Auf der nächsten Seite untersuchst du ein Gedicht und einen Songtext."
