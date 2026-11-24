@@ -1,0 +1,4 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Kurzgeschichten untersuchen
+summary: Du lernst die ersten Werkzeuge deines Werkzeugkastens kennen und untersuchst damit Kurzgeschichten. Du bestimmst den Erzähler, charakterisierst eine Figur mit Belegen und schreibst eine Inhaltsangabe.
+pages: [das-brauchst-du, text-fachbegriffe]

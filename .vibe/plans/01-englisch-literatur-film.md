@@ -8,7 +8,7 @@ phase: code
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
-failedChecks: {}
+failedChecks: { checks-pass: 1 }
 ---
 
 # Plan: englisch-literatur-film, first version
@@ -34,6 +34,7 @@ Lernende ab Klasse 9 untersuchen Kurzgeschichten, ein Gedicht, eine Dramenszene 
 - Sprache der Seiten Deutsch (`languages: [de]`), englische Texte und Beispiele, britisches Englisch, Anrede du.
 - Fall statt Figuren (Stufe 9-10): die Lernenden stellen eine Lese- und Sehliste für Year 10 zusammen und begründen jede Wahl mit dem Werkzeugkasten; keine erfundenen Kinder, keine Szenenbilder mit Figuren, Sophie (15-16) höchstens als einzelne Stimme (guess).
 - Alle Lesestücke sind eigene Texte (CC BY 4.0); kein Gutenberg, keine fremden Gedichte, Songtexte, Filmdialoge oder Standbilder. Der Film der Seite 9 ist ein erfundener Kurzfilm, beschrieben als Szenenliste (guess).
+- `scope` ja (offene Aufgaben: der Tutor beurteilt nach dem Scope), in `src/app.yaml` mit `out`, auf jeder Seite.
 - Zeilenangaben: Lesestücke stehen als Tabelle [Zeile, Text] mit nummerierten Zeilen, damit Belege „(l. 4)“ möglich sind (guess, auf der Musterseite prüfen).
 
 ## Notes
@@ -196,14 +197,14 @@ page, which a link. -->
 
 - [x] Load skill `lernapps-cli`. Create the app as its section "Create" says:
       `npx --no -- lernapps create --archetype explainer`.
-- [ ] Fill the content guide `.agents/skills/app-content/SKILL.md` from "Notes" and "Content method": every heading,
+- [x] Fill the content guide `.agents/skills/app-content/SKILL.md` from "Notes" and "Content method": every heading,
       no "FILL IN" left. Commit it before any content.
-- [ ] Load skill `lernapps-explainer`.
-- [ ] Load skill `lernapps-content-questions`. Read whole, with your file tool:
+- [x] Load skill `lernapps-explainer`.
+- [x] Load skill `lernapps-content-questions`. Read whole, with your file tool:
       `.agents/skills/lernapps-explainer/references/blocks.md` and
       `.agents/skills/lernapps-explainer/references/exercises.md`. A foreign language: also
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
-- [ ] Decide whether the app needs `scope`, as "`scope`" in
+- [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
 - [ ] Baue die Musterseite kurzgeschichten/text-fachbegriffe: Lesestück mit nummerierten Zeilen, Werkzeugkarten narrator, character, setting, plot, Übungen in drei Stufen, Schreibauftrag, Hörsätze und Nachsprechen, Zeichnung des Werkzeugkastens; baut die App, den Inhaltsführer-Eintrag, Kapitelrahmen und das Audio-Gerüst mit, und committet.
 <!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->

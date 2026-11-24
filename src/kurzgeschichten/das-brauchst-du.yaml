@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Das brauchst du hier
+description: "Eine kurze Wiederholung: story map, Zusammenfassung, simple present und Beschreibung einer Person."
+recap:
+  [englisch/figuren-ort-handlung, englisch/zusammenfassung, englisch/simple-present, englisch/personen-orte-beschreiben]
+scope: Die Seite wiederholt, was Kapitel 1 voraussetzt, und übt nichts Neues. Die story map hat vier Felder (who, where, when, what) und zeigt, wer vorkommt, wo und wann eine Geschichte spielt und was passiert. Eine Zusammenfassung nennt nur das Wichtigste in wenigen Sätzen. Das simple present beschreibt Gewohnheiten und Tatsachen, mit -s bei he, she und it. Eine Person oder einen Ort beschreibt man anschaulich mit Einzelheiten. Nicht hier, weil es neue Seiten sind, nämlich die Fachbegriffe der Textarbeit, die Inhaltsangabe und die Charakterisierung.
+blocks:
+  - type: section
+    id: wiederholung
+    title: Was du schon kannst
+    blocks:
+      - type: text
+        text: |
+          Dieses Kapitel baut auf vier Dingen auf. Prüfe im Kopf, ob du sie kannst, bevor du weitermachst.
+
+          - **Figuren, Ort und Handlung:** Ich kann in einer Geschichte oder einem Film herausfinden, wer vorkommt, wo und wann sie spielt und was passiert. Dafür hast du die story map mit den Feldern who, where, when und what benutzt.
+          - **Zusammenfassung:** Ich kann das Wichtigste eines kurzen Textes in wenigen Sätzen zusammenfassen.
+          - **Simple present:** Ich kann im simple present über Gewohnheiten und Tatsachen sprechen und das -s bei he, she, it anhängen.
+          - **Personen und Orte beschreiben:** Ich kann in einem Text eine Person oder einen Ort anschaulich beschreiben.
+      - type: text
+        text: "Die Seiten dieses Kapitels sind auf diese vier Dinge angewiesen. Die story map wird zur Inhaltsangabe, und mit der Beschreibung einer Person fängt die Charakterisierung an. Wenn eines noch wackelt, lies es zuerst auf der Lernlandkarte nach."

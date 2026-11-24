@@ -1,10 +1,15 @@
 # yaml-language-server: $schema=../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 format: 2
-# The strand of the learning map the app stays in, <subject>/<strand> (e.g. mathematik/stochastik); then each page
-# names its competencies. none: the app is on no strand, and no page names competencies. A unit app across the strands
-# of a subject whose map allows it names subject: <subject> (e.g. franzoesisch) instead of strand.
-strand: none
-title: Platzhalter
-intro: Dieses Kapitel hält den Platz frei, bis der geplante Inhalt da ist.
+subject: englisch
+title: Literatur und Film untersuchen
+intro: Du untersuchst Kurzgeschichten, ein Gedicht, eine Dramenszene und einen kurzen Film. Dafür baust du einen Analyse-Werkzeugkasten (toolkit) aus Werkzeugkarten. Jede Karte hat einen Fachbegriff, eine Leitfrage und einen Satzanfang für deine Antwort. Deine Deutungen belegst du mit Zeilenangaben aus dem Text. Am Ende stellt deine Klasse eine Lese- und Sehliste für Year 10 zusammen.
 languages: [de]
-chapters: [thema]
+scope:
+  text: Die App erklärt für Klasse 9 und 10, wie man literarische Texte und Film mit Fachbegriffen untersucht. Ein Werkzeugkasten aus Karten trägt sie. Kapitel 1 führt die Karten narrator, character, setting und plot ein und übt Merkmale der Kurzgeschichte, Erzählperspektive, Charakterisierung mit Belegen und die Inhaltsangabe im present tense. Kapitel 2 ergänzt Stilmittel (metaphor, simile, repetition, rhetorical question), Strophe und Reimschema, Regieanweisungen und Kameraeinstellungen. Jede Seite hat einen eigenen kurzen Text mit nummerierten Zeilen, Übungen in drei Stufen (Verstehen, Belegen mit Zeile, Meinung) und einen Schreibauftrag. Alle Texte sind eigene Texte. Offene Aufgaben haben Punkte und eine Musterlösung; die App bewertet den Text nicht, die Lernenden prüfen ihn an den Punkten.
+  out:
+    - Zeitformen selbst (steht im Explainer über die Zeiten)
+    - Zeitungstexte, Bericht und Werbung
+    - Eine Erörterung oder einen Essay schreiben
+    - Analyse echter Filme, Gedichte oder Songtexte aus geschützten Werken
+    - Bewertung der Aussprache und der freien Texte durch die App
+chapters: [kurzgeschichten]
