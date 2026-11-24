@@ -1,0 +1,267 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Was eine Kurzgeschichte ausmacht"
+description: "Du erkennst die typischen Merkmale einer Kurzgeschichte an einem Beispiel und belegst sie mit Zeilen."
+competencies: [kurzgeschichte]
+scope: Die Seite zeigt die typischen Merkmale einer Kurzgeschichte (short story) an einem eigenen Beispieltext. Eine Kurzgeschichte ist kurz, erzählt eine kurze Zeitspanne mit wenigen Figuren, beginnt mitten in einer Situation ohne lange Vorgeschichte, hat einen Wendepunkt (turning point) und oft ein offenes Ende (open ending), das Fragen für die Leserinnen und Leser lässt. Die Karte short story hat die Leitfrage und den Satzanfang für das Urteil, die Karte plot wird um den Wendepunkt erweitert. Die Merkmale werden mit Zeilen belegt. Nicht hier, weil es spätere Seiten sind, nämlich Ich- und Er-Erzähler, die Charakterisierung, die Inhaltsangabe und Stilmittel. Die Merkmale sind typisch, nicht jede Kurzgeschichte hat alle.
+blocks:
+  - type: section
+    id: einstieg
+    title: Welche Karte fragt nach der Reihenfolge?
+    blocks:
+      - type: single-choice
+        id: kurzgeschichte-start
+        text: Welche Karte deines Werkzeugkastens hat die Leitfrage „What happens and in which order?“
+        options:
+          - text: plot
+            correct: true
+            info: Der plot sind die Ereignisse in ihrer Reihenfolge.
+          - text: setting
+            correct: false
+            info: Das setting ist Ort und Zeit der Handlung.
+          - text: narrator
+            correct: false
+            info: Der narrator ist die Stimme, die die Geschichte erzählt.
+        explanation: Auf dieser Seite wird die Karte plot genauer. Du suchst den Wendepunkt.
+      - type: text
+        text: "**Das kannst du danach:** Du nennst typische Merkmale einer Kurzgeschichte und zeigst sie an einem Text. Du belegst jedes Merkmal mit einer Zeile."
+  - type: section
+    id: lesestueck
+    title: Eine Kurzgeschichte
+    blocks:
+      - type: vocabulary
+        caption: Wörter zum Text
+        languages: { source: de, target: en }
+        entries:
+          - target: delayed
+            source: verspätet
+          - target: platform
+            source: Bahnsteig
+          - target: departure board
+            source: Abfahrtstafel
+          - target: bench
+            source: Bank
+          - target: loudspeaker
+            source: Lautsprecher
+          - target: crackle
+            source: knistern, rauschen
+          - target: wrapped
+            source: eingepackt
+          - target: per cent
+            source: Prozent
+          - target: sigh
+            source: seufzen
+      - type: text
+        text: "Die Zahlen in eckigen Klammern sind die Zeilennummern des Textes."
+      - type: text
+        text: |
+          **[1]** The announcement said that the 17:42 to Leeds was delayed by twenty minutes. Nora sighed and sat down on the cold bench on platform two.
+
+          **[2]** She had a ticket, a heavy bag and a very bad day behind her. Her phone had nine per cent battery left, and she did not want to waste it.
+
+          **[3]** Next to her sat an old man with a small brown suitcase. He was holding a ticket and turning it over and over in his hands.
+
+          **[4]** "Excuse me," he said at last. "Is this the platform for Leeds?"
+
+          **[5]** "Yes," said Nora. "But the train is late."
+
+          **[6]** "Good," said the man. "I need the time."
+      - type: text
+        text: |
+          **[7]** Nora looked at him. He did not look like a person who was afraid of missing a train. He looked like a person who was afraid of arriving.
+
+          **[8]** "My daughter lives in Leeds," he said. "We have not spoken for eleven years. I wrote her a letter last week, but I do not know if she has read it."
+
+          **[9]** Nora did not know what to say. She looked at the departure board. The twenty minutes had become thirty.
+
+          **[10]** "I could not call her," the man went on. "Too many words. A letter is easier. You can think before you write."
+
+          **[11]** "Then you have already done the hardest part," said Nora, and she was surprised by her own voice.
+      - type: text
+        text: |
+          **[12]** The man smiled a little. He opened his suitcase and took out a small, flat box wrapped in blue paper. "Her birthday was in March," he said. "I have missed eleven of them."
+
+          **[13]** A loudspeaker crackled. The train to Leeds was arriving at platform two.
+
+          **[14]** The man stood up slowly. For a moment he did not move. The doors opened, people stepped out, and the platform filled with noise.
+
+          **[15]** "Will you sit with me?" he asked. "Just to the first station."
+
+          **[16]** Nora looked at her phone. Eight per cent. She looked at the open door, and at the man, and at the box in blue paper.
+
+          **[17]** Then she picked up her bag.
+  - type: section
+    id: neu
+    title: Was typisch ist und was du fragst
+    blocks:
+      - type: text
+        text: "Eine **Kurzgeschichte** (short story) ist kurz und dicht. Sie konzentriert sich auf eine Situation, meist mit einer Hauptfigur. Die folgenden Merkmale sind typisch. Nicht jede Kurzgeschichte hat alle."
+      - type: table
+        caption: Typische Merkmale
+        header: [Merkmal, Woran du es merkst]
+        rows:
+          - [Einstieg mitten drin, "Es gibt keine lange Vorgeschichte, die Handlung läuft schon."]
+          - ["Kurze Zeit, wenige Figuren", "Es vergehen Minuten oder Stunden, eine Hauptfigur steht im Mittelpunkt."]
+          - [Wendepunkt (turning point), "Eine Entscheidung oder ein Satz verändert die Lage."]
+          - [Offenes Ende (open ending), "Der Text hört auf, bevor alles geklärt ist."]
+      - type: figure
+        image: images/werkzeugkasten-kurzgeschichte.svg
+        alt: Zwei weiße Karten nebeneinander, die erste mit einem Buch und dem Wort short story, die zweite mit einer Zickzacklinie und dem Wort turning point.
+        caption: Zwei neue Karten für deinen Werkzeugkasten. Die Karte plot bekommt den Wendepunkt dazu.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Werkzeugkasten · neue Karten
+        header: [Karte, Leitfrage, Satzanfang]
+        rows:
+          - [short story, Which typical features does the text have?, "The text is a short story because …"]
+          - [plot · turning point, Where does the situation change?, "The turning point is …"]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Jedes Merkmal braucht einen Beleg.** Du sagst nicht nur „Das Ende ist offen“, sondern nennst die Zeile und schreibst, was offen bleibt.
+
+              **Ein offenes Ende ist kein Fehler.** Die Autorin lässt eine Frage für die Leserinnen und Leser übrig. Sie sollen selbst weiterdenken.
+  - type: section
+    id: uebung
+    title: Prüfe die Merkmale am Text
+    blocks:
+      - type: single-choice
+        id: kurzgeschichte-ende
+        text: Wie endet die Geschichte vom Bahnsteig?
+        options:
+          - text: Nora hilft dem Mann, und alles wird gut
+            correct: false
+            info: Das steht nicht im Text. Die Geschichte hört auf, bevor man weiß, wie es weitergeht.
+          - text: Der Mann trifft seine Tochter in Leeds
+            correct: false
+            info: Davon erfährst du nichts. Der Zug steht erst am Bahnsteig.
+          - text: Nora nimmt ihre Tasche, aber was dann folgt, bleibt offen
+            correct: true
+            info: Der Text hört bei Noras Handlung auf. Ob sie einsteigt und wie die Reise endet, erzählt er nicht.
+          - text: Der Zug fährt ohne die beiden ab
+            correct: false
+            info: Davon steht nichts im Text. Der Zug steht mit offenen Türen am Bahnsteig.
+        explanation: Die Geschichte hat ein offenes Ende. Du musst dir den Schluss selbst denken.
+      - type: multiple-choice
+        id: kurzgeschichte-merkmale
+        text: Welche Merkmale einer Kurzgeschichte treffen auf den Text zu?
+        options:
+          - text: Die Geschichte beginnt mitten in einer Situation
+            correct: true
+            info: Nora sitzt schon am Bahnsteig, eine Vorgeschichte gibt es nicht.
+          - text: Die Handlung dauert nur kurze Zeit
+            correct: true
+            info: Es vergehen etwa dreißig Minuten am Bahnsteig.
+          - text: Es gibt viele gleich wichtige Hauptfiguren
+            correct: false
+            info: Im Mittelpunkt steht Nora. Der alte Mann kommt dazu, aber es sind zwei Figuren.
+          - text: Am Ende sind alle Fragen beantwortet
+            correct: false
+            info: Das Gegenteil stimmt, viele Fragen bleiben offen.
+          - text: Der Text hat ein offenes Ende
+            correct: true
+            info: Der Text hört auf, bevor man weiß, was Nora tut.
+        explanation: Der Text hat typische Merkmale einer Kurzgeschichte, auch wenn nicht jede alle hat.
+      - type: single-choice
+        id: kurzgeschichte-wendepunkt
+        text: In welcher Zeile ändert sich die Lage für Nora, weil sie sich entscheiden muss?
+        options:
+          - text: Zeile 4
+            correct: false
+            info: Hier spricht der Mann zum ersten Mal. Noch ändert sich für Nora nichts.
+          - text: Zeile 8
+            correct: false
+            info: Hier erzählt der Mann sein Geheimnis. Entscheiden muss Nora noch nichts.
+          - text: Zeile 15
+            correct: true
+            info: Der Mann bittet Nora, mitzufahren. Ab hier muss sie sich entscheiden.
+          - text: Zeile 17
+            correct: false
+            info: Hier ist die Entscheidung schon da. Der Wendepunkt kommt vorher.
+        explanation: Der turning point ist die Bitte in Zeile 15.
+      - type: language-task
+        id: kurzgeschichte-beleg
+        languages: { source: de, target: en }
+        task: Schreibe einen Satz mit dem Satzanfang der Karte plot und gib die Zeile als Beleg an. Was ist der Wendepunkt?
+        form: { punctuation: ok, case: ok }
+        items:
+          - cue: turning point · man · ask · Nora · sit with him
+            target: The turning point is when the man asks Nora to sit with him (l. 15).
+            mistakes:
+              - answer: The turning point is when the man asks Nora to sit with him (l. 8).
+                message: In Zeile 8 erzählt der Mann von seiner Tochter. Die Bitte steht in einer anderen Zeile.
+              - answer: The turning point is when the man asked Nora to sit with him (l. 15).
+                message: Beschreibe den Text im simple present, nicht in der Vergangenheit, in der die Geschichte erzählt ist.
+              - answer: The turning point is when the man asks Nora to sit with him.
+                message: Es fehlt der Beleg. Gib am Ende die Zeile an, in der Form (l. 3).
+        hint: Suche die Zeile, in der der Mann Nora um etwas bittet.
+        explanation: Der Satz nennt die Karte, den Wendepunkt und die Zeile.
+      - type: single-choice
+        id: kurzgeschichte-wirkung
+        text: Welcher Satz beschreibt die Wirkung des offenen Endes am besten?
+        options:
+          - text: "The open ending makes the reader think about what Nora does next (l. 17)"
+            correct: true
+            info: Der Satz nennt die Wirkung auf die Leserinnen und Leser und gibt die Zeile an.
+          - text: "The open ending is a mistake because the writer forgot the end (l. 17)"
+            correct: false
+            info: Ein offenes Ende ist eine Entscheidung der Autorin. Es ist kein Fehler.
+          - text: "The open ending shows that the man meets his daughter (l. 17)"
+            correct: false
+            info: Das steht nirgends. Das offene Ende erzählt nicht, was danach geschieht.
+          - text: "The open ending shows that Nora has a phone (l. 16)"
+            correct: false
+            info: Das Telefon kommt im Text vor, hat aber mit dem Ende nichts zu tun.
+        explanation: Das offene Ende lässt die Leserinnen und Leser weiterdenken.
+      - type: language-task
+        id: kurzgeschichte-hoeren
+        languages: { source: de, target: en }
+        task: Hör den Satz und schreibe ihn auf.
+        form: { punctuation: ok, case: hint }
+        items:
+          - audio: kurzgeschichte-hoeren-1.mp3
+            target: A short story often starts in the middle of a situation.
+          - audio: kurzgeschichte-hoeren-2.mp3
+            target: The reader has to imagine the ending.
+          - audio: kurzgeschichte-hoeren-3.mp3
+            target: One hour is enough for a short story.
+        explanation: Die Sätze nennen Merkmale einer Kurzgeschichte in neuen Worten.
+  - type: section
+    id: anwenden
+    title: "Begründe: Ist das eine Kurzgeschichte?"
+    blocks:
+      - type: open-task
+        id: kurzgeschichte-schreiben
+        task: Zeige an drei Merkmalen, dass der Text vom Bahnsteig eine Kurzgeschichte ist. Schreibe drei englische Sätze mit je einer Zeile als Beleg.
+        points:
+          - text: Ein Satz nennt den Einstieg mitten in der Situation und die Zeile 1.
+            source: /kurzgeschichten/kurzgeschichte/#neu
+          - text: Ein Satz nennt den Wendepunkt oder die kurze Zeit mit einer Zeile.
+            source: /kurzgeschichten/kurzgeschichte/#neu
+          - text: Ein Satz nennt das offene Ende mit der Zeile 17.
+            source: /kurzgeschichten/kurzgeschichte/#neu
+          - text: Drei ganze Sätze im simple present, jeder mit einer Zeile in der Form (l. 3).
+            kind: form
+        solution: |
+          The text is a short story because it starts in the middle of a situation, with Nora already on the platform (l. 1). The turning point is when the man asks Nora to sit with him (l. 15). The ending is open, because we do not learn if Nora gets on the train (l. 17).
+
+          Die App bewertet deinen Text nicht. Prüfe ihn selbst an den Punkten.
+      - type: speaking-task
+        id: kurzgeschichte-nachsprechen
+        language: en
+        task: Hör dir jeden Satz an, sprich ihn nach und nimm dich auf. Höre dich dann an und bewerte deine Aussprache selbst.
+        items:
+          - audio: kurzgeschichte-nachsprechen-1.mp3
+            text: The turning point changes everything.
+          - audio: kurzgeschichte-nachsprechen-2.mp3
+            text: Nothing is explained at the beginning.
+          - audio: kurzgeschichte-nachsprechen-3.mp3
+            text: The writer leaves a question for the reader.
+  - type: section
+    id: weiter
+    title: Dein zweiter Listeneintrag
+    blocks:
+      - type: text
+        text: "Setze die Geschichte vom Bahnsteig auf die Lese- und Sehliste für Year 10: Ein Satz mit dem Satzanfang „The text is a short story because …“ und einer Zeile ist dein Eintrag. Auf der nächsten Seite fragst du, wer die Geschichte erzählt, und erweiterst die Karte narrator."

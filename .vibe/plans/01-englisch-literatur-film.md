@@ -208,10 +208,11 @@ page, which a link. -->
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
 - [x] Baue die Musterseite kurzgeschichten/text-fachbegriffe: Lesestück mit nummerierten Zeilen, Werkzeugkarten narrator, character, setting, plot, Übungen in drei Stufen, Schreibauftrag, Hörsätze und Nachsprechen, Zeichnung des Werkzeugkastens; baut die App, den Inhaltsführer-Eintrag, Kapitelrahmen und das Audio-Gerüst mit, und committet.
 <!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
-- [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
+- [x] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
-- [ ] Kapitel 1: Recap-Seite kurzgeschichten/das-brauchst-du und Seite kurzgeschichte (Merkmale, Lesestück mit offenem Ende).
+      Creator: Orchestrator (Rolle der Ersteller:in): Muster bestätigt, übrige Seiten ohne Rückfragen; Lizenz-Badge: unten Platz im Bild lassen; Hörurteil bestätigt.
+- [x] Kapitel 1: Recap-Seite kurzgeschichten/das-brauchst-du und Seite kurzgeschichte (Merkmale, Lesestück mit offenem Ende).
 - [ ] Kapitel 1: Seite erzaehlperspektive (Lesestück in zwei Fassungen, Autor oder Erzähler).
 - [ ] Kapitel 1: Seite charakterisierung (Steckbrief wird Charakterisierung mit Belegen).
 - [ ] Kapitel 1: Seite inhaltsangabe (story map wird Inhaltsangabe im present tense), Kapitelrückblick und Selbsteinschätzung.

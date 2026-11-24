@@ -4,5 +4,11 @@
   "src/audio/fachbegriffe-hoeren-3.mp3": "The plot begins with a broken window.",
   "src/audio/fachbegriffe-nachsprechen-1.mp3": "The narrator speaks from outside the story.",
   "src/audio/fachbegriffe-nachsprechen-2.mp3": "The setting is an old bakery in a quiet village.",
-  "src/audio/fachbegriffe-nachsprechen-3.mp3": "The plot follows the baker through the night."
+  "src/audio/fachbegriffe-nachsprechen-3.mp3": "The plot follows the baker through the night.",
+  "src/audio/kurzgeschichte-hoeren-1.mp3": "A short story often starts in the middle of a situation.",
+  "src/audio/kurzgeschichte-hoeren-2.mp3": "The reader has to imagine the ending.",
+  "src/audio/kurzgeschichte-hoeren-3.mp3": "One hour is enough for a short story.",
+  "src/audio/kurzgeschichte-nachsprechen-1.mp3": "The turning point changes everything.",
+  "src/audio/kurzgeschichte-nachsprechen-2.mp3": "Nothing is explained at the beginning.",
+  "src/audio/kurzgeschichte-nachsprechen-3.mp3": "The writer leaves a question for the reader."
 }
