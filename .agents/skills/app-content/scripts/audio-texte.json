@@ -34,5 +34,18 @@
   "src/audio/stilmittel-hoeren-3.mp3": "The speaker asks a question and expects no answer.",
   "src/audio/stilmittel-nachsprechen-1.mp3": "The audience listens carefully.",
   "src/audio/stilmittel-nachsprechen-2.mp3": "A simile uses like or as to compare.",
-  "src/audio/stilmittel-nachsprechen-3.mp3": "The question makes the listeners wonder."
+  "src/audio/stilmittel-nachsprechen-3.mp3": "The question makes the listeners wonder.",
+  "src/audio/gedicht-hoeren-1.mp3": "A poem is divided into stanzas.",
+  "src/audio/gedicht-hoeren-2.mp3": "Lines with the same letter rhyme with each other.",
+  "src/audio/gedicht-hoeren-3.mp3": "A song often repeats its chorus.",
+  "src/audio/gedicht-nachsprechen-1.mp3": "The poem has three short stanzas.",
+  "src/audio/gedicht-nachsprechen-2.mp3": "The song has a catchy melody.",
+  "src/audio/gedicht-nachsprechen-3.mp3": "Read the poem aloud, slowly and carefully.",
+  "src/audio/drama-szene-hoeren-1.mp3": "The actors do not speak the stage directions aloud.",
+  "src/audio/drama-szene-hoeren-2.mp3": "A short pause can say more than a long speech.",
+  "src/audio/drama-szene-hoeren-3.mp3": "The audience sees what the characters do.",
+  "src/audio/drama-szene-nachsprechen-1.mp3": "Is this the last ferry to Harrow Island?",
+  "src/audio/drama-szene-nachsprechen-2.mp3": "It was the last ferry. Ten minutes ago.",
+  "src/audio/drama-szene-nachsprechen-3.mp3": "Promises are heavy things.",
+  "src/audio/drama-szene-nachsprechen-4.mp3": "But I am allowed to go home across the water."
 }

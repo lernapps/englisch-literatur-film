@@ -1,0 +1,260 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Ein Gedicht und einen Songtext untersuchen"
+description: "Du untersuchst Strophen, Reimschema, Bilder und Wirkung eines Gedichts und eines Songtexts."
+competencies: [gedicht-analysieren]
+scope: "Die Seite zeigt, wie man ein Gedicht oder einen Songtext untersucht. Eine Strophe (stanza) ist eine Gruppe von Zeilen, eine Zeile heißt line. Das Reimschema (rhyme scheme) zeigt mit Buchstaben, welche Zeilenenden sich reimen, zum Beispiel ABAB (die erste und dritte, die zweite und vierte Zeile reimen sich) oder AABB. Der Reim hängt vom Klang ab, nicht von der Schreibung. Bilder sind zum Beispiel Metaphern und Vergleiche aus der Seite über Stilmittel. Die Wirkung von Reim, Bild und Wiederholung wird beschrieben und mit Zeilen belegt. Das Gedicht und der Songtext sind eigene Texte. Nicht hier, weil es spätere Seiten sind, nämlich Regieanweisungen und Kameraeinstellungen. Silben und Versmaß gehören nicht dazu."
+blocks:
+  - type: section
+    id: einstieg
+    title: Reimt sich das?
+    blocks:
+      - type: single-choice
+        id: gedicht-start
+        text: Welches Wortpaar reimt sich?
+        options:
+          - text: light and night
+            correct: true
+            info: Die Wörter klingen am Ende gleich. Beide enden auf den Laut -ight.
+          - text: tough and though
+            correct: false
+            info: Die Schreibung ist ähnlich, aber der Klang nicht. Tough klingt wie stuff, though klingt wie go.
+          - text: go and do
+            correct: false
+            info: Beide enden auf -o, klingen aber verschieden. Go klingt wie so, do klingt wie too.
+        explanation: Ein Reim hängt vom Klang ab, nicht von der Schreibung.
+      - type: text
+        text: "**Das kannst du danach:** Du untersuchst ein Gedicht oder einen Songtext: Du zählst Strophen, bestimmst das Reimschema und beschreibst Bilder und ihre Wirkung."
+  - type: section
+    id: lesestueck
+    title: Ein Gedicht und ein Songtext
+    blocks:
+      - type: vocabulary
+        caption: Wörter zum Text
+        languages: { source: de, target: en }
+        entries:
+          - target: lantern
+            source: Laterne
+          - target: gloom
+            source: Dunkelheit, Dämmerung
+          - target: glow
+            source: Glühen, Schein
+          - target: island
+            source: Insel
+          - target: sigh
+            source: seufzen
+          - target: chorus
+            source: Refrain
+          - target: rocket
+            source: Rakete
+          - target: hold on
+            source: durchhalten
+      - type: text
+        text: "Die Zahlen in eckigen Klammern sind die Zeilennummern. Die Dichterin schreibt zu ihrem Gedicht: „Ich habe ‚Night Bus‘ auf dem letzten Bus nach einer späten Schicht geschrieben. Das Gedicht soll sich wie die Fahrt anfühlen: kurze Zeilen, ruhige Reime und am Ende ein stilles Bild.“ Der Songtext ist für ein Schulkonzert entstanden. Er ist viel lauter als das Gedicht, folgt aber seinem eigenen Muster."
+      - type: text
+        text: |
+          **Night Bus**
+
+          **[1]** The bus comes round the corner, warm and slow,
+
+          **[2]** A lantern rolling down the empty street.
+
+          **[3]** Inside, the windows hold a yellow glow
+
+          **[4]** And ten tired strangers sit on every seat.
+
+          **[5]** A woman rests her head against the glass,
+
+          **[6]** A man is reading something in the gloom,
+
+          **[7]** The driver hums while all the houses pass,
+
+          **[8]** And darkness is a coat around the room.
+      - type: text
+        text: |
+          **[9]** Nobody speaks, but everyone is near,
+
+          **[10]** We share one small warm island in the night.
+
+          **[11]** The bus stops, and the doors sigh, loud and clear:
+
+          **[12]** The city waits outside, a sea of light.
+      - type: text
+        text: |
+          **Hold On** (Songtext)
+
+          **[13]** I walked all day with an empty pocket,
+
+          **[14]** Carried my heart like a broken rocket,
+
+          **[15]** But then you called and the sky turned blue,
+
+          **[16]** And all I wanted was to be with you.
+
+          **[17]** Hold on, hold on, the morning is coming,
+
+          **[18]** Hold on, hold on, my heart keeps running,
+
+          **[19]** Hold on, hold on, we are not alone,
+
+          **[20]** Hold on, hold on, we are nearly home.
+  - type: section
+    id: neu
+    title: Strophe, Reimschema und Bild
+    blocks:
+      - type: text
+        text: "Ein Gedicht besteht aus **Strophen** (stanzas), das sind Gruppen von Zeilen (lines). Das **Reimschema** (rhyme scheme) zeigt mit Buchstaben, welche Zeilenenden sich reimen. Zeilen mit demselben Buchstaben reimen sich."
+      - type: figure
+        image: images/gedichtform.svg
+        alt: Drei weiße Kästchen nebeneinander. Jedes zeigt vier Striche untereinander als Zeilen, rechts daneben je einen Buchstaben A oder B. Das erste hat die Folge ABAB, das zweite AABB, das dritte ABBA.
+        caption: Drei häufige Reimschemata. Welches Schema ein Gedicht hat, siehst du an den Zeilenenden.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Werkzeugkasten · neue Karten
+        header: [Karte, Leitfrage, Satzanfang]
+        rows:
+          - [stanza, "How many stanzas and lines are there?", "The poem has … stanzas …"]
+          - [rhyme scheme, "Which lines rhyme?", "The rhyme scheme is …"]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Beschreibe zuerst die Form, dann die Wirkung.** Nenne Strophen und Reimschema, dann ein Bild oder eine Wiederholung mit der Karte aus dem letzten Abschnitt, und sage, was sie bewirken. Belege jede Aussage mit der Zeile.
+
+              **Reime hängen vom Klang ab.** Du musst die Zeilen laut lesen. Auch ein Songtext hat Strophen, und der Refrain (chorus) wiederholt sich.
+  - type: section
+    id: uebung
+    title: Untersuche Gedicht und Songtext
+    blocks:
+      - type: single-choice
+        id: gedicht-form
+        text: Wie viele Strophen hat „Night Bus“, und wie viele Zeilen hat jede?
+        options:
+          - text: Drei Strophen mit je vier Zeilen
+            correct: true
+            info: Die Zeilen 1 bis 4, 5 bis 8 und 9 bis 12 sind je eine Strophe.
+          - text: Vier Strophen mit je drei Zeilen
+            correct: false
+            info: Das vertauscht die Zahlen. Es sind drei Strophen mit je vier Zeilen.
+          - text: Zwölf Strophen
+            correct: false
+            info: Eine Zeile ist keine Strophe. Zwölf ist die Zahl der Zeilen.
+          - text: Eine Strophe mit zwölf Zeilen
+            correct: false
+            info: Das Gedicht ist durch Leerzeilen in drei Gruppen geteilt.
+        explanation: Eine Strophe ist eine Gruppe von Zeilen. „Night Bus“ hat drei davon.
+      - type: matching
+        id: gedicht-reimschema
+        text: Welches Reimschema hat jede Strophe? Ordne zu.
+        pairs:
+          - left: "Zeilen 1 bis 4 (slow, street, glow, seat)"
+            right: ABAB
+          - left: "Zeilen 13 bis 16 (pocket, rocket, blue, you)"
+            right: AABB
+        distractors: [ABBA, ABCB]
+        explanation: In Zeilen 1 bis 4 reimen sich die erste und dritte und die zweite und vierte Zeile. In Zeilen 13 bis 16 reimen sich die ersten zwei und die letzten zwei.
+      - type: multiple-choice
+        id: gedicht-bilder
+        text: In welchen Zeilen steht eine Metapher?
+        options:
+          - text: Zeile 2
+            correct: true
+            info: Der Bus wird „a lantern“ genannt. Ein like oder as fehlt, also ist es eine Metapher.
+          - text: Zeile 4
+            correct: false
+            info: Die Zeile sagt wörtlich, wer im Bus sitzt. Es gibt kein Bild.
+          - text: Zeile 8
+            correct: true
+            info: Die Dunkelheit wird „a coat“ genannt. Das ist eine Metapher.
+          - text: Zeile 9
+            correct: false
+            info: Die Zeile sagt wörtlich, dass niemand spricht. Es gibt kein Bild.
+          - text: Zeile 10
+            correct: true
+            info: Der Bus wird „one small warm island“ genannt. Ein Vergleichswort fehlt.
+        explanation: In den Zeilen 2, 8 und 10 wird etwas Alltägliches mit dem Namen einer anderen Sache genannt.
+      - type: language-task
+        id: gedicht-beleg
+        languages: { source: de, target: en }
+        task: Schreibe einen Satz mit dem Satzanfang der Karte metaphor und gib die Zeile als Beleg an. Was zeigt das Bild vom Mantel?
+        form: { punctuation: ok, case: ok }
+        items:
+          - cue: metaphor · coat · darkness · safe
+            target: The metaphor shows that the darkness feels (safe|warm|protective) (l. 8).
+            mistakes:
+              - answer: The simile shows that the darkness feels safe (l. 8).
+                message: In Zeile 8 steht kein like und kein as. Das ist eine Metapher.
+              - answer: The metaphor shows that the darkness feels safe (l. 2).
+                message: Der Mantel steht in einer anderen Zeile. In Zeile 2 steht ein anderes Bild.
+              - answer: The metaphor shows that the darkness feels safe.
+                message: Es fehlt der Beleg. Gib am Ende die Zeile an, in der Form (l. 3).
+        hint: Ein Mantel wärmt und schützt. Was heißt das für die Dunkelheit im Bus?
+        explanation: Der Satz nennt die Karte, die Wirkung und die Zeile.
+      - type: single-choice
+        id: gedicht-wirkung
+        text: Welcher Satz beschreibt die Wirkung von Reim und Wiederholung im Refrain am besten?
+        options:
+          - text: "The rhyme and the repeated “Hold on” give the chorus a strong rhythm that is easy to sing (ll. 17-20)"
+            correct: true
+            info: Der Satz benennt Reim und Wiederholung, beschreibt die Wirkung und nennt die Zeilen.
+          - text: "The chorus has no rhyme and no repetition (ll. 17-20)"
+            correct: false
+            info: Das stimmt nicht. Coming reimt sich auf running, und Hold on kehrt in jeder Zeile wieder.
+          - text: "Rhymes always make a song sad (ll. 17-20)"
+            correct: false
+            info: Reime haben keine feste Stimmung. Hier klingt der Refrain mutig, nicht traurig.
+          - text: "The chorus is a metaphor for the verse (ll. 17-20)"
+            correct: false
+            info: Ein Refrain ist ein Teil des Songs und keine Metapher.
+        explanation: Reim und Wiederholung machen den Refrain leicht zu behalten.
+      - type: language-task
+        id: gedicht-hoeren
+        languages: { source: de, target: en }
+        task: Hör den Satz und schreibe ihn auf.
+        form: { punctuation: ok, case: hint }
+        items:
+          - audio: gedicht-hoeren-1.mp3
+            target: A poem is divided into stanzas.
+          - audio: gedicht-hoeren-2.mp3
+            target: Lines with the same letter rhyme with each other.
+          - audio: gedicht-hoeren-3.mp3
+            target: A song often repeats its chorus.
+        explanation: Die Sätze nennen Begriffe der Seite in neuen Zusammenhängen.
+  - type: section
+    id: anwenden
+    title: Untersuche eine Strophe
+    blocks:
+      - type: open-task
+        id: gedicht-schreiben
+        task: Untersuche die zweite Strophe von „Night Bus“ (Zeilen 5 bis 8) in drei englischen Sätzen. Nenne das Reimschema, ein Bild und seine Wirkung. Gib je eine Zeile an.
+        points:
+          - text: Ein Satz nennt das Reimschema der Strophe mit den Zeilen 5 bis 8.
+            source: /gedicht-szene-film/gedicht-analysieren/#neu
+          - text: Ein Satz nennt ein Bild, zum Beispiel die Metapher vom Mantel, mit der Zeile 8.
+            source: /gedicht-szene-film/gedicht-analysieren/#neu
+          - text: Ein Satz beschreibt die Wirkung des Bildes.
+            source: /gedicht-szene-film/stilmittel/#neu
+          - text: Ganze Sätze im simple present, jede Zeile in der Form (l. 3) oder (ll. 5-8).
+            kind: form
+        solution: |
+          The rhyme scheme is ABAB, because glass rhymes with pass and gloom rhymes with room (ll. 5-8). The metaphor of the coat is a picture for the darkness in the bus (l. 8). It shows that the darkness is not frightening but feels safe and warm (l. 8).
+
+          Die App bewertet deinen Text nicht. Prüfe ihn selbst an den Punkten.
+      - type: speaking-task
+        id: gedicht-nachsprechen
+        language: en
+        task: Hör dir jeden Satz an, sprich ihn nach und nimm dich auf. Höre dich dann an und bewerte deine Aussprache selbst.
+        items:
+          - audio: gedicht-nachsprechen-1.mp3
+            text: The poem has three short stanzas.
+          - audio: gedicht-nachsprechen-2.mp3
+            text: The song has a catchy melody.
+          - audio: gedicht-nachsprechen-3.mp3
+            text: Read the poem aloud, slowly and carefully.
+  - type: section
+    id: weiter
+    title: Dein siebter Listeneintrag
+    blocks:
+      - type: text
+        text: "Entscheide für die Lese- und Sehliste, ob das Gedicht oder der Songtext besser in Year 10 passt, und schreibe einen Satz mit dem Satzanfang „The rhyme scheme is …“ als Begründung. Auf der nächsten Seite wechselst du vom Lesen zum Spielen: Du liest eine Szene mit Regieanweisungen."

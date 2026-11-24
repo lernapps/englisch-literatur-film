@@ -217,7 +217,7 @@ page, which a link. -->
 - [x] Kapitel 1: Seite charakterisierung (Steckbrief wird Charakterisierung mit Belegen).
 - [x] Kapitel 1: Seite inhaltsangabe (story map wird Inhaltsangabe im present tense), Kapitelrückblick und Selbsteinschätzung.
 - [x] Kapitel 2: Recap-Seite gedicht-szene-film/das-brauchst-du und Seite stilmittel (Rede als Lesestück, Karten metaphor, simile, repetition, rhetorical question).
-- [ ] Kapitel 2: Seite gedicht-analysieren (eigenes Gedicht und Songtext, Strophe, Reimschema, Zeichnung der Gedichtform).
+- [x] Kapitel 2: Seite gedicht-analysieren (eigenes Gedicht und Songtext, Strophe, Reimschema, Zeichnung der Gedichtform).
 - [ ] Kapitel 2: Seite drama-szene (Szene mit Regieanweisungen, Bühnenplan, Rollen sprechen).
 - [ ] Kapitel 2: Seite film-analysieren (Szenenliste eines erfundenen Kurzfilms, Zeichnung der Kameraeinstellungen, Entscheidung für die Liste), Kapitelrückblick und Selbsteinschätzung.
 - [ ] Inhaltsführer, Hörliste, Quellen, Wörterdatei und Prüfskript pflegen; Hörsätze erzeugen (bf_emma, regen_audio.py) und über alle Seiten prüfen.

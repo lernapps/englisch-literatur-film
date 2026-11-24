@@ -1,0 +1,256 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Eine Dramenszene lesen und spielen"
+description: "Du liest eine Szene, verstehst Regieanweisungen und sprichst die Rollen."
+competencies: [drama-szene]
+scope: "Die Seite zeigt, wie man eine Dramenszene (drama scene) liest und vorspielt. Eine Szene besteht aus Dialog, bei dem vor jeder Zeile der Name der Figur in Großbuchstaben steht, und aus Regieanweisungen (stage directions). Regieanweisungen stehen in Klammern oder kursiv, werden nicht mitgesprochen und sagen, wie jemand spricht, was jemand tut, wie die Bühne aussieht und wann die Szene endet. Sie zeigen auch Gefühle, die der Text nicht ausspricht. Die Wirkung einer Regieanweisung wird mit der Zeile belegt. Beim Vorspielen helfen Pausen, Betonung und Bewegung. Die Szene ist ein eigener Text. Nicht hier, weil es eine spätere Seite ist, nämlich die Kameraeinstellungen im Film. Einen eigenen Dialog zu schreiben gehört in die Wiederholung."
+blocks:
+  - type: section
+    id: einstieg
+    title: Wer spricht?
+    blocks:
+      - type: single-choice
+        id: szene-start
+        text: Wie zeigt man in einem Dialog-Skript, wer spricht?
+        options:
+          - text: Der Name der Figur steht vor der Zeile, dann ein Doppelpunkt
+            correct: true
+            info: "So steht es im Skript, zum Beispiel „ANNA: Hello.“ Man sieht sofort, wer spricht."
+          - text: Hinter der Zeile steht „said Anna“
+            correct: false
+            info: So schreibt man Erzähltext in einer Geschichte. In einem Skript steht der Name vorn.
+          - text: Die Zeilen stehen ohne Namen untereinander
+            correct: false
+            info: Ohne Namen weiß man nicht, wer spricht. In einem Skript steht immer ein Name.
+        explanation: Ein Skript hat vor jeder Zeile den Namen der Figur, so wie du es vom Dialog kennst.
+      - type: text
+        text: "**Das kannst du danach:** Du liest eine Dramenszene, verstehst Regieanweisungen und sprichst die Rollen."
+  - type: section
+    id: lesestueck
+    title: Eine Szene
+    blocks:
+      - type: vocabulary
+        caption: Wörter zum Text
+        languages: { source: de, target: en }
+        entries:
+          - target: pier
+            source: Landungssteg
+          - target: ferry
+            source: Fähre
+          - target: timetable
+            source: Fahrplan
+          - target: stare
+            source: starren
+          - target: passenger
+            source: Fahrgast
+          - target: rope
+            source: Seil
+          - target: curtain
+            source: Vorhang
+          - target: mind the rope
+            source: pass auf das Seil auf
+      - type: text
+        text: "Die Zahlen in eckigen Klammern sind die Zeilennummern des Textes. Die Namen der Figuren stehen in Großbuchstaben, die Regieanweisungen kursiv oder in Klammern."
+      - type: text
+        text: |
+          **[1]** *Lights up. A small wooden pier at night. A lamp swings in the wind. MARA, a ferry worker in a yellow coat, ties a rope. TOM enters quickly with a heavy bag.*
+
+          **[2]** TOM: (out of breath) Is this the last ferry to Harrow Island?
+
+          **[3]** MARA: (without looking up) It was the last ferry. Ten minutes ago.
+
+          **[4]** *Tom drops his bag and stares at the empty water.*
+
+          **[5]** TOM: But the timetable says 9.40!
+
+          **[6]** MARA: The timetable also says "fair weather". Look at the sky.
+      - type: text
+        text: |
+          **[7]** *A long silence. The wind blows louder. Tom sits down slowly on his bag.*
+
+          **[8]** TOM: (quietly) My mother is on the island. Tomorrow is her birthday. I promised her.
+
+          **[9]** MARA: (sighing) Promises are heavy things.
+
+          **[10]** TOM: (standing up) I can pay double. Triple. Anything.
+
+          **[11]** MARA: (shaking her head) It is not about money. It is about the rules.
+      - type: text
+        text: |
+          **[12]** *Mara looks at the little boat at the end of the pier, then at Tom. She takes a key out of her pocket and turns it over in her hand.*
+
+          **[13]** MARA: (after a pause) I am not allowed to take passengers after nine. But I am allowed to go home across the water.
+
+          **[14]** TOM: (hopeful) Home? Which way is home?
+
+          **[15]** MARA: (walking to the boat, with her back to him) Harrow Island. Mind the rope.
+
+          **[16]** *Tom picks up his bag. The lamp goes out. The sound of waves. CURTAIN.*
+  - type: section
+    id: neu
+    title: Dialog und Regieanweisung
+    blocks:
+      - type: text
+        text: "Eine **Dramenszene** (drama scene) besteht aus **Dialog** und **Regieanweisungen** (stage directions). Die Anweisungen werden nicht gesprochen. Sie sagen den Schauspielern, wie sie sprechen und was sie tun, und sie beschreiben die Bühne. So zeigen sie auch, was die Figuren nicht aussprechen."
+      - type: figure
+        image: images/skript-drama.svg
+        alt: Ein Skriptausschnitt mit drei Zeilen. Die erste beginnt mit dem Namen ANNA in Großbuchstaben, dann in Klammern whispering, dann der gesprochene Satz Is anyone there. Die zweite Zeile ist kursiv und beschreibt, dass Anna die Tür öffnet. Die dritte beginnt mit BEN und einem kurzen Satz. Unter dem Skript erklärt eine Legende die drei Teile.
+        caption: Ein kurzer Skriptausschnitt mit Sprechername, Anweisung in Klammern und Handlung in kursiver Schrift.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Werkzeugkasten · neue Karte
+        header: [Karte, Leitfrage, Satzanfang]
+        rows:
+          - [stage direction, "What do the directions tell the actors?", "The stage direction shows that …"]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Regieanweisungen sprichst du nicht mit.** Sie helfen dir beim Spielen: Du siehst, wie du eine Zeile sagen und was du tun sollst.
+
+              **Frage dich bei jeder Anweisung, was sie zeigt.** Eine kleine Handlung kann ein großes Gefühl verraten. Beleg und Zeile gehören dazu, wie bisher.
+  - type: section
+    id: uebung
+    title: Prüfe Anweisungen und Wirkung
+    blocks:
+      - type: single-choice
+        id: szene-anweisung
+        text: Woran erkennst du in der Szene eine Regieanweisung?
+        options:
+          - text: Sie steht kursiv oder in Klammern und wird nicht gesprochen
+            correct: true
+            info: So sind die Zeilen 1, 4 und 7 und die Hinweise hinter den Namen gesetzt.
+          - text: Sie steht in Großbuchstaben
+            correct: false
+            info: In Großbuchstaben stehen nur die Namen der Figuren, die vor ihrer Zeile stehen.
+          - text: Die Figur sagt sie laut
+            correct: false
+            info: Die Figuren sprechen nur den Dialog. Anweisungen sind für die Schauspieler.
+          - text: Sie beginnt mit dem Namen der Figur
+            correct: false
+            info: Mit dem Namen beginnen die gesprochenen Zeilen. Die Anweisung kommt danach oder steht allein.
+        explanation: Regieanweisungen stehen kursiv oder in Klammern und werden nicht mitgesprochen.
+      - type: matching
+        id: szene-funktion
+        text: Was sagt die Regieanweisung? Ordne zu.
+        pairs:
+          - left: "(without looking up)"
+            right: Wie jemand spricht
+          - left: "A lamp swings in the wind."
+            right: Wie die Bühne aussieht
+          - left: "Tom sits down slowly on his bag."
+            right: Was jemand tut
+          - left: "CURTAIN"
+            right: Wann die Szene endet
+        explanation: Anweisungen sagen, wie gesprochen wird, was getan wird, wie die Bühne aussieht und wann etwas endet.
+      - type: multiple-choice
+        id: szene-gefuehl
+        text: In welchen Zeilen zeigt eine Regieanweisung, wie sich Tom fühlt?
+        options:
+          - text: Zeile 4
+            correct: true
+            info: Tom lässt die Tasche fallen und starrt auf das leere Wasser. Er ist geschockt.
+          - text: Zeile 7
+            correct: true
+            info: Tom setzt sich langsam auf die Tasche. Er hat keine Kraft mehr.
+          - text: Zeile 12
+            correct: false
+            info: Hier zeigt die Anweisung, was Mara tut und denkt, nicht Tom.
+          - text: Zeile 14
+            correct: true
+            info: Das Wort hopeful sagt, wie Tom die Zeile spricht. Er hofft wieder.
+          - text: Zeile 15
+            correct: false
+            info: Die Anweisung gehört zu Mara. Sie sagt, wie sie geht und spricht.
+        explanation: In den Zeilen 4, 7 und 14 steht, wie sich Tom fühlt.
+      - type: language-task
+        id: szene-beleg
+        languages: { source: de, target: en }
+        task: Schreibe einen Satz mit dem Satzanfang der Karte stage direction und gib die Zeile als Beleg an. Was zeigt es, dass Tom auf das leere Wasser starrt?
+        form: { punctuation: ok, case: ok }
+        items:
+          - cue: stage direction · show · Tom · shocked
+            target: The stage direction shows that Tom is (shocked|disappointed|upset|sad) (l. 4).
+            mistakes:
+              - answer: The stage direction shows that Tom is shocked (l. 7).
+                message: In Zeile 7 setzt sich Tom hin. Dass er starrt, steht in einer anderen Zeile.
+              - answer: The stage direction show that Tom is shocked (l. 4).
+                message: Nach the stage direction steht shows mit -s.
+              - answer: The stage direction shows that Tom is shocked.
+                message: Es fehlt der Beleg. Gib am Ende die Zeile an, in der Form (l. 3).
+        hint: Starren heißt, lange und ohne Bewegung hinzusehen. Wie fühlt sich jemand dabei?
+        explanation: Der Satz nennt die Karte, die Wirkung und die Zeile.
+      - type: single-choice
+        id: szene-wirkung
+        text: Vor Maras Satz in Zeile 13 steht die Anweisung „(after a pause)“. Welche Wirkung hat sie?
+        options:
+          - text: Die Pause zeigt, dass Mara nachdenkt und ihre Meinung ändert (l. 13)
+            correct: true
+            info: Erst sagt Mara Nein, dann denkt sie nach. Die Pause bereitet die Wende vor.
+          - text: Die Pause ist ein Fehler im Text (l. 13)
+            correct: false
+            info: Eine Pause ist ein Mittel der Autorin. Die Schauspieler sollen sie spielen.
+          - text: Die Pause sagt, dass die Szene zu Ende ist (l. 13)
+            correct: false
+            info: Das Ende der Szene zeigt das Wort CURTAIN in Zeile 16.
+          - text: Tom soll in der Pause sprechen (l. 13)
+            correct: false
+            info: Dann stünde der Name Toms mit seiner Zeile da. Die Pause gehört zu Mara.
+        explanation: Eine Pause lässt Zeit zum Nachdenken. Sie zeigt, dass sich etwas ändert.
+      - type: language-task
+        id: szene-hoeren
+        languages: { source: de, target: en }
+        task: Hör den Satz und schreibe ihn auf.
+        form: { punctuation: ok, case: hint }
+        items:
+          - audio: drama-szene-hoeren-1.mp3
+            target: The actors do not speak the stage directions aloud.
+          - audio: drama-szene-hoeren-2.mp3
+            target: A short pause can say more than a long speech.
+          - audio: drama-szene-hoeren-3.mp3
+            target: The audience sees what the characters do.
+        explanation: Die Sätze nennen Begriffe der Seite in neuen Zusammenhängen.
+  - type: section
+    id: anwenden
+    title: Sprich die Rollen und schreibe Anweisungen
+    blocks:
+      - type: speaking-task
+        id: szene-sprechen
+        language: en
+        task: Sprich die vier Zeilen aus der Szene nach. Achte auf die Anweisungen in Klammern, zum Beispiel leise oder hoffnungsvoll. Nimm dich auf, höre dich an und bewerte deine Aussprache selbst. Spiele die ganze Szene danach mit einer Partnerin oder einem Partner.
+        items:
+          - audio: drama-szene-nachsprechen-1.mp3
+            text: Is this the last ferry to Harrow Island?
+          - audio: drama-szene-nachsprechen-2.mp3
+            text: It was the last ferry. Ten minutes ago.
+          - audio: drama-szene-nachsprechen-3.mp3
+            text: Promises are heavy things.
+          - audio: drama-szene-nachsprechen-4.mp3
+            text: But I am allowed to go home across the water.
+      - type: open-task
+        id: szene-schreiben
+        task: "Schreibe diesen kurzen Dialog ab und ergänze zwei Regieanweisungen in Klammern, eine zum Sprechen und eine zur Handlung. Dialog: ANNA: Is the shop still open? BEN: No. ANNA: Please."
+        points:
+          - text: Vor jeder Zeile steht der Name in Großbuchstaben mit Doppelpunkt.
+            source: /gedicht-szene-film/drama-szene/#neu
+          - text: Eine Anweisung sagt, wie jemand spricht, zum Beispiel (quietly).
+            source: /gedicht-szene-film/drama-szene/#neu
+          - text: Eine Anweisung sagt, was jemand tut, zum Beispiel (looking at the door).
+            source: /gedicht-szene-film/drama-szene/#neu
+          - text: Die Anweisungen stehen in Klammern oder kursiv und sind kurz.
+            kind: form
+        solution: |
+          ANNA: (out of breath) Is the shop still open?
+
+          BEN: (turning the sign on the door) No.
+
+          ANNA: (quietly) Please.
+
+          Die App bewertet deinen Text nicht. Prüfe ihn selbst an den Punkten.
+  - type: section
+    id: weiter
+    title: Dein achter Listeneintrag
+    blocks:
+      - type: text
+        text: "Schreibe für die Lese- und Sehliste einen Satz zur Szene am Landungssteg mit dem Satzanfang „The stage direction shows that …“ und nenne die Zeile. Auf der nächsten Seite wechselst du zum Sehen: Du beschreibst, wie ein Film mit der Kamera wirkt."

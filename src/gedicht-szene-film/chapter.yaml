@@ -1,4 +1,4 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Gedicht, Szene und Film
 summary: Du erweiterst deinen Werkzeugkasten um Stilmittel, Strophe und Reimschema, Regieanweisungen und Kameraeinstellungen. Du untersuchst ein Gedicht, sprichst eine Szene und beschreibst, wie ein Film wirkt.
-pages: [das-brauchst-du, stilmittel]
+pages: [das-brauchst-du, stilmittel, gedicht-analysieren, drama-szene]
