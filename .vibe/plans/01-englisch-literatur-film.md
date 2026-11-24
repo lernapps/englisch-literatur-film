@@ -4,7 +4,7 @@
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: explore
+phase: plan
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -96,9 +96,10 @@ Reihenfolge der Seiten in Kapitel 1: text-fachbegriffe, kurzgeschichte, erzaehlp
       off), and which misconception the feedback catches.
 - [x] Write under "Notes" the scope: what is in, what is out and why, the data range (for example "all main-group
       elements", never a silent "1–20"), the languages.
-- [ ] **Checkpoint:** research. Show in plain words: the strand or why none, the competencies by chapter, the didactic
+- [x] **Checkpoint:** research. Show in plain words: the strand or why none, the competencies by chapter, the didactic
       approach, the scope, every "(guess)", the sources and what is unchecked, the archetype and its reason. Stop and
       wait. Changes: change them, then ask again.
+      Creator: Orchestrator (Rolle der Ersteller:in): Recherche bestätigt; Annahmen 1 und 2 ja; Musterseite kurzgeschichten/text-fachbegriffe ja; Lesestücke mit nummerierten Zeilen wie in den Schwesterapps lösen; Textmengen-Hinweis ist bekannt.
 
 ### Answers
 
@@ -124,25 +125,58 @@ Reihenfolge der Seiten in Kapitel 1: text-fachbegriffe, kurzgeschichte, erzaehlp
 
 ### Tasks
 
-- [ ] Map the content as "Map the content" of skill `lernapps-explainer-design` says, and write the result under
+- [x] Map the content as "Map the content" of skill `lernapps-explainer-design` says, and write the result under
       "Content method".
-- [ ] Choose a pattern per competency as skill `lernapps-exercise-patterns` says, and add it to "Content method".
-- [ ] Add to "Content method" one line per page, as "Engagement" of skill `lernapps-explainer-design` says: the
+- [x] Choose a pattern per competency as skill `lernapps-exercise-patterns` says, and add it to "Content method".
+- [x] Add to "Content method" one line per page, as "Engagement" of skill `lernapps-explainer-design` says: the
       opening task, the change of activity, the reward, the story.
-- [ ] Add the tasks of Code, each one a piece of work that ends in a commit. First the pattern: one complete page or
+- [x] Add the tasks of Code, each one a piece of work that ends in a commit. First the pattern: one complete page or
       screen, `npx --no -- lernapps plan add --at pattern "<task>"`. Then the others, one call each:
       `npx --no -- lernapps plan add --at pages "<task>"`. Each task says what it builds and what it shows.
-- [ ] Draw a sketch of each screen, component or interactive exercise: a static SVG or image, or the steps with what
+- [x] Draw a sketch of each screen, component or interactive exercise: a static SVG or image, or the steps with what
       learners see after each. Keep the files in `.vibe/sketches/`.
-- [ ] Show the creator, short: goal, competencies by chapter, the Code tasks, the sketches, and the content method in
+- [x] Show the creator, short: goal, competencies by chapter, the Code tasks, the sketches, and the content method in
       plain words (what learners see and do, what the app cannot do). At most 2 questions.
 - [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
       them, then ask again.
 
 ### Content method
 
-<!-- One line each: the patterns and where; the figures and how they are made; the data files; each component, what it
-checks and what it cannot; how a later agent adds a chapter. It becomes the content guide in Code. -->
+**Karte → Archetyp:** zwei Kapitel, elf Seiten (neun Bausteine, zwei Recaps), `src/app.yaml` mit `subject: englisch`, `languages: [de]`, `scope` mit `out`. Kapitel-Ids `kurzgeschichten`, `gedicht-szene-film`; Seiten-Ids siehe Notes. Keine Komponenten, keine Datendateien (`prefer-built-in-block`): Zeichnungen sind SVG in `src/images/`.
+
+**Seitenaufbau (Muster aus den Schwesterapps, Stufe 9-10):** Abschnitte `einstieg` (Vorwissens-Frage als `single-choice` mit Begründung, „Das kannst du danach“), `lesestueck` (zuerst `vocabulary` „Wörter zum Text“ als Randglossar, dann der Text in `text`-Blöcken mit nummerierten Zeilen „**[1]** …“, 300-600 Wörter, eigener Text; neutraler Titel), `neu` (Erklärung, Werkzeugkarte als `note` „Werkzeugkarte · <Begriff>“ mit Fachbegriff, Leitfrage, Satzanfang; Merke), `uebung` (drei Stufen: Verstehen, Belegen mit Zeile, Meinung), `anwenden` (`open-task` mit Punkten und Musterlösung, `speaking-task`, Diktat), `weiter` (Eintrag für die Lese- und Sehliste der Year 10, Ausblick). Kein Satz des Lesestücks steht wörtlich in Merke, Karte oder Einstieg. Eine Figur wird nicht eingeführt; kein Datum und keine Altersangabe im Fließtext.
+
+**Fall (Entscheidung):** Die Lernenden stellen die Lese- und Sehliste für Year 10 zusammen. Jede Seite endet mit einem Listeneintrag (ein bis zwei Sätze mit Satzanfang der Werkzeugkarte und einer Zeilenangabe). Die letzte Seite (`film-analysieren`) fragt, welchen der untersuchten Texte oder Filme sie empfehlen, mit zwei belegten Gründen; mehrere Antworten sind richtig, die Musterlösung zeigt nur eine Sichtweise. Keine erfundenen Kinder; Sophie kommt nicht vor.
+
+**Muster je Baustein (Name: Art, Form, Beispiel):**
+- Begriff erkennen: `matching` Fachbegriff ↔ Textstelle, `single-choice` mit `info` je Option (narrator oder author, setting oder plot).
+- Belegen mit Zeile: `multiple-choice` „In welchen Zeilen steht …?“ und `language-task` (`mode: gap`) „The narrator … (l. 3)“; Zeilenangaben haben die Form `(l. 4)` und `(ll. 2-5)`.
+- Wirkung beschreiben: `language-task` `mode: choice` Satzanfang (The metaphor … shows …) mit Distraktoren, die echte Lernerfehler sind (nacherzählen statt deuten).
+- Ordnen: `ordering` Inhaltsangabe-Sätze; Station der Handlung (Einleitung, Wendepunkt, offenes Ende).
+- Schreiben: `language-task` `mode: write` mit Cue (`narrator · tell · story · first person`), `form: { punctuation: ok, case: hint }`; `open-task` mit 2-5 Punkten und Musterlösung („Die App bewertet den Text nicht.“).
+- Hören und Sprechen: je Seite 3 Diktatsätze und 3 Nachsprechsätze (`speaking-task`), kurz, nicht aus dem Lesestück und nicht aus Merke oder Karte; Szene: `speaking-task` mit den Textzeilen der Rollen (kurz).
+- Selbsteinschätzung: je Kapitel 2-3 Übungen je Seite ohne Material der Seite.
+
+**Typische Fehler (je eine Meldung):** Autor = Erzähler; „I“ heißt immer die Autorin; Handlung nacherzählt statt analysiert; Inhaltsangabe im past tense, mit wörtlicher Rede, Zitat oder Meinung; Charakterzug ohne Beleg; direkte und indirekte Charakterisierung vertauscht; Metapher mit Vergleich (like, as) verwechselt; Reimschema nach Schreibung statt Klang; Regieanweisung als Dialog gesprochen; close-up und high angle vertauscht.
+
+**Bilder:** eigene SVG, CC-BY-4.0, #f4efe2, Schrift ab 16 im 480er viewBox: Werkzeugkasten (Kartenreihe, Kapitel 1 und 2 je eine Fassung), story map zur Inhaltsangabe (Farben who #2c6fd8, where #138d75, when #d35400, what #c0392b wie in #479), Gedichtform (Strophen, Reimbuchstaben), Bühnenplan, Kameraeinstellungen (long shot, medium shot, close-up als Strichzeichnung, high und low angle). Ein Zeichenskript im Scratchpad, die SVG sind die Quelle.
+
+**Audio:** `bf_emma`, `regen_audio.py` aus dem Inhaltsführer von #479, Hörliste im Inhaltsführer, `audio-texte.json`, Prüfskript `pruefen.py` (Hörsätze gegen die Seite; Wörter gegen die Karte).
+
+**Wörter:** Grundwortschatz A1/A2 plus Fachbegriffe der Karte; Wörter ab B1 im `vocabulary`-Block der Seite erklärt und im Inhaltsführer gelistet.
+
+**Engagement je Seite (Opening · Change · Reward · Story):** Immer so: Opening = Vorwissens-Frage mit Begründung; Change = lesen, markieren, Karte anlegen, schreiben, sprechen im Wechsel (nie mehr als vier Textblöcke hintereinander); Reward = die neue Werkzeugkarte im Kasten und ein eigener Listeneintrag; Story = Lese- und Sehliste für Year 10, jede Seite fügt einen Eintrag hinzu.
+- `text-fachbegriffe`: Opening: Wer erzählt hier? (Text ohne Fachwort). Change: vier Karten anlegen. Reward: Kasten mit vier Karten. Story: erster Eintrag zur Nachtschicht-Geschichte.
+- `kurzgeschichte`: Opening: Was fehlt am Ende? Change: Merkmale an Zeilen belegen. Reward: Karte plot wird genauer (Wendepunkt, offenes Ende). Story: Eintrag „Platform Two“.
+- `erzaehlperspektive`: Opening: dieselbe Szene, zwei Stimmen. Change: Ich- und Er/Sie-Fassung umschreiben. Reward: Karte narrator mit Perspektive. Story: Eintrag zur Wahl der Perspektive.
+- `charakterisierung`: Opening: Steckbrief einer Figur aus Zeilen füllen. Change: Steckbrief wird Absatz mit Belegen. Reward: Karte character mit direkt und indirekt. Story: Eintrag zur Figur.
+- `inhaltsangabe`: Opening: story map füllen. Change: Sätze ordnen, im present tense schreiben. Reward: eine eigene Inhaltsangabe, geprüft an Punkten. Story: Kapitelrückblick, die vier Einträge im Überblick.
+- `stilmittel`: Opening: Welche Wörter wirken in der Rede? Change: Stilmittel finden, Wirkung wählen. Reward: Karten metaphor, simile, repetition, rhetorical question. Story: Eintrag zur Rede.
+- `gedicht-analysieren`: Opening: Gedicht hören (Nachsprechen), Reim finden. Change: Strophen und Reimschema eintragen. Reward: Karten stanza, rhyme scheme. Story: Eintrag Gedicht und Song.
+- `drama-szene`: Opening: Regieanweisung oder Dialog? Change: lesen, Rollen sprechen. Reward: Karte stage direction, gesprochene Szene. Story: Eintrag Szene.
+- `film-analysieren`: Opening: Welche Einstellung zeigt Angst? Change: Szenenliste lesen, Einstellungen zuordnen. Reward: Karten shot und camera angle, ganzer Kasten. Story: Entscheidung: Welchen Text oder Film empfiehlst du? Zwei belegte Gründe.
+
+**Neue Kapitel später:** Inhaltsführer „Adding a chapter or round“.
 <!-- An explainer: per figure, model and component its learning action in two to four sentences
 (`explainer-representation-explained`); per page its prerequisites the app does not practise, and which get a recap
 page, which a link. -->
@@ -170,11 +204,21 @@ page, which a link. -->
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [ ] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-<!-- tasks: pattern: the one page or screen that is the pattern for the others -->
+- [ ] Baue die Musterseite kurzgeschichten/text-fachbegriffe: Lesestück mit nummerierten Zeilen, Werkzeugkarten narrator, character, setting, plot, Übungen in drei Stufen, Schreibauftrag, Hörsätze und Nachsprechen, Zeichnung des Werkzeugkastens; baut die App, den Inhaltsführer-Eintrag, Kapitelrahmen und das Audio-Gerüst mit, und committet.
+<!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
 - [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
-<!-- tasks: pages: the other pages or screens, after the pattern -->
+- [ ] Kapitel 1: Recap-Seite kurzgeschichten/das-brauchst-du und Seite kurzgeschichte (Merkmale, Lesestück mit offenem Ende).
+- [ ] Kapitel 1: Seite erzaehlperspektive (Lesestück in zwei Fassungen, Autor oder Erzähler).
+- [ ] Kapitel 1: Seite charakterisierung (Steckbrief wird Charakterisierung mit Belegen).
+- [ ] Kapitel 1: Seite inhaltsangabe (story map wird Inhaltsangabe im present tense), Kapitelrückblick und Selbsteinschätzung.
+- [ ] Kapitel 2: Recap-Seite gedicht-szene-film/das-brauchst-du und Seite stilmittel (Rede als Lesestück, Karten metaphor, simile, repetition, rhetorical question).
+- [ ] Kapitel 2: Seite gedicht-analysieren (eigenes Gedicht und Songtext, Strophe, Reimschema, Zeichnung der Gedichtform).
+- [ ] Kapitel 2: Seite drama-szene (Szene mit Regieanweisungen, Bühnenplan, Rollen sprechen).
+- [ ] Kapitel 2: Seite film-analysieren (Szenenliste eines erfundenen Kurzfilms, Zeichnung der Kameraeinstellungen, Entscheidung für die Liste), Kapitelrückblick und Selbsteinschätzung.
+- [ ] Inhaltsführer, Hörliste, Quellen, Wörterdatei und Prüfskript pflegen; Hörsätze erzeugen (bf_emma, regen_audio.py) und über alle Seiten prüfen.
+<!-- tasks: pages (9 added): the other pages or screens, after the pattern -->
 - [ ] Update the content guide so that it describes the app as built (`app-content-matches`).
 - [ ] Run `npx --no -- lernapps check` until it passes.
 - [ ] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
