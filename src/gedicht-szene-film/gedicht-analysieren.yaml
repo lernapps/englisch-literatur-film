@@ -14,7 +14,7 @@ blocks:
         options:
           - text: light and night
             correct: true
-            info: Die Wörter klingen am Ende gleich. Beide enden auf den Laut -ight.
+            info: Die Wörter klingen am Ende gleich. Beide enden auf denselben Laut.
           - text: tough and though
             correct: false
             info: Die Schreibung ist ähnlich, aber der Klang nicht. Tough klingt wie stuff, though klingt wie go.
@@ -64,56 +64,41 @@ blocks:
         text: |
           **Night Bus**
 
-          **[1]** The bus comes round the corner, warm and slow,
-
-          **[2]** A lantern rolling down the empty street.
-
-          **[3]** Inside, the windows hold a yellow glow
-
+          **[1]** The bus comes round the corner, warm and slow,\
+          **[2]** A lantern rolling down the empty street.\
+          **[3]** Inside, the windows hold a yellow glow\
           **[4]** And ten tired strangers sit on every seat.
-
-          **[5]** A woman rests her head against the glass,
-
-          **[6]** A man is reading something in the gloom,
-
-          **[7]** The driver hums while all the houses pass,
-
+      - type: text
+        text: |
+          **[5]** A woman rests her head against the glass,\
+          **[6]** A man is reading something in the gloom,\
+          **[7]** The driver hums while all the houses pass,\
           **[8]** And darkness is a coat around the room.
       - type: text
         text: |
-          **[9]** Nobody speaks, but everyone is near,
-
-          **[10]** We share one small warm island in the night.
-
-          **[11]** The bus stops, and the doors sigh, loud and clear:
-
+          **[9]** Nobody speaks, but everyone is near,\
+          **[10]** We share one small warm island in the night.\
+          **[11]** The bus stops, and the doors sigh, loud and clear:\
           **[12]** The city waits outside, a sea of light.
       - type: text
         text: |
-          **Hold On** (Songtext)
+          **Hold On (Songtext)**
 
-          **[13]** I walked all day with an empty pocket,
-
-          **[14]** Carried my heart like a broken rocket,
-
-          **[15]** But then you called and the sky turned blue,
-
+          **[13]** I walked all day with an empty pocket,\
+          **[14]** Carried my heart like a broken rocket,\
+          **[15]** But then you called and the sky turned blue,\
           **[16]** And all I wanted was to be with you.
-
-          **[17]** Hold on, hold on, the morning is coming,
-
-          **[18]** Hold on, hold on, my heart keeps running,
-
-          **[19]** Hold on, hold on, we are not alone,
-
+      - type: text
+        text: |
+          **[17]** Hold on, hold on, the morning is coming,\
+          **[18]** Hold on, hold on, my heart keeps running,\
+          **[19]** Hold on, hold on, we are not alone,\
           **[20]** Hold on, hold on, we are nearly home.
-
-          **[21]** When the road gets long and the night gets cold,
-
-          **[22]** Remember the stories you were told,
-
-          **[23]** Somebody waits where the porch light glows,
-
+      - type: text
+        text: |
+          **[21]** When the road gets long and the night gets cold,\
+          **[22]** Remember the stories you were told,\
+          **[23]** Somebody waits where the porch light glows,\
           **[24]** And everyone there already knows.
   - type: section
     id: neu
@@ -138,7 +123,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              **Beschreibe zuerst die Form, dann die Wirkung.** Nenne Strophen und Reimschema, dann ein Bild oder eine Wiederholung mit der Karte aus dem letzten Abschnitt, und sage, was sie bewirken. Belege jede Aussage mit der Zeile.
+              **Beschreibe zuerst die Form, dann die Wirkung.** Nenne Strophen und Reimschema, dann ein Bild oder eine Wiederholung mit einer Karte von der Seite über Stilmittel, und sage, was sie bewirken. Belege jede Aussage mit der Zeile.
 
               **Reime hängen vom Klang ab.** Du musst die Zeilen laut lesen. Auch ein Songtext hat Strophen, und der Refrain (chorus) wiederholt sich.
   - type: section
@@ -191,7 +176,7 @@ blocks:
           - text: Zeile 10
             correct: true
             info: Der Bus wird „one small warm island“ genannt. Ein Vergleichswort fehlt.
-        explanation: In den Zeilen 2, 8 und 10 wird etwas Alltägliches mit dem Namen einer anderen Sache genannt.
+        explanation: In den Zeilen 2, 8 und 10 (und 12) wird etwas mit dem Namen einer anderen Sache bezeichnet. Auch Zeile 12 enthält mit „a sea of light“ ein Bild.
       - type: language-task
         id: gedicht-beleg
         languages: { source: de, target: en }
@@ -229,7 +214,7 @@ blocks:
       - type: language-task
         id: gedicht-hoeren
         languages: { source: de, target: en }
-        task: Hör den Satz und schreibe ihn auf.
+        task: Höre den Satz und schreibe ihn auf.
         form: { punctuation: ok, case: hint }
         items:
           - audio: gedicht-hoeren-1.mp3
@@ -256,13 +241,13 @@ blocks:
           - text: Ganze Sätze im simple present, jede Zeile in der Form (l. 3) oder (ll. 5-8).
             kind: form
         solution: |
-          The rhyme scheme is ABAB, because glass rhymes with pass and gloom rhymes with room (ll. 5-8). The metaphor of the coat is a picture for the darkness in the bus (l. 8). It shows that the darkness is not frightening but feels safe and warm (l. 8).
+          The rhyme scheme is ABAB, because glass rhymes with pass and gloom rhymes with room (ll. 5-8). The metaphor of the coat is an image of the darkness in the bus (l. 8). It shows that the darkness is not frightening but feels safe and warm (l. 8).
 
           Die App bewertet deinen Text nicht. Prüfe ihn selbst an den Punkten.
       - type: speaking-task
         id: gedicht-nachsprechen
         language: en
-        task: Hör dir jeden Satz an, sprich ihn nach und nimm dich auf. Höre dich dann an und bewerte deine Aussprache selbst.
+        task: Höre dir jeden Satz an, sprich ihn nach und nimm dich auf. Höre dich dann an und bewerte deine Aussprache selbst.
         items:
           - audio: gedicht-nachsprechen-1.mp3
             text: The poem has three short stanzas.

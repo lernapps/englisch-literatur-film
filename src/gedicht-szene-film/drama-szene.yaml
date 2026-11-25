@@ -51,7 +51,7 @@ blocks:
           - target: curtain
             source: Vorhang
           - target: mind the rope
-            source: pass auf das Seil auf
+            source: Vorsicht, das Seil!
       - type: text
         text: "Die Zahlen in eckigen Klammern sind die Zeilennummern des Textes. Die Namen der Figuren stehen in Großbuchstaben, die Regieanweisungen kursiv oder in Klammern."
       - type: text
@@ -113,7 +113,7 @@ blocks:
             text: |
               **Regieanweisungen sprichst du nicht mit.** Sie helfen dir beim Spielen: Du siehst, wie du eine Zeile sagen und was du tun sollst.
 
-              **Frage dich bei jeder Anweisung, was sie zeigt.** Eine kleine Handlung kann ein großes Gefühl verraten. Beleg und Zeile gehören dazu, wie bisher.
+              **Frage dich bei jeder Anweisung, was sie zeigt.** Eine kleine Handlung kann ein großes Gefühl verraten. Der Beleg mit Zeile gehört dazu, wie bisher.
   - type: section
     id: uebung
     title: Prüfe Anweisungen und Wirkung
@@ -124,10 +124,10 @@ blocks:
         options:
           - text: Sie steht kursiv oder in Klammern und wird nicht gesprochen
             correct: true
-            info: So sind die Zeilen 1, 4 und 7 und die Hinweise hinter den Namen gesetzt.
+            info: So sind zum Beispiel die Zeilen 1, 4 und 7 und die Hinweise hinter den Namen gesetzt.
           - text: Sie steht in Großbuchstaben
             correct: false
-            info: In Großbuchstaben stehen nur die Namen der Figuren, die vor ihrer Zeile stehen.
+            info: "In Großbuchstaben stehen die Namen der Figuren vor ihrer Zeile und das Wort CURTAIN am Schluss. Entscheidend ist: kursiv oder in Klammern."
           - text: Die Figur sagt sie laut
             correct: false
             info: Die Figuren sprechen nur den Dialog. Anweisungen sind für die Schauspieler.
@@ -160,7 +160,7 @@ blocks:
             info: Tom setzt sich langsam auf die Tasche. Er hat keine Kraft mehr.
           - text: Zeile 12
             correct: false
-            info: Hier zeigt die Anweisung, was Mara tut und denkt, nicht Tom.
+            info: Hier zeigt die Anweisung, was Mara tut, nicht Tom.
           - text: Zeile 14
             correct: true
             info: Das Wort hopeful sagt, wie Tom die Zeile spricht. Er hofft wieder.
@@ -200,12 +200,12 @@ blocks:
             info: Das Ende der Szene zeigt das Wort CURTAIN in Zeile 16.
           - text: Tom soll in der Pause sprechen (l. 13)
             correct: false
-            info: Dann stünde der Name Toms mit seiner Zeile da. Die Pause gehört zu Mara.
+            info: Dann stünde Toms Name mit seiner Zeile da. Die Pause gehört zu Mara.
         explanation: Eine Pause lässt Zeit zum Nachdenken. Sie zeigt, dass sich etwas ändert.
       - type: language-task
         id: szene-hoeren
         languages: { source: de, target: en }
-        task: Hör den Satz und schreibe ihn auf.
+        task: Höre den Satz und schreibe ihn auf.
         form: { punctuation: ok, case: hint }
         items:
           - audio: drama-szene-hoeren-1.mp3
@@ -234,7 +234,7 @@ blocks:
             text: But I am allowed to go home across the water.
       - type: open-task
         id: szene-schreiben
-        task: "Schreibe diesen kurzen Dialog ab und ergänze zwei Regieanweisungen in Klammern, eine zum Sprechen und eine zur Handlung. Dialog: ANNA: Is the shop still open? BEN: No. ANNA: Please."
+        task: "Schreibe diesen kurzen Dialog ab und ergänze zwei kurze englische Regieanweisungen in Klammern, eine zum Sprechen und eine zur Handlung. Dialog: ANNA: Is the shop still open? BEN: No. ANNA: Please."
         points:
           - text: Vor jeder Zeile steht der Name in Großbuchstaben mit Doppelpunkt.
             source: /gedicht-szene-film/drama-szene/#neu

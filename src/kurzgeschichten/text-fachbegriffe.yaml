@@ -142,7 +142,7 @@ blocks:
             text: |
               **Ein Beleg nennt die Zeile:** *The setting is a school (l. 3).* Für mehrere Zeilen schreibst du *(ll. 2-5)*.
 
-              **Der narrator ist nicht die Autorin.** Auch wenn er *ich* sagt, hat die Autorin ihn erfunden. Das setting ist mehr als ein Ort, es gehört auch die Zeit dazu. Der plot ist keine Liste aller Einzelheiten, sondern das, was die Geschichte vorantreibt.
+              **Der Erzähler (narrator) ist nicht die Autorin.** Auch wenn er *ich* sagt, hat die Autorin ihn erfunden. Das setting ist mehr als ein Ort, denn zum setting gehört auch die Zeit. Der plot ist keine Liste aller Einzelheiten, sondern das, was die Geschichte vorantreibt.
   - type: section
     id: uebung
     title: Wende die Karten auf den Text an
@@ -173,17 +173,17 @@ blocks:
             info: Dan ist nervös, er schaut ständig auf die Uhr und lässt ein Blech fallen.
           - text: Zeile 4
             correct: false
-            info: In Zeile 4 spricht Mrs Okafor. Die Zeile zeigt etwas über sie, nicht über Dan.
+            info: In Zeile 4 spricht Mrs Okafor. Die Zeile zeigt vor allem etwas über sie.
           - text: Zeile 6
             correct: true
             info: Dan starrt auf den Ofen und flüstert. Man merkt, dass er sich Sorgen macht.
           - text: Zeile 8
             correct: false
-            info: In Zeile 8 spricht Mrs Okafor am Telefon. Die Zeile zeigt etwas über sie, nicht über Dan.
+            info: In Zeile 8 spricht Mrs Okafor am Telefon. Die Zeile zeigt vor allem etwas über sie.
           - text: Zeile 12
             correct: true
             info: Seine Hände zittern noch, aber er lächelt. Er ist erleichtert.
-        explanation: Über Dan erfährst du in den Zeilen 3, 6 und 12 etwas, durch das, was er tut und sagt. Es gibt noch weitere Zeilen über ihn.
+        explanation: Über Dan erfährst du in den Zeilen 3, 6 und 12 etwas durch das, was er tut und sagt. Es gibt noch weitere Zeilen über ihn.
       - type: language-task
         id: fachbegriffe-beleg
         languages: { source: de, target: en }
@@ -199,8 +199,8 @@ blocks:
                 message: In Zeile 8 spricht Mrs Okafor am Telefon über den Pizzaofen. Wo gebacken wird, steht in einer anderen Zeile.
               - answer: The setting is a pizzeria next door.
                 message: Es fehlt der Beleg. Gib am Ende die Zeile an, in der Form (l. 3).
-        hint: Lies die Zeilen nach dem Anruf. Welche Zeile nennt das Haus nebenan?
-        explanation: Die Zeile belegt den Ort. Das ist der Beleg für das setting.
+        hint: Lies die Zeilen nach dem Anruf. Welche Zeile nennt den Ort nebenan?
+        explanation: Die Zeile ist der Beleg für das setting.
       - type: ordering
         id: fachbegriffe-plot
         text: "Ordne die Ereignisse des plot in der Reihenfolge der Geschichte."
@@ -214,16 +214,16 @@ blocks:
         id: fachbegriffe-wirkung
         text: "Mrs Okafor sagt in Zeile 4: „Bread does not like people who rush.“ Welcher Satz deutet die Zeile am besten, sagt also, was sie über Mrs Okafor zeigt?"
         options:
-          - text: "The character Mrs Okafor is calm, so she knows her work well (l. 4)"
+          - text: "Mrs Okafor is calm because she knows her work well (ll. 2, 4)"
             correct: true
             info: Der Satz nennt die Karte, deutet die Zeile, begründet die Deutung und gibt die Zeile an.
-          - text: "The character Mrs Okafor is a baker who works at night (l. 4)"
+          - text: "Mrs Okafor is a baker who works in the early morning (l. 2)"
             correct: false
             info: Das ist eine Tatsache aus dem Text. Es fehlt die Deutung, was der Satz über sie zeigt.
-          - text: "The character Mrs Okafor is calm and kind (l. 1)"
+          - text: "Mrs Okafor is calm and kind (l. 1)"
             correct: false
             info: Die Deutung passt, aber Zeile 1 belegt sie nicht. Dort steht nichts über Mrs Okafors Ruhe.
-          - text: "The character Dan is calm, so he knows his work well (l. 4)"
+          - text: "Dan is calm because he knows his work well (l. 4)"
             correct: false
             info: In Zeile 4 spricht Mrs Okafor. Dan ist in der Geschichte nervös.
         explanation: Eine gute Antwort hat die Karte, eine Deutung, eine Begründung und die richtige Zeile.
@@ -234,10 +234,10 @@ blocks:
         form: { punctuation: ok, case: ok }
         items:
           - cue: narrator · tell · story · from outside
-            target: The narrator tells the story from outside( the story|).
+            target: The narrator tells the story from (the |)outside( the story|).
             mistakes:
               - answer: The author tells the story from outside.
-                message: Die Autorin oder der Autor erfindet den narrator. Erzählt wird von der Stimme, die du mit narrator benennst.
+                message: Die Autorin oder der Autor erfindet den narrator. Erzählen tut der narrator, nicht die Autorin.
               - answer: The narrator tell the story from outside.
                 message: Nach the narrator steht tells mit -s.
               - answer: Dan tells the story from outside.
@@ -249,7 +249,7 @@ blocks:
       - type: language-task
         id: fachbegriffe-hoeren
         languages: { source: de, target: en }
-        task: Hör den Satz und schreibe ihn auf.
+        task: Höre den Satz und schreibe ihn auf.
         form: { punctuation: ok, case: hint }
         items:
           - audio: fachbegriffe-hoeren-1.mp3
@@ -284,14 +284,14 @@ blocks:
       - type: speaking-task
         id: fachbegriffe-nachsprechen
         language: en
-        task: Hör dir jeden Satz an, sprich ihn nach und nimm dich auf. Höre dich dann an und bewerte deine Aussprache selbst.
+        task: Höre dir jeden Satz an, sprich ihn nach und nimm dich auf. Höre dich dann an und bewerte deine Aussprache selbst.
         items:
           - audio: fachbegriffe-nachsprechen-1.mp3
             text: The narrator never appears in the story.
           - audio: fachbegriffe-nachsprechen-2.mp3
-            text: The setting is an old bakery in a quiet village.
+            text: The setting is a busy market in a quiet village.
           - audio: fachbegriffe-nachsprechen-3.mp3
-            text: The plot follows the baker through the night.
+            text: The plot follows a courier through the city.
   - type: section
     id: weiter
     title: Dein erster Listeneintrag

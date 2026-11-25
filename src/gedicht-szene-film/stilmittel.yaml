@@ -33,7 +33,7 @@ blocks:
         languages: { source: de, target: en }
         entries:
           - target: audience
-            source: Publikum, Zuhörerschaft
+            source: Publikum
           - target: listener
             source: Zuhörer, Zuhörerin
           - target: emphasise
@@ -69,7 +69,7 @@ blocks:
         text: |
           **[5]** Did anyone believe that a few people with spades could change a car park? Did anyone think the neighbours would come with tea and cake?
 
-          **[6]** I did not. I thought we would fail, and I was ready to be quiet about it. In March a storm took the roof off the shed, and in May somebody took our watering cans. Each time I thought, this is the end.
+          **[6]** I did not. I thought we would fail, and I was ready to give up quietly. In March a storm took the roof off the shed, and in May somebody took our watering cans. Each time I thought, “This is the end.”
 
           **[7]** But look at the beds now. The tomatoes are as red as a fire engine. The sunflowers stand in a row like tall guards. In the evening the whole garden is as quiet as a sleeping cat.
 
@@ -84,7 +84,7 @@ blocks:
     title: Vier Stilmittel und ihre Wirkung
     blocks:
       - type: text
-        text: "**Stilmittel** (stylistic devices) sind sprachliche Mittel, mit denen ein Text wirkt. Wichtiger als der Name ist die Wirkung: Was soll der Hörer oder Leser fühlen oder denken?"
+        text: "**Stilmittel** (stylistic devices) sind sprachliche Mittel, mit denen ein Text wirkt. Wichtiger als der Name ist die Wirkung: Was soll das Publikum fühlen oder denken?"
       - type: figure
         image: images/werkzeugkasten-stilmittel.svg
         alt: Vier weiße Karten nebeneinander. Auf der ersten steht A = B und metaphor, auf der zweiten ein Zeichen für ungefähr gleich und simile, auf der dritten zwei Kreise mit einem Strich und repetition, auf der vierten ein Fragezeichen und rhetorical question.
@@ -151,7 +151,7 @@ blocks:
           - text: Zeile 8
             correct: true
             info: Der Garten wird „a bridge between people“ genannt. Ein Vergleichswort fehlt.
-        explanation: Die Zeilen 2 und 8 nennen den Garten etwas, das er nicht wörtlich ist.
+        explanation: Die Zeilen 2 und 8 nennen den Garten mit dem Namen von etwas, das er nicht wörtlich ist.
       - type: single-choice
         id: stilmittel-wirkung
         text: Welcher Satz beschreibt die Wirkung der Wiederholung in Zeile 9 am besten?
@@ -206,7 +206,7 @@ blocks:
       - type: language-task
         id: stilmittel-hoeren
         languages: { source: de, target: en }
-        task: Hör den Satz und schreibe ihn auf.
+        task: Höre den Satz und schreibe ihn auf.
         form: { punctuation: ok, case: hint }
         items:
           - audio: stilmittel-hoeren-1.mp3
@@ -239,7 +239,7 @@ blocks:
       - type: speaking-task
         id: stilmittel-nachsprechen
         language: en
-        task: Hör dir jeden Satz an, sprich ihn nach und nimm dich auf. Höre dich dann an und bewerte deine Aussprache selbst.
+        task: Höre dir jeden Satz an, sprich ihn nach und nimm dich auf. Höre dich dann an und bewerte deine Aussprache selbst.
         items:
           - audio: stilmittel-nachsprechen-1.mp3
             text: The audience listens carefully.

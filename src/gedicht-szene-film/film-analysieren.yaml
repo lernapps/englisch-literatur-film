@@ -43,7 +43,7 @@ blocks:
           - target: doorbell
             source: Türklingel
           - target: doorway
-            source: Türöffnung
+            source: Eingang, Türrahmen
           - target: eyebrow
             source: Augenbraue
           - target: step aside
@@ -58,7 +58,7 @@ blocks:
 
           **[2]** The first picture is very wide: a long grey street with houses on both sides. Far away, a tiny cyclist rides towards us. The street fills most of the screen, and the rain makes everything grey.
 
-          **[3]** The camera follows the cyclist at the height of his chest. He stops in front of a red door and takes a parcel from his bag.
+          **[3]** The camera follows the cyclist at the height of his chest and shows him from the waist up. He stops in front of a red door and takes a parcel from his bag.
 
           **[4]** The next picture is very close: we see only his hand, the parcel and his wet finger on the doorbell.
 
@@ -127,7 +127,7 @@ blocks:
         pairs:
           - left: "[2] A very wide picture of the street"
             right: long shot
-          - left: "[3] The camera follows him at the height of his chest"
+          - left: "[3] The camera shows him from the waist up as he rides"
             right: medium shot
           - left: "[4] We see only his hand and the parcel"
             right: close-up
@@ -147,7 +147,7 @@ blocks:
             info: Hier schaut die Kamera von oben auf den Mann. Er wirkt klein.
           - text: Zeile 6
             correct: true
-            info: Die Kamera schaut von unten hinauf. Das ist der low angle, und Mrs Dunn wirkt tall.
+            info: Die Kamera schaut von unten hinauf. Das ist der low angle, und Mrs Dunn wirkt groß.
         explanation: Von unten gefilmt wirkt eine Person groß und mächtig.
       - type: language-task
         id: film-beleg
@@ -156,7 +156,7 @@ blocks:
         form: { punctuation: ok, case: ok }
         items:
           - cue: low angle · make · Mrs Dunn · look · tall
-            target: The low angle makes Mrs Dunn look (tall|strong|powerful) (l. 6).
+            target: The low angle makes Mrs Dunn look (tall|big|large|strict|powerful) (l. 6).
             mistakes:
               - answer: The high angle makes Mrs Dunn look tall (l. 6).
                 message: Ein high angle schaut von oben. Von unten gefilmt heißt low angle.
@@ -183,7 +183,7 @@ blocks:
             info: Ein Schnitt ist ein bewusstes Mittel. Er zeigt hier, dass sich etwas verändert hat.
           - text: Der Schnitt macht den Film hektisch (l. 11)
             correct: false
-            info: Es gibt nur wenige Schnitte, und sie sind ruhig. Der Film wirkt nicht hektisch.
+            info: Die Schnitte sind ruhig, die Bilder bleiben lange stehen. Der Film wirkt nicht hektisch.
         explanation: Der Schnitt zurück auf das Bild vom Anfang zeigt, was sich verändert hat.
       - type: single-choice
         id: film-musik
@@ -205,7 +205,7 @@ blocks:
       - type: language-task
         id: film-hoeren
         languages: { source: de, target: en }
-        task: Hör den Satz und schreibe ihn auf.
+        task: Höre den Satz und schreibe ihn auf.
         form: { punctuation: ok, case: hint }
         items:
           - audio: film-analysieren-hoeren-1.mp3
@@ -221,7 +221,7 @@ blocks:
     blocks:
       - type: open-task
         id: film-schreiben
-        task: "Deine Klasse stellt die Lese- und Sehliste für Year 10 zusammen. Welchen der Texte oder Filme aus diesem Explainer empfiehlst du? Schreibe vier bis fünf englische Sätze: deine Empfehlung und zwei Gründe, je mit einer Karte aus deinem Werkzeugkasten und einem Beleg (Zeile oder Szene). Ein Satz darf sagen, was gegen deine Wahl spricht."
+        task: "Deine Klasse stellt die Lese- und Sehliste für Year 10 zusammen. Welchen der Texte oder Filme aus dieser App empfiehlst du? Schreibe vier bis fünf englische Sätze: deine Empfehlung und zwei Gründe, je mit einer Karte aus deinem Werkzeugkasten und einem Beleg (Zeile). Ein Satz darf sagen, was gegen deine Wahl spricht."
         points:
           - text: Die Empfehlung nennt einen Text oder den Film mit dem Titel.
             source: /gedicht-szene-film/film-analysieren/#weiter
@@ -240,7 +240,7 @@ blocks:
       - type: speaking-task
         id: film-nachsprechen
         language: en
-        task: Hör dir jeden Satz an, sprich ihn nach und nimm dich auf. Höre dich dann an und bewerte deine Aussprache selbst.
+        task: Höre dir jeden Satz an, sprich ihn nach und nimm dich auf. Höre dich dann an und bewerte deine Aussprache selbst.
         items:
           - audio: film-analysieren-nachsprechen-1.mp3
             text: The camera moves closer to her face.
@@ -274,4 +274,4 @@ blocks:
     title: Deine Entscheidung
     blocks:
       - type: text
-        text: "Mit deinem Werkzeugkasten hast du jetzt für jede Art von Text eine Karte. Deine Liste hat jetzt Einträge zu Kurzgeschichten, einer Rede, einem Gedicht, einem Song, einer Szene und einem Film. Wähle in der Schreibaufgabe aus, was du empfiehlst, und begründe es. Andere in deiner Klasse können anders entscheiden, wenn sie andere Karten nutzen."
+        text: "Mit deinem Werkzeugkasten kannst du Texte, Szenen und Filme untersuchen. Deine Liste hat jetzt Einträge zu Kurzgeschichten, einer Rede, einem Gedicht, einem Songtext und einer Szene. Jetzt wählst du aus, was du empfiehlst, und begründest es. Andere in deiner Klasse können anders entscheiden, wenn sie andere Karten nutzen."

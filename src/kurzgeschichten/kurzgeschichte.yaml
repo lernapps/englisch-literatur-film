@@ -54,6 +54,8 @@ blocks:
         text: "Die Zahlen in eckigen Klammern sind die Zeilennummern des Textes."
       - type: text
         text: |
+          **Platform Two**
+
           **[1]** The announcement said that the 17:42 to Leeds was delayed by twenty minutes. Nora sighed and sat down on the cold bench on platform two.
 
           **[2]** She had a ticket, a heavy bag and a very bad day behind her. Her phone had nine per cent battery left, and she did not want to waste it.
@@ -156,7 +158,7 @@ blocks:
             info: Es vergehen etwa dreißig Minuten am Bahnsteig.
           - text: Es gibt viele gleich wichtige Hauptfiguren
             correct: false
-            info: Im Mittelpunkt steht Nora. Der alte Mann kommt dazu, aber es sind zwei Figuren.
+            info: Im Mittelpunkt steht Nora. Der alte Mann kommt dazu, aber es sind zwei Figuren, und nur eine davon ist die Hauptfigur.
           - text: Am Ende sind alle Fragen beantwortet
             correct: false
             info: Das Gegenteil stimmt, viele Fragen bleiben offen.
@@ -193,7 +195,7 @@ blocks:
               - answer: The turning point is when the man asks Nora to sit with him (l. 8).
                 message: In Zeile 8 erzählt der Mann von seiner Tochter. Die Bitte steht in einer anderen Zeile.
               - answer: The turning point is when the man asked Nora to sit with him (l. 15).
-                message: Beschreibe den Text im simple present, nicht in der Vergangenheit, in der die Geschichte erzählt ist.
+                message: Beschreibe den Text im simple present, nicht in der Vergangenheit, in der die Geschichte erzählt wird.
               - answer: The turning point is when the man asks Nora to sit with him.
                 message: Es fehlt der Beleg. Gib am Ende die Zeile an, in der Form (l. 3).
         hint: Suche die Zeile, in der der Mann Nora um etwas bittet.
@@ -218,7 +220,7 @@ blocks:
       - type: language-task
         id: kurzgeschichte-hoeren
         languages: { source: de, target: en }
-        task: Hör den Satz und schreibe ihn auf.
+        task: Höre den Satz und schreibe ihn auf.
         form: { punctuation: ok, case: hint }
         items:
           - audio: kurzgeschichte-hoeren-1.mp3
@@ -226,7 +228,7 @@ blocks:
           - audio: kurzgeschichte-hoeren-2.mp3
             target: The reader has to imagine the ending.
           - audio: kurzgeschichte-hoeren-3.mp3
-            target: One hour is enough for a short story.
+            target: A short story can be read in a few minutes.
         explanation: Die Sätze nennen Merkmale einer Kurzgeschichte in neuen Worten.
   - type: section
     id: anwenden
@@ -245,13 +247,13 @@ blocks:
           - text: Drei ganze Sätze im simple present, jeder mit einer Zeile in der Form (l. 3).
             kind: form
         solution: |
-          The text is a short story because it starts in the middle of a situation, with Nora already on the platform (l. 1). The turning point is when the man asks Nora to sit with him (l. 15). The ending is open, because we do not learn if Nora gets on the train (l. 17).
+          The text is a short story because it starts in the middle of a situation, with Nora already on the platform (l. 1). The turning point is when the man asks Nora to sit with him (l. 15). The ending is open, because we do not learn whether Nora gets on the train (l. 17).
 
           Die App bewertet deinen Text nicht. Prüfe ihn selbst an den Punkten.
       - type: speaking-task
         id: kurzgeschichte-nachsprechen
         language: en
-        task: Hör dir jeden Satz an, sprich ihn nach und nimm dich auf. Höre dich dann an und bewerte deine Aussprache selbst.
+        task: Höre dir jeden Satz an, sprich ihn nach und nimm dich auf. Höre dich dann an und bewerte deine Aussprache selbst.
         items:
           - audio: kurzgeschichte-nachsprechen-1.mp3
             text: The turning point changes everything.

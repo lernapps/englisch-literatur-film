@@ -141,22 +141,22 @@ blocks:
             info: In Zeile 4 steht my hands, der Erzähler sagt, wie ihm zumute ist.
           - text: Zeile 5
             correct: false
-            info: In Zeile 5 sprechen Mr Hale und der Text über ihn. Der Erzähler sagt nichts über sich.
+            info: In Zeile 5 spricht Mr Hale, und der Erzähler berichtet über ihn. Der Erzähler sagt nichts über sich.
           - text: Zeile 6
             correct: true
             info: In Zeile 6 steht I took a breath, der Erzähler handelt selbst.
-        explanation: Die Zeilen 1, 4 und 6 enthalten I und my.
+        explanation: Zum Beispiel die Zeilen 1, 4 und 6 enthalten I und my.
       - type: language-task
         id: perspektive-beleg
         languages: { source: de, target: en }
         task: Schreibe einen Satz mit dem Satzanfang der Karte narrative perspective zu Fassung B und gib die erste Zeile als Beleg an.
         form: { punctuation: ok, case: ok }
         items:
-          - cue: story · tell · third person · Sam
+          - cue: story · tell · third person
             target: The story is told in the third person (l. 7).
             mistakes:
               - answer: The story is told in the first person (l. 7).
-                message: In Fassung B steht he und him und der Name Sam. Das ist die dritte Person.
+                message: In Fassung B stehen he und him und der Name Sam. Das ist die dritte Person.
               - answer: The story is told in the third person (l. 1).
                 message: Zeile 1 gehört zu Fassung A. Fassung B beginnt in einer anderen Zeile.
               - answer: The story is told in the third person.
@@ -196,17 +196,17 @@ blocks:
           - text: Mr Hale ist der Autor
             correct: false
             info: Mr Hale ist eine Figur der Geschichte und nicht ihr Autor.
-        explanation: Auch ein Ich-Erzähler ist eine Erfindung. Autor und narrator sind zwei verschiedene Dinge.
+        explanation: Auch ein Ich-Erzähler ist eine Erfindung. Autor und narrator sind nicht dasselbe.
       - type: language-task
         id: perspektive-hoeren
         languages: { source: de, target: en }
-        task: Hör den Satz und schreibe ihn auf.
+        task: Höre den Satz und schreibe ihn auf.
         form: { punctuation: ok, case: hint }
         items:
           - audio: erzaehlperspektive-hoeren-1.mp3
             target: The narrator is not the same person as the writer.
           - audio: erzaehlperspektive-hoeren-2.mp3
-            target: In the third person, the narrator says she or he.
+            target: In the third person, the narrator says he or she.
           - audio: erzaehlperspektive-hoeren-3.mp3
             target: I always tell the story from my own point of view.
         explanation: Die Sätze benutzen die Begriffe der Seite in neuen Zusammenhängen.
@@ -216,7 +216,7 @@ blocks:
     blocks:
       - type: open-task
         id: perspektive-schreiben
-        task: "Welche Fassung verrät mehr über Mr Hale, A oder B? Schreibe zwei englische Sätze mit der Karte narrative perspective und einer Zeile als Beleg."
+        task: "Welche Fassung verrät mehr über Mr Hale, A oder B? Schreibe zwei englische Sätze mit der Karte narrative perspective und je einer Zeile als Beleg."
         points:
           - text: Ein Satz nennt die Fassung B mit dem Er/Sie-Erzähler.
             source: /kurzgeschichten/erzaehlperspektive/#neu
@@ -227,13 +227,13 @@ blocks:
           - text: Zwei ganze Sätze im simple present, jeder mit einer Zeile in der Form (l. 3).
             kind: form
         solution: |
-          Version B tells us more about Mr Hale, because the story is told in the third person (l. 12). The narrator knows that Mr Hale has read the letter twice, but the first-person narrator of version A cannot know this (l. 6).
+          Version B tells us more about Mr Hale, because the story is told in the third person (l. 12). The narrator knows that Mr Hale likes the handwriting, but the first-person narrator of version A cannot know this (l. 6).
 
           Die App bewertet deinen Text nicht. Prüfe ihn selbst an den Punkten.
       - type: speaking-task
         id: perspektive-nachsprechen
         language: en
-        task: Hör dir jeden Satz an, sprich ihn nach und nimm dich auf. Höre dich dann an und bewerte deine Aussprache selbst.
+        task: Höre dir jeden Satz an, sprich ihn nach und nimm dich auf. Höre dich dann an und bewerte deine Aussprache selbst.
         items:
           - audio: erzaehlperspektive-nachsprechen-1.mp3
             text: The writer invents the narrator.

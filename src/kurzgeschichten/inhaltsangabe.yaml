@@ -58,7 +58,7 @@ blocks:
 
           **[3]** Ellen sat on the floor and read the name twice: Mr Arthur Bell. She knew that name. Arthur Bell was the old man who fed the pigeons in the park every morning.
 
-          **[4]** She thought about it all afternoon. The letter was nearly fifty years old. Perhaps it was only a bill. But the envelope was heavy, as if something else was inside.
+          **[4]** She thought about it all afternoon. The letter was more than forty years old. Perhaps it was only a bill. But the envelope was heavy, as if something else was inside.
       - type: text
         text: |
           **[5]** The next morning she put on her coat and walked to the park. Mr Bell sat on his usual bench with a paper bag of seeds.
@@ -98,7 +98,7 @@ blocks:
         caption: Die Regeln der Inhaltsangabe
         header: [Regel, Warum]
         rows:
-          - ["Einleitungssatz mit Titel, Textart und Thema", "Die Leser wissen sofort, worum es geht."]
+          - ["Einleitungssatz mit Titel, Textart und Thema", "Alle Lesenden wissen sofort, worum es geht."]
           - ["Nur die wichtigsten Ereignisse in ihrer Reihenfolge", "Nebensachen und Einzelheiten bleiben draußen."]
           - [Present tense, "Auch wenn der Text in der Vergangenheit steht."]
           - ["Eigene Worte, keine Zitate", "Keine wörtliche Rede und keine Sätze aus dem Text."]
@@ -138,7 +138,7 @@ blocks:
           - text: "I think the story is great because it has a nice ending"
             correct: false
             info: Das ist eine Meinung. Titel, Textart und Thema fehlen.
-          - text: "Ellen Price took down the old kitchen wall"
+          - text: "Ellen Price started to take down the old kitchen wall"
             correct: false
             info: Das ist eine Einzelheit im past tense. Titel, Textart und Thema fehlen.
           - text: "The Letter in the Wall"
@@ -181,7 +181,7 @@ blocks:
         form: { punctuation: ok, case: ok }
         items:
           - cue: Ellen · find · letter · behind · wall
-            target: Ellen finds (an|the) (old |)letter behind the (kitchen |)wall.
+            target: Ellen finds (an old|the old|a|the) letter behind the (kitchen |)wall.
             mistakes:
               - answer: Ellen found an old letter behind the wall.
                 message: Das ist die Vergangenheit. Schreibe im simple present.
@@ -200,7 +200,7 @@ blocks:
       - type: language-task
         id: inhalt-hoeren
         languages: { source: de, target: en }
-        task: Hör den Satz und schreibe ihn auf.
+        task: Höre den Satz und schreibe ihn auf.
         form: { punctuation: ok, case: hint }
         items:
           - audio: inhaltsangabe-hoeren-1.mp3
@@ -227,13 +227,13 @@ blocks:
           - text: Alle Sätze stehen im simple present, mit -s bei he, she und it.
             kind: form
         solution: |
-          The short story “The Letter in the Wall” is about a woman who finds an old letter and gives it back to its owner. Ellen Price finds the letter behind a wall in her kitchen. She takes it to Arthur Bell, an old man from the park. Mr Bell opens the envelope and learns that it is from his brother, who wanted to say sorry after a quarrel. In the end, the two walk to the harbour together.
+          The short story “The Letter in the Wall” is about a woman who finds an old letter and gives it back to its owner. Ellen Price finds the letter behind a wall in her kitchen. She takes it to Arthur Bell, an old man from the park. Mr Bell opens the envelope and learns that it is from his brother, who wrote to say sorry. In the end, the two walk to the harbour together.
 
           Die App bewertet deinen Text nicht. Prüfe ihn selbst an den Punkten.
       - type: speaking-task
         id: inhalt-nachsprechen
         language: en
-        task: Hör dir jeden Satz an, sprich ihn nach und nimm dich auf. Höre dich dann an und bewerte deine Aussprache selbst.
+        task: Höre dir jeden Satz an, sprich ihn nach und nimm dich auf. Höre dich dann an und bewerte deine Aussprache selbst.
         items:
           - audio: inhaltsangabe-nachsprechen-1.mp3
             text: The story is about a woman and an old letter.
@@ -265,4 +265,4 @@ blocks:
     title: Dein fünfter Listeneintrag
     blocks:
       - type: text
-        text: "Schreibe für die Lese- und Sehliste eine Inhaltsangabe zu einer Kurzgeschichte aus diesem Kapitel in zwei Sätzen mit dem Satzanfang „The short story … is about …“. Im nächsten Kapitel kommen Karten für Stilmittel, Gedichte, Szenen und Film dazu."
+        text: "Schreibe für die Lese- und Sehliste eine Inhaltsangabe zu einer Kurzgeschichte aus diesem Kapitel in wenigen Sätzen mit dem Satzanfang „The short story … is about …“. Im nächsten Kapitel kommen Karten für Stilmittel, Gedichte, Szenen und Film dazu."

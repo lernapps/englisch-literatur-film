@@ -63,7 +63,7 @@ blocks:
           **[5]** "Nobody reads in a place that says no," she said to the empty room.
       - type: text
         text: |
-          **[6]** On Tuesday she opened the windows, moved the two big armchairs next to the shelf of adventure books and put a kettle on the desk. On Wednesday a student came in to use the computer and left an hour later with three comics.
+          **[6]** On Tuesday she opened the windows, moved the two big armchairs next to the shelf of adventure books and put a kettle on the desk. On Wednesday a teenager came in to use the computer and left an hour later with three comics.
 
           **[7]** Ms Ward never raised her voice. When two readers argued about a book, she only asked, "What would the author say?" They stopped, looked at each other and laughed.
 
@@ -96,7 +96,7 @@ blocks:
         caption: Zwei Wege der Charakterisierung
         header: [Weg, So zeigt es der Text]
         rows:
-          - [direct, "Der narrator oder eine Figur nennt die Eigenschaft: He was a generous man."]
+          - [direct, "Der narrator oder eine Figur nennt die Eigenschaft oder das Aussehen: He was a generous man."]
           - [indirect, "Handlung, Sprache oder die Reaktion anderer zeigen sie: He gave his lunch away."]
       - type: table
         caption: Vom Steckbrief zum Satz
@@ -131,7 +131,7 @@ blocks:
             info: Im Text wird sie nie laut. Sie fragt nur ruhig.
           - text: Vergesslich und unordentlich
             correct: false
-            info: Vergesslich ist sie ein wenig. Das ist eine Einzelheit, aber nicht ihr Charakter.
+            info: Vergesslich ist sie ein wenig. Das ist eine Einzelheit, aber nicht ihr Charakter. Unordentlich ist sie nicht.
         explanation: Ms Ward ist geduldig, freundlich und aufmerksam. Sie ist nur ein bisschen vergesslich.
       - type: matching
         id: charakter-wege
@@ -141,7 +141,7 @@ blocks:
             right: direkt, Aussehen
           - left: "[8] She was also a little forgetful."
             right: direkt, Eigenschaft genannt
-          - left: "[4] She took them down and put them in a drawer."
+          - left: "[4] Then she took them down, folded them and put them in a drawer."
             right: indirekt, Handlung
           - left: "[7] What would the author say?"
             right: indirekt, Sprache
@@ -152,10 +152,10 @@ blocks:
         options:
           - text: Zeile 2
             correct: false
-            info: Der Bäcker sagt etwas über sie, aber er kennt sie noch nicht. Er ist nicht zufrieden.
+            info: Der Bäcker sagt etwas über sie, aber er kennt sie noch nicht. Er ist noch nicht zufrieden.
           - text: Zeile 6
             correct: true
-            info: Der Student geht mit drei Comics. Er bleibt eine Stunde, das zeigt seine Zufriedenheit.
+            info: Der Student geht mit drei Comics. Er bleibt eine Stunde, und das zeigt seine Zufriedenheit.
           - text: Zeile 8
             correct: false
             info: Hier nennt der narrator eine Eigenschaft von ihr, nicht die Reaktion anderer.
@@ -203,7 +203,7 @@ blocks:
       - type: language-task
         id: charakter-hoeren
         languages: { source: de, target: en }
-        task: Hör den Satz und schreibe ihn auf.
+        task: Höre den Satz und schreibe ihn auf.
         form: { punctuation: ok, case: hint }
         items:
           - audio: charakterisierung-hoeren-1.mp3
@@ -223,7 +223,7 @@ blocks:
         points:
           - text: Die Einleitung nennt den Namen der Figur und den Eindruck, den sie am Anfang macht.
             source: /kurzgeschichten/charakterisierung/#neu
-          - text: Eine Eigenschaft wird direkt belegt, mit einer Zeile zum Beispiel aus Zeile 8.
+          - text: Eine Eigenschaft wird direkt belegt, mit einer Zeile, zum Beispiel Zeile 8.
             source: /kurzgeschichten/charakterisierung/#neu
           - text: Eine Eigenschaft wird indirekt belegt, durch Handlung, Sprache oder die Reaktion anderer, mit einer Zeile.
             source: /kurzgeschichten/charakterisierung/#neu
@@ -238,7 +238,7 @@ blocks:
       - type: speaking-task
         id: charakter-nachsprechen
         language: en
-        task: Hör dir jeden Satz an, sprich ihn nach und nimm dich auf. Höre dich dann an und bewerte deine Aussprache selbst.
+        task: Höre dir jeden Satz an, sprich ihn nach und nimm dich auf. Höre dich dann an und bewerte deine Aussprache selbst.
         items:
           - audio: charakterisierung-nachsprechen-1.mp3
             text: The character is kind, because she listens.
