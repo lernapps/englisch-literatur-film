@@ -77,7 +77,7 @@ Seiten und Übungs-IDs (Präfix = Seite; Diktat `…-hoeren`, Nachsprechen `…-
 - Zeichnungen (`src/images/`): `werkzeugkasten-fachbegriffe`, `-kurzgeschichte`, `-erzaehlperspektive`, `-charakterisierung`, `-stilmittel` (Kartenreihen), `story-map-inhaltsangabe`, `gedichtform` (ABAB, AABB, ABBA), `skript-drama`, `kameraeinstellungen`. Die Kartenreihen erzeugt ein kleines Skript im Scratchpad (Karte = weißes Rechteck mit Zeichen und Name, neue Karten stärkerer Rand); die SVG-Dateien sind die Quelle. Unten bleibt Platz für das Lizenz-Badge der Vorlage.
 - Audio: alle Hörsätze stehen in `.agents/skills/app-content/scripts/audio-texte.json` (Datei → Satz, 55 Einträge: je Seite drei Diktatsätze und drei Nachsprechsätze, bei `drama-szene` vier Sprechzeilen der Szene); erzeugen: siehe „Adding a chapter or round“, Schritt 5.
 - Zeitformen: Lesestücke in der Vergangenheit (Kurzgeschichten) oder Gegenwart (Gedicht, Szene, Szenenliste); Analyse und Inhaltsangabe im simple present.
-- Selbsteinschätzung (`selfAssessment`) je `chapter.yaml`: siehe die Dateien (kommt in Commit, Skill `lernapps-explainer-self-assessment`).
+- Selbsteinschätzung (`selfAssessment`) je `chapter.yaml`, 2 bis 3 Übungen je Seite, die ohne den Lesetext verständlich sind: `text-fachbegriffe` fachbegriffe-start, -karte · `kurzgeschichte` kurzgeschichte-start, -hoeren · `erzaehlperspektive` perspektive-start, -autor · `charakterisierung` charakter-start, -wege · `inhaltsangabe` inhalt-start, -einleitung, -gegenwart · `stilmittel` stilmittel-start, -zuordnen · `gedicht-analysieren` gedicht-start, -reimschema · `drama-szene` szene-start, -funktion · `film-analysieren` film-start, -einstellung. Offene Aufgaben, Sprechen und alle Übungen mit Zeilen des Lesetexts sind nicht dabei.
 - Glossar: `definition` für narrator, character, setting, plot, turning point, open ending, summary, metaphor, simile, repetition, rhetorical question, stanza, rhyme scheme, stage direction, shot, camera angle, cut.
 
 ## Sources
@@ -98,7 +98,7 @@ Hörsätze bleiben natürlich: kein Name wird nur wegen des Klangs angehängt. `
 1. Baustein der Karte wählen; die Voraussetzungen müssen auf früheren Seiten stehen oder eine Wiederholungsseite bekommen.
 2. Seite `src/<kapitel>/<seite>.yaml` mit den Abschnitten `einstieg`, `lesestueck`, `neu`, `uebung`, `anwenden`, `weiter`, in `chapter.yaml` eintragen, Competency-Id setzen.
 3. Lesestück: eigener Text, nummerierte Zeilen, Vokabelblock davor; Werkzeugkarte um das Neue; Zeichnung ergänzen.
-4. Übungen aus den Mustern oben, je mit `mistakes` und `hint`; 2 bis 3 davon in `selfAssessment` des Kapitels (Skill `lernapps-explainer-self-assessment`).
+4. Übungen aus den Mustern oben, je mit `mistakes` und `hint`; 2 bis 3 davon in `selfAssessment` des Kapitels (Skill `lernapps-explainer-self-assessment`: „1 bis 3 ihrer Übungen in `selfAssessment` aufnehmen“).
 5. Hörtexte: `src/audio/<satz>.mp3`, Eintrag in `.agents/skills/app-content/scripts/audio-texte.json` (Datei → Satz), erzeugt mit `~/.cache/lernapps/audio/venv/bin/python .agents/skills/app-content/scripts/regen_audio.py .agents/skills/app-content/scripts/audio-texte.json "<Satz>"`; anhören lassen; einsilbig endende Sätze in die Hörliste.
 6. Wörter gegen den Grundwortschatz und Hörsätze gegen die Seite prüfen (`pruefen.py`); `npx --no -- lernapps check`; committen.
 
