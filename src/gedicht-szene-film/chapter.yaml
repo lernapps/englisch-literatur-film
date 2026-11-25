@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Gedicht, Szene und Film
+summary: Du erweiterst deinen Werkzeugkasten um Stilmittel, Strophe und Reimschema, Regieanweisungen und Kameraeinstellungen. Du untersuchst ein Gedicht, sprichst eine Szene und beschreibst, wie ein Film wirkt.
+pages: [das-brauchst-du, stilmittel, gedicht-analysieren, drama-szene, film-analysieren]
+selfAssessment:
+  pages:
+    - exercises:
+        - /gedicht-szene-film/stilmittel/#stilmittel-start
+        - /gedicht-szene-film/stilmittel/#stilmittel-zuordnen
+    - exercises:
+        - /gedicht-szene-film/gedicht-analysieren/#gedicht-start
+        - /gedicht-szene-film/gedicht-analysieren/#gedicht-reimschema
+    - exercises:
+        - /gedicht-szene-film/drama-szene/#szene-start
+        - /gedicht-szene-film/drama-szene/#szene-funktion
+    - exercises:
+        - /gedicht-szene-film/film-analysieren/#film-start
+        - /gedicht-szene-film/film-analysieren/#film-einstellung

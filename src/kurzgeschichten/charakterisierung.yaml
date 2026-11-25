@@ -1,0 +1,256 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Eine Figur charakterisieren"
+description: "Aus dem Steckbrief wird eine Charakterisierung: Du beschreibst eine Figur und belegst jede Eigenschaft mit einer Zeile."
+competencies: [charakterisierung]
+scope: "Die Seite zeigt, wie aus dem Steckbrief einer Figur eine Charakterisierung (characterisation) wird. Eine Charakterisierung hat eine Einleitung, einen Hauptteil mit Eigenschaften und Belegen und einen Schluss, im simple present. Direkte Charakterisierung (direct) heißt, dass der narrator oder eine Figur die Eigenschaft nennt. Indirekte Charakterisierung (indirect) heißt, dass die Figur sich durch Handlungen, Sprache und die Reaktion anderer zeigt. Die Meinung einer Figur über eine andere ist nicht immer verlässlich. Jede Eigenschaft wird mit einer Zeile belegt. Die Karte characterisation hat die Leitfrage und den Satzanfang; direct und indirect sind zwei Wege. Nicht hier, weil es spätere Seiten sind, nämlich die Inhaltsangabe und Stilmittel."
+blocks:
+  - type: section
+    id: einstieg
+    title: Was gehört in einen Steckbrief?
+    blocks:
+      - type: single-choice
+        id: charakter-start
+        text: Welcher Satz beschreibt eine Person anschaulich, so wie du es aus dem Steckbrief kennst?
+        options:
+          - text: She is a nice person
+            correct: false
+            info: Das ist allgemein. Es sagt nicht, woran man es sieht.
+          - text: He has short grey hair and a loud laugh
+            correct: true
+            info: Haare und Lachen sind Einzelheiten. Man kann sich die Person vorstellen.
+          - text: She is a person from the town
+            correct: false
+            info: Das nennt nur, woher sie kommt. Eine Beschreibung hat mehr Einzelheiten.
+        explanation: Ein Steckbrief sammelt Einzelheiten. Eine Charakterisierung deutet sie und belegt sie.
+      - type: text
+        text: "**Das kannst du danach:** Du charakterisierst eine Figur, nennst Eigenschaften und belegst sie mit Zeilen. Du unterscheidest direkte und indirekte Charakterisierung."
+  - type: section
+    id: lesestueck
+    title: Eine Kurzgeschichte
+    blocks:
+      - type: vocabulary
+        caption: Wörter zum Text
+        languages: { source: de, target: en }
+        entries:
+          - target: librarian
+            source: Bibliothekarin, Bibliothekar
+          - target: strict
+            source: streng
+          - target: shelf (plural shelves)
+            source: Regal
+          - target: kettle
+            source: Wasserkocher
+          - target: argue
+            source: streiten
+          - target: forgetful
+            source: vergesslich
+          - target: complain
+            source: sich beschweren
+          - target: raise your voice
+            source: laut werden
+      - type: text
+        text: "Die Zahlen in eckigen Klammern sind die Zeilennummern des Textes."
+      - type: text
+        text: |
+          **The New Librarian**
+
+          **[1]** The new librarian arrived on a rainy Monday, and everybody in the town knew about it before lunch. She was the third librarian in five years, and people were not hopeful.
+
+          **[2]** "She is very strict," said the baker, who had heard it from the postman.
+
+          **[3]** Ms Ward was a tall woman in her sixties with a grey coat and a green umbrella. She walked into the library, put the umbrella in the stand and looked at the shelves for a long time without a word.
+
+          **[4]** The old rules hung on the wall: Silence. No food. No phones. Ms Ward read them slowly. Then she took them down, folded them and put them in a drawer.
+
+          **[5]** "Nobody reads in a place that says no," she said to the empty room.
+      - type: text
+        text: |
+          **[6]** On Tuesday she opened the windows, moved the two big armchairs next to the shelf of adventure books and put a kettle on the desk. On Wednesday a teenager came in to use the computer and left an hour later with three comics.
+
+          **[7]** Ms Ward never raised her voice. When two readers argued about a book, she only asked, "What would the author say?" They stopped, looked at each other and laughed.
+
+          **[8]** She was also a little forgetful. Twice that week she looked for her glasses for ten minutes before she found them on her head.
+      - type: text
+        text: |
+          **[9]** At the end of the week the baker came in to complain about the noise. He stayed for an hour and left with a book about bread. He had not borrowed a book in twenty years.
+
+          **[10]** "She is not strict at all," he told the postman. "She is the only person in town who listens."
+
+          **[11]** Ms Ward heard it from behind her shelf and smiled. She did not say anything. She put the kettle on, and this time she took out three cups.
+  - type: section
+    id: neu
+    title: Vom Steckbrief zur Charakterisierung
+    blocks:
+      - type: text
+        text: "Der Steckbrief sammelt Einzelheiten zu einer Figur. Eine **Charakterisierung** (characterisation) deutet sie: Sie nennt Eigenschaften und belegt jede mit einer Zeile. Der Text zeigt eine Eigenschaft auf zwei Wegen."
+      - type: figure
+        image: images/werkzeugkasten-charakterisierung.svg
+        alt: Drei weiße Karten nebeneinander. Die erste hat ein Etikett und die Wörter characterisation, die zweite die Wörter direct und says, die dritte indirect und shows.
+        caption: Die neue Karte characterisation und die zwei Wege, wie ein Text eine Eigenschaft zeigt.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Werkzeugkasten · neue Karte
+        header: [Karte, Leitfrage, Satzanfang]
+        rows:
+          - [characterisation, "What is the character like, and how do I know?", "The character is …, because … (l. …)"]
+      - type: table
+        caption: Zwei Wege der Charakterisierung
+        header: [Weg, So zeigt es der Text]
+        rows:
+          - [direct, "Der narrator oder eine Figur nennt die Eigenschaft oder das Aussehen: He was a generous man."]
+          - [indirect, "Handlung, Sprache oder die Reaktion anderer zeigen sie: He gave his lunch away."]
+      - type: table
+        caption: Vom Steckbrief zum Satz
+        header: [Steckbrief, Satz der Charakterisierung]
+        rows:
+          - ["Verhalten: zählt das Geld zweimal", "The character is careful, because he counts the money twice."]
+          - ["Sprache: „No hurry.“", "The character is calm, because he says, “No hurry.”"]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Eine Charakterisierung hat drei Teile:** eine Einleitung mit Name und Text, einen Hauptteil mit zwei oder drei Eigenschaften und je einem Beleg und einen Schluss mit deinem Gesamteindruck. Sie steht im simple present.
+
+              **Jede Eigenschaft braucht einen Beleg.** Die Meinung einer Figur über eine andere ist kein sicherer Beleg, weil sie sich irren kann.
+  - type: section
+    id: uebung
+    title: Charakterisiere Ms Ward
+    blocks:
+      - type: single-choice
+        id: charakter-eindruck
+        text: Wie ist Ms Ward am Ende der Geschichte?
+        options:
+          - text: Streng und kühl
+            correct: false
+            info: Das glaubt der Bäcker am Anfang. Am Ende sagt er das Gegenteil.
+          - text: Geduldig, freundlich und aufmerksam
+            correct: true
+            info: Sie wird nie laut, lässt die Regeln weg und hört den Leuten zu.
+          - text: Laut und ungeduldig
+            correct: false
+            info: Im Text wird sie nie laut. Sie fragt nur ruhig.
+          - text: Vergesslich und unordentlich
+            correct: false
+            info: Vergesslich ist sie ein wenig. Das ist eine Einzelheit, aber nicht ihr Charakter. Unordentlich ist sie nicht.
+        explanation: Ms Ward ist geduldig, freundlich und aufmerksam. Sie ist nur ein bisschen vergesslich.
+      - type: matching
+        id: charakter-wege
+        text: Ordne jede Stelle der Art der Charakterisierung zu.
+        pairs:
+          - left: "[3] a tall woman in her sixties"
+            right: direkt, Aussehen
+          - left: "[8] She was also a little forgetful."
+            right: direkt, Eigenschaft genannt
+          - left: "[4] Then she took them down, folded them and put them in a drawer."
+            right: indirekt, Handlung
+          - left: "[7] What would the author say?"
+            right: indirekt, Sprache
+        explanation: Direkt nennt der Text die Eigenschaft oder das Aussehen. Indirekt zeigen Handlung und Sprache sie.
+      - type: multiple-choice
+        id: charakter-zeilen
+        text: In welchen Zeilen zeigen andere Menschen, dass sie mit Ms Ward zufrieden sind?
+        options:
+          - text: Zeile 2
+            correct: false
+            info: Der Bäcker sagt etwas über sie, aber er kennt sie noch nicht. Er ist noch nicht zufrieden.
+          - text: Zeile 6
+            correct: true
+            info: Der Student geht mit drei Comics. Er bleibt eine Stunde, und das zeigt seine Zufriedenheit.
+          - text: Zeile 8
+            correct: false
+            info: Hier nennt der narrator eine Eigenschaft von ihr, nicht die Reaktion anderer.
+          - text: Zeile 9
+            correct: true
+            info: Der Bäcker beschwert sich zuerst, bleibt aber eine Stunde und nimmt ein Buch mit.
+          - text: Zeile 10
+            correct: true
+            info: Er sagt es dem Postboten und lobt sie.
+        explanation: Die Reaktionen in den Zeilen 6, 9 und 10 zeigen indirekt, dass Ms Ward gut ankommt.
+      - type: single-choice
+        id: charakter-verlaesslich
+        text: "Der Bäcker sagt in Zeile 2: „She is very strict.“ Warum ist das kein sicherer Beleg für Ms Wards Charakter?"
+        options:
+          - text: Er kennt sie nur vom Hörensagen
+            correct: true
+            info: Der Bäcker hat es vom Postboten gehört, in Zeile 2. Er hat Ms Ward noch nicht getroffen.
+          - text: Er ist selbst ein strenger Mensch
+            correct: false
+            info: Das steht nirgends im Text. Über den Bäcker erfährst du wenig.
+          - text: Der narrator sagt, dass sie streng ist
+            correct: false
+            info: Der narrator sagt das nicht. Er nennt in Zeile 8 eine andere Eigenschaft.
+          - text: Er irrt sich nie
+            correct: false
+            info: In Zeile 10 sagt er selbst das Gegenteil.
+        explanation: Die Meinung einer Figur ist nur dann ein Beleg, wenn sie die Person wirklich kennt.
+      - type: language-task
+        id: charakter-beleg
+        languages: { source: de, target: en }
+        task: Schreibe einen Satz mit dem Satzanfang der Karte characterisation und gib die Zeile als Beleg an. Welche Eigenschaft zeigt sich, wenn Ms Ward nie laut wird?
+        form: { punctuation: ok, case: ok }
+        items:
+          - cue: character · patient · never · raise · voice
+            target: The character is (patient|calm|kind|friendly), because she (never raises|does not raise) her voice (l. 7).
+            mistakes:
+              - answer: The character is patient, because she never raised her voice (l. 7).
+                message: Beschreibe die Figur im simple present. Die Geschichte steht in der Vergangenheit, deine Charakterisierung nicht.
+              - answer: The character is patient, because she never raises her voice (l. 5).
+                message: Zeile 5 ist ein Satz, den Ms Ward zur leeren Bibliothek sagt. Dass sie nie laut wird, steht in einer anderen Zeile.
+              - answer: The character is patient, because she never raises her voice.
+                message: Es fehlt der Beleg. Gib am Ende die Zeile an, in der Form (l. 3).
+        hint: Suche die Zeile, in der steht, dass Ms Ward nie ihre Stimme erhebt.
+        explanation: Der Satz nennt die Karte, die Eigenschaft, den Grund und die Zeile.
+      - type: language-task
+        id: charakter-hoeren
+        languages: { source: de, target: en }
+        task: Höre den Satz und schreibe ihn auf.
+        form: { punctuation: ok, case: hint }
+        items:
+          - audio: charakterisierung-hoeren-1.mp3
+            target: The writer shows the character through her actions.
+          - audio: charakterisierung-hoeren-2.mp3
+            target: What other people say can be wrong.
+          - audio: charakterisierung-hoeren-3.mp3
+            target: A good description needs one clear example.
+        explanation: Die Sätze benutzen die Begriffe der Seite in neuen Zusammenhängen.
+  - type: section
+    id: anwenden
+    title: Schreibe eine Charakterisierung
+    blocks:
+      - type: open-task
+        id: charakter-schreiben
+        task: Charakterisiere Ms Ward in vier bis fünf englischen Sätzen mit Einleitung, zwei Eigenschaften mit Belegen und einem Schluss. Nutze eine direkte und eine indirekte Eigenschaft.
+        points:
+          - text: Die Einleitung nennt den Namen der Figur und den Eindruck, den sie am Anfang macht.
+            source: /kurzgeschichten/charakterisierung/#neu
+          - text: Eine Eigenschaft wird direkt belegt, mit einer Zeile, zum Beispiel Zeile 8.
+            source: /kurzgeschichten/charakterisierung/#neu
+          - text: Eine Eigenschaft wird indirekt belegt, durch Handlung, Sprache oder die Reaktion anderer, mit einer Zeile.
+            source: /kurzgeschichten/charakterisierung/#neu
+          - text: Der Schluss nennt den Gesamteindruck.
+            source: /kurzgeschichten/charakterisierung/#neu
+          - text: Ganze Sätze im simple present, jede Eigenschaft mit einer Zeile in der Form (l. 3).
+            kind: form
+        solution: |
+          In the text, the new librarian Ms Ward first seems strict. In fact, she is patient and open to people. The narrator says that she is a little forgetful (l. 8). She is also patient, because she never raises her voice when two readers argue (l. 7). In the end, Ms Ward is a calm person who makes the library a friendly place.
+
+          Die App bewertet deinen Text nicht. Prüfe ihn selbst an den Punkten.
+      - type: speaking-task
+        id: charakter-nachsprechen
+        language: en
+        task: Höre dir jeden Satz an, sprich ihn nach und nimm dich auf. Höre dich dann an und bewerte deine Aussprache selbst.
+        items:
+          - audio: charakterisierung-nachsprechen-1.mp3
+            text: The character is kind, because she listens.
+          - audio: charakterisierung-nachsprechen-2.mp3
+            text: His words show how he feels.
+          - audio: charakterisierung-nachsprechen-3.mp3
+            text: She is not what people expect.
+  - type: section
+    id: weiter
+    title: Dein vierter Listeneintrag
+    blocks:
+      - type: text
+        text: "Schreibe für die Lese- und Sehliste einen Satz zu der Figur, an der dir am meisten aufgefallen ist, mit dem Satzanfang „The character is …, because …“ und einer Zeile. Auf der nächsten Seite machst du aus der story map eine Inhaltsangabe."

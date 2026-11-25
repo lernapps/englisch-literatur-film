@@ -1,0 +1,302 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Vier Werkzeuge: narrator, character, setting, plot"
+description: "Du lernst die vier ersten Werkzeugkarten kennen und wendest sie auf eine Kurzgeschichte an."
+competencies: [text-fachbegriffe]
+scope: "Die Seite führt vier Fachbegriffe der Textarbeit als Werkzeugkarten ein. Der narrator (Erzähler) ist die Stimme, die die Geschichte erzählt; sie ist eine Erfindung der Autorin oder des Autors und nicht dieselbe Person. Ein character ist eine Figur der Geschichte. Das setting ist Ort und Zeit der Handlung. Der plot sind die Ereignisse in ihrer Reihenfolge. Zu jeder Karte gehören eine Leitfrage und ein Satzanfang für die Antwort. Die Aussagen werden mit der Zeile belegt, zum Beispiel (l. 4). Die Karten entsprechen den Feldern der story map (who, where, when, what). Nicht hier, weil es spätere Seiten sind, nämlich die Merkmale der Kurzgeschichte, Ich- und Er-Erzähler, die Charakterisierung, die Inhaltsangabe, Stilmittel und die Fachbegriffe für Gedicht, Szene und Film."
+blocks:
+  - type: section
+    id: einstieg
+    title: Erst die story map, dann der Werkzeugkasten
+    blocks:
+      - type: single-choice
+        id: fachbegriffe-start
+        text: Du kennst die story map aus vier Feldern. Welche Frage gehört zum Feld when?
+        options:
+          - text: Zu welcher Zeit spielt die Geschichte
+            correct: true
+            info: Das Feld when hält fest, wann die Geschichte spielt, zum Beispiel an einem Morgen im Winter.
+          - text: Wer kommt in der Geschichte vor
+            correct: false
+            info: Diese Frage gehört zum Feld who.
+          - text: Was passiert in der Geschichte
+            correct: false
+            info: Diese Frage gehört zum Feld what.
+        explanation: Die story map fragt nach who, where, when und what. Mit Fachbegriffen kannst du solche Fragen genauer stellen.
+      - type: text
+        text: "**Das kannst du danach:** Du benutzt die Fachbegriffe narrator, character, setting und plot. Du schreibst deine Antwort mit einem festen Satzanfang und gibst als Beleg die Zeile an, in der sie im Text steht."
+  - type: section
+    id: lesestueck
+    title: Eine Kurzgeschichte
+    blocks:
+      - type: vocabulary
+        caption: Wörter zum Text
+        languages: { source: de, target: en }
+        entries:
+          - target: bakery
+            source: Bäckerei
+          - target: baker
+            source: Bäcker, Bäckerin
+          - target: oven
+            source: Backofen
+          - target: pizzeria
+            source: Pizzeria
+          - target: apprentice
+            source: Auszubildende, Auszubildender
+          - target: dough
+            source: Teig
+          - target: tray
+            source: Backblech
+          - target: rush
+            source: hetzen, sich überstürzen
+          - target: stare
+            source: starren
+          - target: whisper
+            source: flüstern
+          - target: loaf (plural loaves)
+            source: Brotlaib
+          - target: crackling
+            source: knisternd
+          - target: slippers
+            source: Hausschuhe
+          - target: apron
+            source: Schürze
+          - target: rolls
+            source: Brötchen
+          - target: van
+            source: Lieferwagen
+          - target: hum
+            source: Brummen, Summen
+          - target: yard
+            source: Hof
+      - type: text
+        text: "Die Zahlen in eckigen Klammern sind die Zeilennummern des Textes."
+      - type: text
+        text: |
+          **Night Shift**
+
+          **[1]** It was ten past four in the morning, and the bakery on Mill Lane was already warm and loud.
+
+          **[2]** Mrs Okafor stood at the long table and cut the dough into neat pieces. She did not hurry. She had done this work for thirty years.
+
+          **[3]** Dan, the new apprentice, was not calm. He looked at the clock every minute, and he dropped a tray of rolls twice.
+
+          **[4]** "Relax," said Mrs Okafor. "Bread does not like people who rush."
+      - type: text
+        text: |
+          **[5]** At half past four the big oven made a strange noise, coughed once and went dark. Outside, Mill Lane was empty and the streetlamps were still on.
+
+          **[6]** Dan stared at it. "The hospital order," he whispered. "Forty loaves. The van leaves at six."
+
+          **[7]** Mrs Okafor wiped her hands on her apron and looked at the oven for a long moment. She said nothing, but she was already thinking. Then she picked up the telephone.
+
+          **[8]** "Hello, Marco? It is Grace. I need your pizza oven. Yes, now. I will bring the dough myself."
+      - type: text
+        text: |
+          **[9]** The pizzeria next door was dark, but Marco opened the back door in his slippers. His oven was small, so they baked the loaves in four rounds. Dan carried the trays across the yard, and he did not drop a single one.
+
+          **[10]** While the loaves baked, Marco made coffee for all three of them. Dan held his cup with both hands and listened to the quiet hum of the little oven.
+
+          **[11]** At ten to six the last loaf came out, brown and crackling.
+
+          **[12]** Dan loaded the van with forty warm loaves. His hands were still shaking, but he was smiling.
+
+          **[13]** "You were right," he said. "Bread really does not like rushing."
+
+          **[14]** "I said bread does not like people who rush," said Mrs Okafor. "I never said it does not like friends." She closed the van door and looked up at the sky. It was getting light.
+  - type: section
+    id: neu
+    title: Vier Karten für deinen Werkzeugkasten
+    blocks:
+      - type: text
+        text: "Jedes Werkzeug ist eine **Werkzeugkarte** mit einem Fachbegriff, einer Leitfrage und einem Satzanfang. Die Karten verfeinern die story map: who wird zu character, where und when werden zu setting, what wird zu plot. Neu ist der narrator, den die story map nicht hat."
+      - type: definition
+        term: narrator
+        explanation: Der Erzähler ist die Stimme, die die Geschichte erzählt.
+      - type: definition
+        term: character
+        explanation: Die Figur ist eine Person, die in der Geschichte handelt und spricht.
+      - type: definition
+        term: setting
+        explanation: Das setting ist der Ort und die Zeit der Handlung.
+      - type: definition
+        term: plot
+        explanation: Der plot sind die Ereignisse der Geschichte in ihrer Reihenfolge.
+      - type: figure
+        image: images/werkzeugkasten-fachbegriffe.svg
+        alt: Vier weiße Karten nebeneinander mit je einem einfachen Zeichen und einem Wort darunter. Das erste Wort ist narrator, dann character, setting und plot.
+        caption: Die vier ersten Karten deines Werkzeugkastens. Auf den nächsten Seiten kommen weitere Karten dazu. Die Zeichen sind nur Merkhilfen.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Die **Leitfrage** stellst du an den Text. Mit dem **Satzanfang** schreibst du deine Antwort: Die drei Punkte ergänzt du selbst."
+      - type: table
+        caption: Werkzeugkasten · Karten
+        header: [Karte, Leitfrage, Satzanfang]
+        rows:
+          - [narrator, "Who tells the story?", "The narrator tells …"]
+          - [character, "Who is in the story and what are they like?", "The character is …"]
+          - [setting, "Where and when does it happen?", "The setting is …"]
+          - [plot, "What happens and in which order?", "The plot starts with …"]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Ein Beleg nennt die Zeile:** *The setting is a school (l. 3).* Für mehrere Zeilen schreibst du *(ll. 2-5)*.
+
+              **Der Erzähler (narrator) ist nicht die Autorin.** Auch wenn er *ich* sagt, hat die Autorin ihn erfunden. Solche Erzähler lernst du auf einer späteren Seite kennen. Das setting ist mehr als ein Ort, denn zum setting gehört auch die Zeit. Der plot ist keine Liste aller Einzelheiten, sondern das, was die Geschichte vorantreibt.
+  - type: section
+    id: uebung
+    title: Wende die Karten auf den Text an
+    blocks:
+      - type: single-choice
+        id: fachbegriffe-erzaehler
+        text: Wer erzählt die Kurzgeschichte von Mrs Okafor und Dan?
+        options:
+          - text: Mrs Okafor
+            correct: false
+            info: Mrs Okafor spricht in der Geschichte, zum Beispiel in Zeile 4. Sie ist eine Figur (character) und erzählt nicht.
+          - text: Dan
+            correct: false
+            info: Dan spricht und handelt wie Mrs Okafor, er ist eine Figur (character). Über ihn wird erzählt, er erzählt nicht.
+          - text: Die Autorin oder der Autor
+            correct: false
+            info: Die Autorin oder der Autor hat die Geschichte geschrieben, aber den narrator erfunden. Die beiden sind nicht dieselbe Person.
+          - text: Ein narrator, der in der Geschichte nicht vorkommt
+            correct: true
+            info: In dieser Geschichte kommt der narrator nicht vor. Er berichtet über Mrs Okafor und Dan und kennt ihre Gefühle.
+        explanation: In dieser Geschichte steht der narrator außerhalb der Handlung und erzählt, was die Figuren tun und fühlen. Es gibt auch Erzähler, die in der Geschichte vorkommen.
+      - type: multiple-choice
+        id: fachbegriffe-dan
+        text: Welche dieser Zeilen zeigen etwas über Dan, also über eine Figur (character)?
+        options:
+          - text: Zeile 3
+            correct: true
+            info: Dan ist nervös, er schaut ständig auf die Uhr und lässt ein Blech fallen.
+          - text: Zeile 4
+            correct: false
+            info: In Zeile 4 spricht Mrs Okafor. Die Zeile zeigt vor allem etwas über sie.
+          - text: Zeile 6
+            correct: true
+            info: Dan starrt auf den Ofen und flüstert. Man merkt, dass er sich Sorgen macht.
+          - text: Zeile 8
+            correct: false
+            info: In Zeile 8 spricht Mrs Okafor am Telefon. Die Zeile zeigt vor allem etwas über sie.
+          - text: Zeile 12
+            correct: true
+            info: Seine Hände zittern noch, aber er lächelt. Er ist erleichtert.
+        explanation: Über Dan erfährst du in den Zeilen 3, 6 und 12 etwas durch das, was er tut und sagt. Es gibt noch weitere Zeilen über ihn.
+      - type: language-task
+        id: fachbegriffe-beleg
+        languages: { source: de, target: en }
+        task: Schreibe einen Satz mit dem Satzanfang der Karte setting und gib die Zeile als Beleg an. Wo backen sie die Brote, nachdem der Ofen ausgefallen ist?
+        form: { punctuation: ok, case: ok }
+        items:
+          - cue: place · bake · loaves · next door
+            target: The setting is a pizzeria( next door|) (l. 9).
+            mistakes:
+              - answer: The setting is a bakery next door (l. 9).
+                message: Die Bäckerei ist der Ort, an dem die Geschichte beginnt. Gefragt ist der zweite Ort, nachdem der Ofen ausgefallen ist.
+              - answer: The setting is a pizzeria next door (l. 8).
+                message: In Zeile 8 spricht Mrs Okafor am Telefon über den Pizzaofen. Wo gebacken wird, steht in einer anderen Zeile.
+              - answer: The setting is a pizzeria next door.
+                message: Es fehlt der Beleg. Gib am Ende die Zeile an, in der Form (l. 3).
+        hint: Lies die Zeilen nach dem Anruf. Welche Zeile nennt den Ort nebenan?
+        explanation: Die Zeile ist der Beleg für das setting.
+      - type: ordering
+        id: fachbegriffe-plot
+        text: "Ordne die Ereignisse des plot in der Reihenfolge der Geschichte."
+        items:
+          - The oven goes dark.
+          - Mrs Okafor phones Marco.
+          - They bake the loaves in the pizzeria.
+          - Dan loads the van.
+        explanation: Zuerst fällt der Ofen aus. Dann folgen der Anruf, das Backen nebenan und die Lieferung.
+      - type: single-choice
+        id: fachbegriffe-wirkung
+        text: "Mrs Okafor sagt in Zeile 4: „Bread does not like people who rush.“ Welcher Satz deutet die Zeile am besten, sagt also, was sie über Mrs Okafor zeigt?"
+        options:
+          - text: "Mrs Okafor is calm because she knows her work well (ll. 2, 4)"
+            correct: true
+            info: Der Satz nennt die Karte, deutet die Zeile, begründet die Deutung und gibt die Zeile an.
+          - text: "Mrs Okafor is a baker who works in the early morning (l. 2)"
+            correct: false
+            info: Das ist eine Tatsache aus dem Text. Es fehlt die Deutung, was der Satz über sie zeigt.
+          - text: "Mrs Okafor is calm and kind (l. 1)"
+            correct: false
+            info: Die Deutung passt, aber Zeile 1 belegt sie nicht. Dort steht nichts über Mrs Okafors Ruhe.
+          - text: "Dan is calm because he knows his work well (l. 4)"
+            correct: false
+            info: In Zeile 4 spricht Mrs Okafor. Dan ist in der Geschichte nervös.
+        explanation: Eine gute Antwort hat die Karte, eine Deutung, eine Begründung und die richtige Zeile.
+      - type: language-task
+        id: fachbegriffe-karte
+        languages: { source: de, target: en }
+        task: Schreibe den Satz zur Karte narrator, ohne Zeile.
+        form: { punctuation: ok, case: ok }
+        items:
+          - cue: narrator · tell · story · from outside
+            target: The narrator tells the story from (the |)outside( the story|).
+            mistakes:
+              - answer: The author tells the story from outside.
+                message: Die Autorin oder der Autor erfindet den narrator. Erzählen tut der narrator, nicht die Autorin.
+              - answer: The narrator tell the story from outside.
+                message: Nach the narrator steht tells mit -s.
+              - answer: Dan tells the story from outside.
+                message: Dan ist eine Figur (character). Eine Figur kommt in der Geschichte vor.
+              - answer: The narrator tells the story.
+                message: Es fehlt, von wo aus er erzählt. Der narrator erzählt von außen, from outside.
+        hint: Der Satz beginnt wie auf der Karte. Das Verb steht im simple present.
+        explanation: So klingt der Satzanfang der Karte narrator in einem ganzen Satz.
+      - type: language-task
+        id: fachbegriffe-hoeren
+        languages: { source: de, target: en }
+        task: Höre den Satz und schreibe ihn auf.
+        form: { punctuation: ok, case: hint }
+        items:
+          - audio: fachbegriffe-hoeren-1.mp3
+            target: The old kitchen is the setting of the whole story.
+          - audio: fachbegriffe-hoeren-2.mp3
+            target: Her brother is the most interesting character.
+          - audio: fachbegriffe-hoeren-3.mp3
+            target: The plot begins with a broken window.
+        explanation: Die Sätze benutzen die Fachbegriffe in neuen Zusammenhängen.
+  - type: section
+    id: anwenden
+    title: Dein Werkzeugkasten im Einsatz
+    blocks:
+      - type: open-task
+        id: fachbegriffe-schreiben
+        task: Wende alle vier Karten auf den Text an. Schreibe vier englische Sätze, je einen mit dem Satzanfang einer Karte, und gib bei jedem eine Zeile als Beleg an.
+        points:
+          - text: Der Satz zum narrator sagt, dass er die Geschichte von außen erzählt.
+            source: /kurzgeschichten/text-fachbegriffe/#neu
+          - text: Der Satz zur Karte character nennt eine Person mit einer Eigenschaft und einer Zeile.
+            source: /kurzgeschichten/text-fachbegriffe/#neu
+          - text: Der Satz zum setting nennt Ort oder Zeit mit einer Zeile.
+            source: /kurzgeschichten/text-fachbegriffe/#neu
+          - text: Der Satz zum plot nennt ein Ereignis, mit dem die Geschichte beginnt oder sich wendet.
+            source: /kurzgeschichten/text-fachbegriffe/#neu
+          - text: Vier ganze Sätze im simple present, jeder mit einer Zeile in der Form (l. 3).
+            kind: form
+        solution: |
+          The narrator tells the story from outside and knows what Dan feels (l. 3). The character is Dan, who is nervous because he looks at the clock every minute (l. 3). The setting is a bakery in the early morning (l. 1). The plot starts with a broken oven that stops the work (l. 5).
+
+          Die App bewertet deinen Text nicht. Prüfe ihn selbst an den Punkten.
+      - type: speaking-task
+        id: fachbegriffe-nachsprechen
+        language: en
+        task: Höre dir jeden Satz an, sprich ihn nach und nimm dich auf. Höre dich dann an und bewerte deine Aussprache selbst.
+        items:
+          - audio: fachbegriffe-nachsprechen-1.mp3
+            text: The narrator is not one of the characters.
+          - audio: fachbegriffe-nachsprechen-2.mp3
+            text: The setting is a busy market in a quiet village.
+          - audio: fachbegriffe-nachsprechen-3.mp3
+            text: The plot follows a courier through the city.
+  - type: section
+    id: weiter
+    title: Dein erster Listeneintrag
+    blocks:
+      - type: text
+        text: "Deine Klasse stellt eine Lese- und Sehliste für Year 10 zusammen. Zu jedem Text gehört ein Eintrag mit einer Werkzeugkarte und einer Zeile als Beleg. Nimm deinen stärksten Satz aus der Schreibaufgabe als Eintrag für die Kurzgeschichte aus der Bäckerei. Auf der nächsten Seite lernst du die Merkmale einer Kurzgeschichte kennen und erweiterst die Karte plot."

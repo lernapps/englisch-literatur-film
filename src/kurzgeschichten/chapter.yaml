@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Kurzgeschichten untersuchen
+summary: Du lernst die ersten Werkzeuge deines Werkzeugkastens kennen und untersuchst damit Kurzgeschichten. Du bestimmst den Erzähler, charakterisierst eine Figur mit Belegen und schreibst eine Inhaltsangabe.
+pages: [das-brauchst-du, text-fachbegriffe, kurzgeschichte, erzaehlperspektive, charakterisierung, inhaltsangabe]
+selfAssessment:
+  pages:
+    - exercises:
+        - /kurzgeschichten/text-fachbegriffe/#fachbegriffe-start
+        - /kurzgeschichten/text-fachbegriffe/#fachbegriffe-karte
+    - exercises:
+        - /kurzgeschichten/kurzgeschichte/#kurzgeschichte-start
+        - /kurzgeschichten/kurzgeschichte/#kurzgeschichte-hoeren
+    - exercises:
+        - /kurzgeschichten/erzaehlperspektive/#perspektive-start
+        - /kurzgeschichten/erzaehlperspektive/#perspektive-autor
+    - exercises:
+        - /kurzgeschichten/charakterisierung/#charakter-start
+        - /kurzgeschichten/charakterisierung/#charakter-wege
+    - exercises:
+        - /kurzgeschichten/inhaltsangabe/#inhalt-start
+        - /kurzgeschichten/inhaltsangabe/#inhalt-einleitung
+        - /kurzgeschichten/inhaltsangabe/#inhalt-gegenwart

@@ -1,0 +1,269 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Die Inhaltsangabe im present tense"
+description: "Aus der story map wird eine Inhaltsangabe: mit Einleitungssatz, im present tense, ohne Zitate und ohne eigene Meinung."
+competencies: [inhaltsangabe]
+scope: "Die Seite zeigt, wie aus der story map (who, where, when, what) eine Inhaltsangabe (summary) wird. Eine Inhaltsangabe hat einen Einleitungssatz mit Titel, Textart und Thema, nennt nur die wichtigsten Ereignisse in ihrer Reihenfolge, steht im present tense, ist in eigenen Worten geschrieben und enthält keine wörtliche Rede, keine Zitate und keine eigene Meinung. Nebensachen bleiben draußen. Die Karte summary hat Leitfrage und Satzanfang. Nicht hier, weil es spätere Seiten sind, nämlich die Stilmittel und die Analyse von Gedicht, Szene und Film. Die Inhaltsangabe ist keine Interpretation."
+blocks:
+  - type: section
+    id: einstieg
+    title: Erst das simple present
+    blocks:
+      - type: single-choice
+        id: inhalt-start
+        text: Welcher Satz steht im simple present und ist richtig?
+        options:
+          - text: Ellen finds a letter
+            correct: true
+            info: Nach she, he und it steht das Verb mit -s.
+          - text: Ellen find a letter
+            correct: false
+            info: Bei Ellen fehlt das -s, es heißt finds.
+          - text: Ellen found a letter
+            correct: false
+            info: Found ist die Vergangenheit. Eine Inhaltsangabe steht im present tense.
+        explanation: Das simple present brauchst du auf dieser Seite für jeden Satz.
+      - type: text
+        text: "**Das kannst du danach:** Du schreibst eine Inhaltsangabe mit Einleitungssatz, im present tense, ohne Zitate und ohne eigene Meinung."
+  - type: section
+    id: lesestueck
+    title: Eine Kurzgeschichte
+    blocks:
+      - type: vocabulary
+        caption: Wörter zum Text
+        languages: { source: de, target: en }
+        entries:
+          - target: loose
+            source: locker
+          - target: envelope
+            source: Briefumschlag
+          - target: stamp
+            source: Briefmarke
+          - target: pigeon
+            source: Taube
+          - target: harbour
+            source: Hafen
+          - target: boathouse
+            source: Bootshaus
+      - type: text
+        text: "Die Zahlen in eckigen Klammern sind die Zeilennummern des Textes."
+      - type: text
+        text: |
+          **The Letter in the Wall**
+
+          **[1]** When Ellen Price started to take down the old kitchen wall, she expected dust and old wallpaper. She did not expect a letter.
+
+          **[2]** It lay behind a loose brick, in a yellow envelope with a stamp from 1974. The address was a house two streets away. The envelope was still closed.
+
+          **[3]** Ellen sat on the floor and read the name twice: Mr Arthur Bell. She knew that name. Arthur Bell was the old man who fed the pigeons in the park every morning.
+
+          **[4]** She thought about it all afternoon. The letter was more than forty years old. Perhaps it was only a bill. But the envelope was heavy, as if something else was inside.
+      - type: text
+        text: |
+          **[5]** The next morning she put on her coat and walked to the park. Mr Bell sat on his usual bench with a paper bag of seeds.
+
+          **[6]** "I found something that belongs to you," said Ellen, and she gave him the envelope.
+
+          **[7]** Mr Bell looked at the stamp for a long time. His hands began to shake a little. "I waited for this letter for a whole year," he said quietly. "Then I stopped waiting."
+
+          **[8]** He opened it carefully. Inside was a short note and a small key. He read the note, and then he laughed, a short, surprised laugh.
+      - type: text
+        text: |
+          **[9]** "It is from my brother," he said. "He wrote to say that he was sorry. We did not speak for thirty years after that summer. I thought he never wrote."
+
+          **[10]** Ellen did not know what to say. "Where does the key go?" she asked at last.
+
+          **[11]** "To a boat," said Mr Bell. "Our boat. I think it is still in the old boathouse." He stood up slowly and put the key in his pocket. "Would you like to see it?"
+
+          **[12]** They walked to the harbour together, and the pigeons followed them for a while.
+  - type: section
+    id: neu
+    title: Von der story map zur Inhaltsangabe
+    blocks:
+      - type: text
+        text: "Die story map kennst du: who, where, when und what. Eine **Inhaltsangabe** (summary) macht daraus wenige Sätze. Sie sagt, worum es geht, und nennt nur die wichtigsten Ereignisse."
+      - type: definition
+        term: summary
+        explanation: Die Inhaltsangabe sagt in wenigen eigenen Sätzen im simple present, worum es in einem Text geht.
+      - type: figure
+        image: images/story-map-inhaltsangabe.svg
+        alt: Oben vier Felder in zwei Reihen, mit den Wörtern who, where, when und what. Ein Pfeil zeigt von den Feldern nach unten auf ein breites Feld mit den Wörtern summary, simple present und own words.
+        caption: Die vier Felder der story map werden zur Inhaltsangabe.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Werkzeugkasten · neue Karte
+        header: [Karte, Leitfrage, Satzanfang]
+        rows:
+          - [summary, "What is the text about, in a few sentences of my own?", "The short story … is about …"]
+      - type: table
+        caption: Die Regeln der Inhaltsangabe
+        header: [Regel, Warum]
+        rows:
+          - ["Einleitungssatz mit Titel, Textart und Thema", "Alle Lesenden wissen sofort, worum es geht."]
+          - ["Nur die wichtigsten Ereignisse in ihrer Reihenfolge", "Nebensachen und Einzelheiten bleiben draußen."]
+          - [Present tense, "Genauer das simple present, auch wenn der Text in der Vergangenheit steht."]
+          - ["Eigene Worte, keine Zitate", "Keine wörtliche Rede und keine Sätze aus dem Text."]
+          - [Keine eigene Meinung, "Die Inhaltsangabe berichtet, sie bewertet nicht."]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Eine Inhaltsangabe ist kein Nacherzählen.** Sie ist viel kürzer, in eigenen Worten und im present tense.
+
+              Der Beleg mit Zeile gehört in die Analyse. In die Inhaltsangabe schreibst du keine Zeilen, keine Zitate und keine Meinung.
+  - type: section
+    id: uebung
+    title: Fülle die Map und schreibe im present tense
+    blocks:
+      - type: matching
+        id: inhalt-map
+        text: Fülle die story map zu „The Letter in the Wall“. Ordne jedem Feld seinen Eintrag zu.
+        pairs:
+          - left: who
+            right: Ellen Price and Arthur Bell
+          - left: where
+            right: A kitchen, a park and a harbour
+          - left: when
+            right: Two days, with a letter from 1974
+          - left: what
+            right: Ellen finds a letter and gives it to Mr Bell
+        explanation: Die story map sammelt die Angaben. Aus ihnen schreibst du die Inhaltsangabe.
+      - type: single-choice
+        id: inhalt-einleitung
+        text: Welcher Einleitungssatz ist am besten?
+        options:
+          - text: "The short story “The Letter in the Wall” is about a woman who finds an old letter and gives it back to its owner"
+            correct: true
+            info: Der Satz nennt die Textart, den Titel und das Thema im present tense.
+          - text: "I think the story is great because it has a nice ending"
+            correct: false
+            info: Das ist eine Meinung. Titel, Textart und Thema fehlen.
+          - text: "Ellen Price started to take down the old kitchen wall"
+            correct: false
+            info: Das ist eine Einzelheit im past tense. Titel, Textart und Thema fehlen.
+          - text: "The Letter in the Wall"
+            correct: false
+            info: Das ist nur der Titel, kein Satz. Es fehlt, worum es geht.
+        explanation: Ein guter Einleitungssatz nennt Titel, Textart und Thema in einem Satz.
+      - type: multiple-choice
+        id: inhalt-streichen
+        text: Welche Sätze gehören nicht in die Inhaltsangabe?
+        options:
+          - text: "“I waited for this letter for a whole year,” Mr Bell says"
+            correct: true
+            info: Das ist wörtliche Rede. Die Inhaltsangabe nutzt keine Zitate.
+          - text: Ellen takes the letter to Mr Bell
+            correct: false
+            info: Das ist ein wichtiges Ereignis. Es gehört hinein.
+          - text: The pigeons follow them for a while
+            correct: true
+            info: Das ist eine Nebensache und bringt die Handlung nicht voran.
+          - text: The story has a surprising and touching end
+            correct: true
+            info: Das ist eine Meinung. Eine Inhaltsangabe bewertet nicht.
+          - text: Mr Bell learns that the letter is from his brother
+            correct: false
+            info: Das ist ein Wendepunkt. Es gehört hinein.
+        explanation: Raus gehören Zitate, Nebensachen und Meinungen.
+      - type: ordering
+        id: inhalt-ordnen
+        text: Ordne die Sätze der Inhaltsangabe in der Reihenfolge der Geschichte.
+        items:
+          - Ellen finds an old letter behind the kitchen wall.
+          - She takes it to Mr Bell, an old man from the park.
+          - He opens it and learns that it is from his brother.
+          - They walk to the harbour together.
+        explanation: Die Reihenfolge der Handlung bleibt in der Inhaltsangabe gleich.
+      - type: language-task
+        id: inhalt-gegenwart
+        languages: { source: de, target: en }
+        task: Die Geschichte steht in der Vergangenheit, die Inhaltsangabe im present tense. Schreibe jeden Satz im simple present.
+        form: { punctuation: ok, case: ok }
+        items:
+          - cue: Ellen · find · letter · behind · wall
+            target: Ellen finds (an old|the old|a|the) letter behind the (kitchen |)wall.
+            mistakes:
+              - answer: Ellen found an old letter behind the wall.
+                message: Das ist die Vergangenheit. Schreibe im simple present.
+              - answer: Ellen find an old letter behind the wall.
+                message: Nach Ellen steht das Verb mit -s, finds.
+              - answer: Ellen is finding an old letter behind the wall.
+                message: Für Handlungen in der Inhaltsangabe nimmst du das simple present und nicht die Verlaufsform.
+          - cue: Mr Bell · open · envelope
+            target: Mr Bell opens the (envelope|letter).
+            mistakes:
+              - answer: Mr Bell opened the envelope.
+                message: Das ist die Vergangenheit. Schreibe im simple present.
+              - answer: Mr Bell open the envelope.
+                message: Nach Mr Bell steht das Verb mit -s, opens.
+        explanation: Die Inhaltsangabe steht im simple present.
+      - type: language-task
+        id: inhalt-hoeren
+        languages: { source: de, target: en }
+        task: Höre den Satz und schreibe ihn auf.
+        form: { punctuation: ok, case: hint }
+        items:
+          - audio: inhaltsangabe-hoeren-1.mp3
+            target: A summary tells only the main events.
+          - audio: inhaltsangabe-hoeren-2.mp3
+            target: The first sentence names the title and the topic.
+          - audio: inhaltsangabe-hoeren-3.mp3
+            target: Please leave your own opinion out of it.
+        explanation: Die Sätze nennen die Regeln der Inhaltsangabe in neuen Worten.
+  - type: section
+    id: anwenden
+    title: "Schreibe eine Inhaltsangabe"
+    blocks:
+      - type: open-task
+        id: inhalt-schreiben
+        task: Schreibe eine Inhaltsangabe zu „The Letter in the Wall“ in vier bis sechs englischen Sätzen, mit Einleitungssatz, im present tense.
+        points:
+          - text: Der erste Satz nennt Titel, Textart und Thema.
+            source: /kurzgeschichten/inhaltsangabe/#neu
+          - text: Die wichtigsten Ereignisse stehen in der Reihenfolge der Geschichte.
+            source: /kurzgeschichten/inhaltsangabe/#neu
+          - text: Es gibt keine wörtliche Rede, kein Zitat und keine Meinung.
+            source: /kurzgeschichten/inhaltsangabe/#neu
+          - text: Alle Sätze stehen im simple present, mit -s bei he, she und it.
+            kind: form
+        solution: |
+          The short story “The Letter in the Wall” is about a woman who finds an old letter and gives it back to its owner. Ellen Price finds the letter behind a wall in her kitchen. She takes it to Arthur Bell, an old man from the park. Mr Bell opens the envelope and learns that it is from his brother, who wrote to say sorry. In the end, the two walk to the harbour together.
+
+          Die App bewertet deinen Text nicht. Prüfe ihn selbst an den Punkten.
+      - type: speaking-task
+        id: inhalt-nachsprechen
+        language: en
+        task: Höre dir jeden Satz an, sprich ihn nach und nimm dich auf. Höre dich dann an und bewerte deine Aussprache selbst.
+        items:
+          - audio: inhaltsangabe-nachsprechen-1.mp3
+            text: The story is about a woman and an old letter.
+          - audio: inhaltsangabe-nachsprechen-2.mp3
+            text: She finds something that belongs to someone else.
+          - audio: inhaltsangabe-nachsprechen-3.mp3
+            text: A summary is short and easy to read.
+  - type: section
+    id: rueckblick
+    title: Dein Werkzeugkasten nach Kapitel 1
+    blocks:
+      - type: text
+        text: "Du hast jetzt neun Karten. Prüfe, ob du jede Leitfrage beantworten kannst."
+      - type: table
+        caption: Werkzeugkasten · Kapitel 1
+        header: [Karte, Leitfrage]
+        rows:
+          - [narrator, "Who tells the story?"]
+          - [narrative perspective, "Does the narrator say I or he and she?"]
+          - [character, "Who is in the story and what are they like?"]
+          - [characterisation, "What is the character like, and how do I know?"]
+          - [setting, "Where and when does it happen?"]
+          - [plot, "What happens and in which order?"]
+          - [turning point, "Where does the situation change?"]
+          - [short story, "Which typical features does the text have?"]
+          - [summary, "What is the text about, in a few sentences of my own?"]
+  - type: section
+    id: weiter
+    title: Dein fünfter Listeneintrag
+    blocks:
+      - type: text
+        text: "Schreibe für die Lese- und Sehliste eine Inhaltsangabe zu einer Kurzgeschichte aus diesem Kapitel in wenigen Sätzen mit dem Satzanfang „The short story … is about …“. Im nächsten Kapitel kommen Karten für Stilmittel, Gedichte, Szenen und Film dazu."

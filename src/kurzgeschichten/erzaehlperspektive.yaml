@@ -1,0 +1,251 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Wer erzählt? Ich oder er und sie"
+description: "Du unterscheidest Ich-Erzähler und Er/Sie-Erzähler und hältst Autor und Erzähler auseinander."
+competencies: [erzaehlperspektive]
+scope: "Die Seite zeigt zwei Fassungen derselben Szene, eine mit einem Ich-Erzähler (first-person narrator) und eine mit einem Er/Sie-Erzähler (third-person narrator). Der Ich-Erzähler kommt in der Geschichte vor und sagt I und my. Der Er/Sie-Erzähler steht außerhalb und spricht von he, she und they, und er kann mehr wissen, zum Beispiel, was eine andere Figur denkt. Die Autorin oder der Autor hat den narrator erfunden: Auch ein Ich-Erzähler ist nicht die Autorin oder der Autor. Die Karte narrative perspective ergänzt die Karte narrator, mit der Leitfrage nach I oder he und she. Die Belege stehen als Zeilen. Nicht hier, weil es spätere Seiten sind, nämlich die Charakterisierung, die Inhaltsangabe und weitere Erzählformen wie Briefe oder Tagebücher."
+blocks:
+  - type: section
+    id: einstieg
+    title: Die Karte narrator wird genauer
+    blocks:
+      - type: single-choice
+        id: perspektive-start
+        text: Welche Leitfrage gehört zur Karte narrator?
+        options:
+          - text: Who tells the story?
+            correct: true
+            info: Die Leitfrage der Karte narrator fragt nach der Stimme, die erzählt.
+          - text: Where and when does it happen?
+            correct: false
+            info: Diese Leitfrage gehört zur Karte setting.
+          - text: What happens and in which order?
+            correct: false
+            info: Diese Leitfrage gehört zur Karte plot.
+        explanation: Mit der Karte narrative perspective fragst du genauer, wie der narrator erzählt.
+      - type: text
+        text: "**Das kannst du danach:** Du unterscheidest den Ich-Erzähler vom Er/Sie-Erzähler und belegst deine Antwort mit Zeilen. Du weißt, warum auch ein Ich-Erzähler nicht die Autorin ist."
+  - type: section
+    id: lesestueck
+    title: Eine Szene in zwei Fassungen
+    blocks:
+      - type: vocabulary
+        caption: Wörter zum Text
+        languages: { source: de, target: en }
+        entries:
+          - target: boatyard
+            source: Bootswerft
+          - target: rope
+            source: Seil
+          - target: harbour
+            source: Hafen
+          - target: repair
+            source: reparieren
+          - target: breath
+            source: Atem
+          - target: handwriting
+            source: Handschrift
+          - target: my mind went white
+            source: ich hatte einen Blackout
+      - type: text
+        text: "Die Zahlen in eckigen Klammern sind die Zeilennummern des Textes. Beide Fassungen erzählen dieselbe Szene."
+      - type: text
+        text: |
+          **The Interview**
+
+          **Fassung A**
+
+          **[1]** I arrived twenty minutes early, and I was still too nervous to sit down.
+
+          **[2]** The boatyard office smelled of rope and coffee. A woman behind the desk smiled at me and pointed to a chair. The walls were covered with old photographs of ships. I stayed by the window and watched the boats in the harbour.
+
+          **[3]** "Mr Hale will see you now," she said.
+
+          **[4]** My hands were cold. I told myself that I knew this work, that I had repaired my uncle's boat for two summers. But when I opened the door, my mind went white. I was afraid of one question: why did I want this job?
+
+          **[5]** Mr Hale looked up from a map of the harbour, with small red crosses on it. "Sit down," he said. "Tell me about a boat you saved."
+
+          **[6]** I took a breath and began to talk. The first words came slowly, then faster, and I forgot the clock on the wall.
+      - type: text
+        text: |
+          **Fassung B**
+
+          **[7]** Sam arrived twenty minutes early, and he was still too nervous to sit down.
+
+          **[8]** The boatyard office smelled of rope and coffee. A woman behind the desk smiled at him and pointed to a chair. The walls were covered with old photographs of ships. He stayed by the window and watched the boats in the harbour.
+
+          **[9]** "Mr Hale will see you now," she said.
+
+          **[10]** His hands were cold. He told himself that he knew this work, that he had repaired his uncle's boat for two summers. But when he opened the door, his mind went white. He was afraid of one question: why did he want this job?
+
+          **[11]** Mr Hale looked up from a map of the harbour, with small red crosses on it. "Sit down," he said. "Tell me about a boat you saved."
+
+          **[12]** Mr Hale had already read the letter twice, and he liked the careful handwriting. But he said nothing.
+
+          **[13]** Sam took a breath and began to talk. The first words came slowly, then faster, and he forgot the clock on the wall.
+  - type: section
+    id: neu
+    title: Mit I oder mit he und she
+    blocks:
+      - type: text
+        text: "Ein **Ich-Erzähler** (first-person narrator) kommt in der Geschichte vor und erzählt von sich selbst. Ein **Er/Sie-Erzähler** (third-person narrator) steht außerhalb und spricht über die Figuren mit he, she oder they. Er kann auch wissen, was eine Figur denkt, die gerade gar nicht im Mittelpunkt steht."
+      - type: figure
+        image: images/werkzeugkasten-erzaehlperspektive.svg
+        alt: Drei weiße Karten nebeneinander. Die erste hat ein Auge und die Wörter narrative perspective, die zweite den Buchstaben I und die Wörter first person, die dritte he/she und die Wörter third person.
+        caption: Die neue Karte narrative perspective ergänzt die Karte narrator. Die beiden anderen zeigen, wie die Antwort heißt.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Werkzeugkasten · neue Karte
+        header: [Karte, Leitfrage, Satzanfang]
+        rows:
+          - [narrative perspective, "Does the narrator say I or he and she?", "The story is told in the … person …"]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Der Erzähler ist nicht die Autorin.** Die Autorin erfindet den Erzähler, auch wenn er *ich* sagt. Auch seine Erlebnisse hat sich die Autorin ausgedacht.
+
+              Schreibe nie „Der Autor erzählt, dass er …“, wenn du den Erzähler meinst. Schreibe: *The narrator …*
+  - type: section
+    id: uebung
+    title: Welche Stimme hörst du?
+    blocks:
+      - type: single-choice
+        id: perspektive-erkennen
+        text: Woran erkennst du in Fassung A, dass ein Ich-Erzähler erzählt?
+        options:
+          - text: Der Erzähler sagt I und my und kommt selbst in der Geschichte vor
+            correct: true
+            info: Wörter wie I und my zeigen, dass die Stimme zur Handlung gehört.
+          - text: In Fassung A steht der Name Sam
+            correct: false
+            info: Der Name Sam steht nur in Fassung B. In Fassung A wird er nicht genannt.
+          - text: Die Geschichte steht in der Vergangenheit
+            correct: false
+            info: Beide Fassungen stehen in der Vergangenheit. Das sagt nichts über den Erzähler.
+          - text: Mr Hale spricht in wörtlicher Rede
+            correct: false
+            info: Mr Hale spricht in beiden Fassungen. Das sagt nichts über den Erzähler.
+        explanation: Der Ich-Erzähler ist eine Figur der Handlung und spricht von sich mit I.
+      - type: multiple-choice
+        id: perspektive-zeilen
+        text: In welchen Zeilen von Fassung A zeigt der Text, dass der Erzähler selbst dabei ist?
+        options:
+          - text: Zeile 1
+            correct: true
+            info: In Zeile 1 steht I arrived, der Erzähler spricht von sich.
+          - text: Zeile 3
+            correct: false
+            info: Zeile 3 ist die wörtliche Rede der Frau. Dort sagt niemand I über den Erzähler.
+          - text: Zeile 4
+            correct: true
+            info: In Zeile 4 steht my hands, der Erzähler sagt, wie ihm zumute ist.
+          - text: Zeile 5
+            correct: false
+            info: In Zeile 5 spricht Mr Hale, und der Erzähler berichtet über ihn. Der Erzähler sagt nichts über sich.
+          - text: Zeile 6
+            correct: true
+            info: In Zeile 6 steht I took a breath, der Erzähler handelt selbst.
+        explanation: Zum Beispiel die Zeilen 1, 4 und 6 enthalten I und my.
+      - type: language-task
+        id: perspektive-beleg
+        languages: { source: de, target: en }
+        task: Schreibe einen Satz mit dem Satzanfang der Karte narrative perspective zu Fassung B und gib die erste Zeile als Beleg an.
+        form: { punctuation: ok, case: ok }
+        items:
+          - cue: story · tell · third person
+            target: The story is told in the third person (l. 7).
+            mistakes:
+              - answer: The story is told in the first person (l. 7).
+                message: In Fassung B stehen he und him und der Name Sam. Das ist die dritte Person.
+              - answer: The story is told in the third person (l. 1).
+                message: Zeile 1 gehört zu Fassung A. Fassung B beginnt in einer anderen Zeile.
+              - answer: The story is told in the third person.
+                message: Es fehlt der Beleg. Gib am Ende die Zeile an, in der Form (l. 3).
+        hint: Fassung B ist die zweite Fassung. Suche ihre erste Zeile.
+        explanation: Der Satz nennt die Karte, die Person und die Zeile.
+      - type: single-choice
+        id: perspektive-wissen
+        text: Was verrät nur der Er/Sie-Erzähler in Fassung B?
+        options:
+          - text: Was Mr Hale schon getan hat und denkt
+            correct: true
+            info: In Zeile 12 steht, dass Mr Hale den Brief schon zweimal gelesen hat und die Handschrift mag. Das weiß Sam nicht.
+          - text: Dass Sams Hände kalt sind
+            correct: false
+            info: Das steht auch in Fassung A, dort sagt der Ich-Erzähler es über sich selbst.
+          - text: Dass das Büro nach Seil und Kaffee riecht
+            correct: false
+            info: Das steht in beiden Fassungen.
+          - text: Was die Frau am Schreibtisch sagt
+            correct: false
+            info: Die wörtliche Rede der Frau steht in beiden Fassungen.
+        explanation: Ein Er/Sie-Erzähler kann auch wissen, was eine andere Figur denkt. Ein Ich-Erzähler weiß meist nur, was er selbst erlebt.
+      - type: single-choice
+        id: perspektive-autor
+        text: Die Autorin hat nie in einer Werft gearbeitet. Trotzdem steht in Fassung A, dass der Erzähler das Boot seines Onkels repariert hat. Was stimmt?
+        options:
+          - text: Der Ich-Erzähler ist eine erfundene Stimme und nicht die Autorin
+            correct: true
+            info: Die Autorin erfindet den Erzähler und sein Leben. Seine Erlebnisse sind nicht ihre.
+          - text: Die Autorin hat im Text gelogen
+            correct: false
+            info: Erfundene Erlebnisse eines Erzählers sind keine Lüge. Das ist Literatur.
+          - text: Der Text ist ein Bericht über das Leben der Autorin
+            correct: false
+            info: Dann wäre der Text eine Autobiografie. Hier ist es eine erfundene Geschichte.
+          - text: Mr Hale ist der Autor
+            correct: false
+            info: Mr Hale ist eine Figur der Geschichte und nicht ihr Autor.
+        explanation: Auch ein Ich-Erzähler ist eine Erfindung. Autor und narrator sind nicht dasselbe.
+      - type: language-task
+        id: perspektive-hoeren
+        languages: { source: de, target: en }
+        task: Höre den Satz und schreibe ihn auf.
+        form: { punctuation: ok, case: hint }
+        items:
+          - audio: erzaehlperspektive-hoeren-1.mp3
+            target: The narrator is not the same person as the writer.
+          - audio: erzaehlperspektive-hoeren-2.mp3
+            target: In the third person, the narrator says he or she.
+          - audio: erzaehlperspektive-hoeren-3.mp3
+            target: I always tell the story about myself.
+        explanation: Die Sätze benutzen die Begriffe der Seite in neuen Zusammenhängen.
+  - type: section
+    id: anwenden
+    title: Welche Fassung verrät mehr?
+    blocks:
+      - type: open-task
+        id: perspektive-schreiben
+        task: "Welche Fassung verrät mehr über Mr Hale, A oder B? Schreibe zwei englische Sätze mit der Karte narrative perspective und je einer Zeile als Beleg."
+        points:
+          - text: Ein Satz nennt die Fassung B mit dem Er/Sie-Erzähler.
+            source: /kurzgeschichten/erzaehlperspektive/#neu
+          - text: Ein Satz nennt, was der Erzähler über Mr Hale weiß, mit der Zeile 12.
+            source: /kurzgeschichten/erzaehlperspektive/#lesestueck
+          - text: Der Satz erklärt, warum der Ich-Erzähler von Fassung A das nicht weiß.
+            source: /kurzgeschichten/erzaehlperspektive/#neu
+          - text: Zwei ganze Sätze im simple present, jeder mit einer Zeile in der Form (l. 3).
+            kind: form
+        solution: |
+          Version B tells us more about Mr Hale, because the story is told in the third person (l. 12). The narrator knows that Mr Hale likes the handwriting, but the first-person narrator of version A cannot know this (l. 6).
+
+          Die App bewertet deinen Text nicht. Prüfe ihn selbst an den Punkten.
+      - type: speaking-task
+        id: perspektive-nachsprechen
+        language: en
+        task: Höre dir jeden Satz an, sprich ihn nach und nimm dich auf. Höre dich dann an und bewerte deine Aussprache selbst.
+        items:
+          - audio: erzaehlperspektive-nachsprechen-1.mp3
+            text: The writer invents the narrator.
+          - audio: erzaehlperspektive-nachsprechen-2.mp3
+            text: A first-person narrator is part of the story.
+          - audio: erzaehlperspektive-nachsprechen-3.mp3
+            text: He knows what the other person thinks.
+  - type: section
+    id: weiter
+    title: Dein dritter Listeneintrag
+    blocks:
+      - type: text
+        text: "Schreibe für die Lese- und Sehliste einen Satz mit dem Satzanfang „The story is told in the … person …“ zu einem Text, den du schon kennst. Nenne die Zeile. Auf der nächsten Seite wendest du die Karte characterisation an und beschreibst eine Figur mit Belegen."

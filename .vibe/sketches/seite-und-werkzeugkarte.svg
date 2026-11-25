@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" font-family="sans-serif" font-size="16">
+<rect width="480" height="360" fill="#f4efe2"/>
+<text x="16" y="28" font-weight="bold">Seite (Muster text-fachbegriffe)</text>
+<g fill="#fff" stroke="#34495e">
+<rect x="16" y="40" width="210" height="34"/><rect x="16" y="80" width="210" height="70"/><rect x="16" y="156" width="210" height="46"/><rect x="16" y="208" width="210" height="60"/><rect x="16" y="274" width="210" height="34"/><rect x="16" y="314" width="210" height="34"/>
+</g>
+<g>
+<text x="24" y="62">1 einstieg</text>
+<text x="24" y="102">2 Lesestück</text><text x="24" y="124" font-size="14">[1] … [2] … Zeilen</text>
+<text x="24" y="176">Wörter zum Text</text>
+<text x="24" y="228">3 Karte + Merke</text>
+<text x="24" y="296">4 Übung 3 Stufen</text>
+<text x="24" y="336">5 anwenden, weiter</text>
+</g>
+<text x="250" y="28" font-weight="bold">Werkzeugkarte</text>
+<rect x="250" y="40" width="214" height="150" fill="#fff" stroke="#2c6fd8" stroke-width="3"/>
+<text x="260" y="66" font-weight="bold">narrator</text>
+<text x="260" y="94" font-size="14">Leitfrage: Who tells</text>
+<text x="260" y="114" font-size="14">the story?</text>
+<text x="260" y="146" font-size="14">Satzanfang:</text>
+<text x="260" y="166" font-size="14">The narrator …</text>
+<text x="250" y="226" font-weight="bold">Kasten wächst</text>
+<g stroke="#34495e" fill="#fff"><rect x="250" y="240" width="48" height="60"/><rect x="304" y="240" width="48" height="60"/><rect x="358" y="240" width="48" height="60"/><rect x="412" y="240" width="48" height="60"/></g>
+<text x="254" y="324" font-size="14">narrator · character</text><text x="254" y="342" font-size="14">setting · plot</text>
+</svg>

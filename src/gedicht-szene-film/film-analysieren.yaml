@@ -1,0 +1,287 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Wie ein Film wirkt: Kamera, Schnitt, Musik"
+description: "Du erkennst Kameraeinstellung, Kamerawinkel, Schnitt und Musik und beschreibst ihre Wirkung."
+competencies: [film-analysieren]
+scope: "Die Seite zeigt, wie man filmische Mittel erkennt und ihre Wirkung beschreibt, an der Szenenliste eines erfundenen Kurzfilms. Die Einstellungsgröße (shot) sagt, wie nah die Kamera ist: long shot (weit, zeigt den Ort), medium shot (halbnah, eine Person bis zur Hüfte), close-up (nah, Gesicht oder Einzelheit). Der Kamerawinkel (camera angle) sagt, von wo die Kamera schaut: high angle (von oben, die Person wirkt klein), low angle (von unten, die Person wirkt groß und mächtig). Der Schnitt (cut) wechselt von einem Bild zum nächsten. Die Musik (music) beeinflusst die Stimmung. Zu jeder Karte gehören Leitfrage und Satzanfang. Die Wirkung wird mit der Zeile der Szenenliste belegt. Am Ende steht eine begründete Empfehlung für die Lese- und Sehliste. Der Film ist erfunden, es gibt kein Standbild und keinen Filmdialog aus einem echten Film. Nicht hier, weil es keine weitere Seite gibt, nämlich Filmanalysen mit Kamerafahrten, Licht und Farbe."
+blocks:
+  - type: section
+    id: einstieg
+    title: Das erste Bild eines Films
+    blocks:
+      - type: single-choice
+        id: film-start
+        text: Ein Film beginnt mit einem sehr weiten Bild einer Straße am Morgen. Welches Feld der story map beantwortet das Bild vor allem?
+        options:
+          - text: where
+            correct: true
+            info: Ein weites Bild zeigt den Ort, an dem die Geschichte beginnt.
+          - text: who
+            correct: false
+            info: Wer vorkommt, zeigt ein weites Bild kaum. Die Menschen sind zu klein.
+          - text: what
+            correct: false
+            info: Was passiert, sieht man erst in den nächsten Bildern.
+        explanation: Mit Bildern erzählt ein Film, ohne Worte. Die Karten dieser Seite helfen dir zu beschreiben, wie.
+      - type: text
+        text: "**Das kannst du danach:** Du erkennst Kameraeinstellung, Kamerawinkel, Schnitt und Musik und beschreibst ihre Wirkung mit einer Zeile als Beleg."
+  - type: section
+    id: lesestueck
+    title: Eine Szenenliste
+    blocks:
+      - type: vocabulary
+        caption: Wörter zum Text
+        languages: { source: de, target: en }
+        entries:
+          - target: mood
+            source: Stimmung
+          - target: recommend
+            source: empfehlen
+          - target: parcel
+            source: Paket
+          - target: doorstep
+            source: Türschwelle
+          - target: doorbell
+            source: Türklingel
+          - target: doorway
+            source: Eingang, Türrahmen
+          - target: eyebrow
+            source: Augenbraue
+          - target: step aside
+            source: zur Seite treten
+          - target: kettle
+            source: Wasserkocher
+      - type: text
+        text: "Die Zahlen in eckigen Klammern sind die Nummern der Zeilen. Die Szenenliste beschreibt einen erfundenen Kurzfilm von neunzig Sekunden mit dem Titel „The Parcel“."
+      - type: text
+        text: |
+          **[1]** The screen is black. We hear rain and a bicycle bell.
+
+          **[2]** The first picture is very wide: a long grey street with houses on both sides. Far away, a tiny cyclist rides towards us. The street fills most of the screen, and the rain makes everything grey.
+
+          **[3]** The camera follows the cyclist at the height of his chest and shows him from the waist up. He stops in front of a red door and takes a parcel from his bag.
+
+          **[4]** The next picture is very close: we see only his hand, the parcel and his wet finger on the doorbell.
+
+          **[5]** Nobody answers. The camera looks down from above on the man on the doorstep. He looks small and cold, and he rings the bell again.
+      - type: text
+        text: |
+          **[6]** The door opens slowly. Now the camera looks up from the floor at an old woman in the doorway. Mrs Dunn looks tall and strict.
+
+          **[7]** "Parcel for Mrs Dunn," the man says. The picture changes to her face in a very close view. One eyebrow goes up.
+
+          **[8]** Mrs Dunn says nothing. She takes the parcel, looks at his wet coat and steps aside. The camera shows them both from the waist up.
+
+          **[9]** The picture changes to the kitchen. The light is yellow and warm, and there are two cups on the table. A soft piano starts to play.
+      - type: text
+        text: |
+          **[10]** The camera stays on the two cups for five seconds. Nobody speaks. Behind them, a photograph hangs on the wall: a young man on a bicycle. Outside, the rain gets lighter, and we hear the kettle.
+
+          **[11]** The picture changes back to the street. It is the same wide, grey picture as before, but now the red door is open and a light is on.
+
+          **[12]** The cyclist rides away, and his bell rings twice. The piano gets quieter, and the rain stops.
+
+          **[13]** The screen goes black. The film is over after ninety seconds.
+  - type: section
+    id: neu
+    title: Vier Karten für den Film
+    blocks:
+      - type: text
+        text: "Ein Film erzählt mit Bildern und Ton. Die **Einstellungsgröße** (shot) sagt, wie nah die Kamera ist, der **Kamerawinkel** (camera angle), von wo sie schaut. Vier Karten helfen dir zu beschreiben, wie ein Film wirkt. Wichtiger als der Name ist wieder die **Wirkung**."
+      - type: definition
+        term: shot
+        explanation: Die Einstellung sagt, wie nah die Kamera an der Person oder Sache ist.
+      - type: definition
+        term: camera angle
+        explanation: Der Kamerawinkel sagt, von wo die Kamera schaut.
+      - type: definition
+        term: cut
+        explanation: Der Schnitt wechselt von einem Bild zum nächsten.
+      - type: figure
+        image: images/kameraeinstellungen.svg
+        alt: Oben drei Bildrahmen nebeneinander. Im ersten steht eine winzige Figur zwischen zwei Häusern, darunter long shot. Im zweiten ist eine Figur bis zur Hüfte zu sehen, darunter medium shot. Im dritten füllt ein großes Gesicht den Rahmen, darunter close-up. Unten zwei Kästchen zum Kamerawinkel. Im ersten schaut eine Kamera von oben auf eine kleine Figur, im zweiten schaut eine Kamera von unten auf eine Figur.
+        caption: Drei Einstellungsgrößen oben, zwei Kamerawinkel unten.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Werkzeugkasten · neue Karten
+        header: [Karte, Leitfrage, Satzanfang]
+        rows:
+          - [shot, "How near is the camera?", "The close-up shows …"]
+          - [camera angle, "From where does the camera look?", "The low angle makes … look …"]
+          - [cut, "How does the picture change?", "The cut from … to … shows …"]
+          - [music, "What do we hear?", "The music makes the scene feel …"]
+      - type: table
+        caption: Häufige Wirkung der Mittel
+        header: [Mittel, Wirkung]
+        rows:
+          - [long shot, "Zeigt den Ort, die Person wirkt klein."]
+          - [medium shot, "Zeigt eine Person bis zur Hüfte und was sie tut."]
+          - [close-up, "Zeigt Gefühle und Einzelheiten."]
+          - [high angle, "Die Person wirkt klein und schwach."]
+          - [low angle, "Die Person wirkt groß und mächtig."]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Ein Mittel hat keine feste Bedeutung.** Ein close-up kann Angst oder Freude zeigen. Sieh auf den Zusammenhang und beschreibe, was es hier bewirkt.
+
+              **Der Schnitt verbindet zwei Bilder.** Schnelle Schnitte wirken hektisch, langsame ruhig. Musik färbt die Stimmung, auch wenn niemand spricht.
+  - type: section
+    id: uebung
+    title: Untersuche die Szenenliste
+    blocks:
+      - type: matching
+        id: film-einstellung
+        text: Welche Einstellungsgröße beschreibt die Zeile? Ordne zu.
+        pairs:
+          - left: "[2] A very wide picture of the street"
+            right: long shot
+          - left: "[3] The camera shows him from the waist up as he rides"
+            right: medium shot
+          - left: "[4] We see only his hand and the parcel"
+            right: close-up
+        explanation: Weit zeigt den Ort, halbnah eine Person bis zur Hüfte, nah eine Einzelheit.
+      - type: single-choice
+        id: film-winkel
+        text: In welcher Zeile wirkt Mrs Dunn durch den Kamerawinkel groß und mächtig?
+        options:
+          - text: Zeile 3
+            correct: false
+            info: Hier schaut die Kamera in Höhe des Mannes, weder von oben noch von unten.
+          - text: Zeile 4
+            correct: false
+            info: Zeile 4 ist ein close-up. Das ist eine Einstellungsgröße und kein Winkel von unten.
+          - text: Zeile 5
+            correct: false
+            info: Hier schaut die Kamera von oben auf den Mann. Er wirkt klein.
+          - text: Zeile 6
+            correct: true
+            info: Die Kamera schaut von unten hinauf. Das ist der low angle, und Mrs Dunn wirkt groß.
+        explanation: Von unten gefilmt wirkt eine Person groß und mächtig.
+      - type: language-task
+        id: film-beleg
+        languages: { source: de, target: en }
+        task: Schreibe einen Satz mit dem Satzanfang der Karte camera angle und gib die Zeile als Beleg an. Wie wirkt Mrs Dunn von unten gefilmt?
+        form: { punctuation: ok, case: ok }
+        items:
+          - cue: low angle · make · Mrs Dunn · look · tall
+            target: The low angle makes Mrs Dunn look (tall|big|large|strict|powerful) (l. 6).
+            mistakes:
+              - answer: The high angle makes Mrs Dunn look tall (l. 6).
+                message: Ein high angle schaut von oben. Von unten gefilmt heißt low angle.
+              - answer: The low angle makes Mrs Dunn look tall (l. 5).
+                message: In Zeile 5 schaut die Kamera von oben auf den Mann. Mrs Dunn steht in einer anderen Zeile.
+              - answer: The low angle makes Mrs Dunn looks tall (l. 6).
+                message: Nach make steht look ohne -s.
+              - answer: The low angle makes Mrs Dunn look tall.
+                message: Es fehlt der Beleg. Gib am Ende die Zeile an, in der Form (l. 3).
+        hint: Von unten gefilmt wirkt eine Person größer. Wie wirkt Mrs Dunn in Zeile 6?
+        explanation: Der Satz nennt die Karte, die Wirkung und die Zeile.
+      - type: single-choice
+        id: film-schnitt
+        text: Der Film wechselt in Zeile 11 vom warmen Raum zurück auf das weite graue Straßenbild. Welche Wirkung hat dieser Schnitt?
+        options:
+          - text: Das gleiche Bild wirkt jetzt anders, weil die Tür offen ist und ein Licht brennt (l. 11)
+            correct: true
+            info: Der Schnitt zeigt eine Veränderung. Dieselbe Straße ist jetzt freundlicher.
+          - text: Der Schnitt zeigt eine neue Figur (l. 11)
+            correct: false
+            info: Es kommt keine neue Figur vor. Es ist dieselbe Straße wie am Anfang.
+          - text: Der Schnitt zeigt, dass der Film schlecht gemacht ist (l. 11)
+            correct: false
+            info: Ein Schnitt ist ein bewusstes Mittel. Er zeigt hier, dass sich etwas verändert hat.
+          - text: Der Schnitt macht den Film hektisch (l. 11)
+            correct: false
+            info: Die Schnitte sind ruhig, die Bilder bleiben lange stehen. Der Film wirkt nicht hektisch.
+        explanation: Der Schnitt zurück auf das Bild vom Anfang zeigt, was sich verändert hat.
+      - type: single-choice
+        id: film-musik
+        text: In Zeile 9 beginnt leise Klaviermusik. Welche Wirkung hat die Musik?
+        options:
+          - text: Sie macht die Küche warm und freundlich (l. 9)
+            correct: true
+            info: Zusammen mit der warmen Küche zeigt die leise Musik, dass Mrs Dunn doch freundlich ist.
+          - text: Sie zeigt Gefahr (l. 9)
+            correct: false
+            info: Leise Klaviermusik und gelbes Licht wirken ruhig, nicht gefährlich.
+          - text: Sie übertönt, was die Figuren sagen (l. 9)
+            correct: false
+            info: Die Musik ist leise, und die Figuren sprechen in dieser Zeile nicht.
+          - text: Sie bedeutet, dass der Film zu Ende ist (l. 9)
+            correct: false
+            info: Das Ende zeigt der schwarze Bildschirm in Zeile 13.
+        explanation: Musik bestimmt die Stimmung einer Szene mit.
+      - type: language-task
+        id: film-hoeren
+        languages: { source: de, target: en }
+        task: Höre den Satz und schreibe ihn auf.
+        form: { punctuation: ok, case: hint }
+        items:
+          - audio: film-analysieren-hoeren-1.mp3
+            target: A close-up can show how a person feels.
+          - audio: film-analysieren-hoeren-2.mp3
+            target: The camera looks at the actor from above.
+          - audio: film-analysieren-hoeren-3.mp3
+            target: Quiet music changes the mood of a scene.
+        explanation: Die Sätze nennen Begriffe der Seite in neuen Zusammenhängen.
+  - type: section
+    id: anwenden
+    title: Deine Empfehlung für die Liste
+    blocks:
+      - type: open-task
+        id: film-schreiben
+        task: "Deine Klasse stellt die Lese- und Sehliste für Year 10 zusammen. Welchen der Texte oder Filme aus dieser App empfiehlst du? Schreibe vier bis fünf englische Sätze: deine Empfehlung und zwei Gründe, je mit einer Karte aus deinem Werkzeugkasten und einem Beleg (Zeile). Ein Satz soll sagen, was gegen deine Wahl spricht."
+        points:
+          - text: Die Empfehlung nennt einen Text oder den Film mit dem Titel.
+            source: /gedicht-szene-film/film-analysieren/#weiter
+          - text: Zwei Gründe nutzen je den Satzanfang einer Karte, zum Beispiel narrator, characterisation, metaphor oder low angle.
+            source: /gedicht-szene-film/film-analysieren/#neu
+          - text: Jeder Grund hat einen Beleg mit Zeile.
+            source: /kurzgeschichten/text-fachbegriffe/#neu
+          - text: Ein Satz nennt eine andere Sichtweise oder ein Gegenargument.
+            kind: form
+          - text: Ganze Sätze im simple present.
+            kind: form
+        solution: |
+          I recommend the short story “Platform Two” for Year 10. The text is a short story because it ends openly and makes the reader think about what Nora does next (l. 17). The turning point is when the man asks Nora to sit with him (l. 15). Some readers may prefer a text with a clear ending.
+
+          Es gibt mehrere gute Antworten. Die App bewertet deinen Text nicht. Prüfe ihn selbst an den Punkten.
+      - type: speaking-task
+        id: film-nachsprechen
+        language: en
+        task: Höre dir jeden Satz an, sprich ihn nach und nimm dich auf. Höre dich dann an und bewerte deine Aussprache selbst.
+        items:
+          - audio: film-analysieren-nachsprechen-1.mp3
+            text: The camera moves closer to her face.
+          - audio: film-analysieren-nachsprechen-2.mp3
+            text: The film ends with a quiet picture.
+          - audio: film-analysieren-nachsprechen-3.mp3
+            text: I would recommend this film.
+  - type: section
+    id: rueckblick
+    title: Dein Werkzeugkasten nach Kapitel 2
+    blocks:
+      - type: text
+        text: "Du hast jetzt elf neue Karten. Prüfe, ob du jede Leitfrage beantworten kannst."
+      - type: table
+        caption: Werkzeugkasten · Kapitel 2
+        header: [Karte, Leitfrage]
+        rows:
+          - [metaphor, "What is called something that it is not?"]
+          - [simile, "What is compared with like or as … as?"]
+          - [repetition, "Which words come back?"]
+          - [rhetorical question, "Which question needs no answer?"]
+          - [stanza, "How many stanzas and lines are there?"]
+          - [rhyme scheme, "Which lines rhyme?"]
+          - [stage direction, "What do the directions tell the actors?"]
+          - [shot, "How near is the camera?"]
+          - [camera angle, "From where does the camera look?"]
+          - [cut, "How does the picture change?"]
+          - [music, "What do we hear?"]
+  - type: section
+    id: weiter
+    title: Deine Entscheidung
+    blocks:
+      - type: text
+        text: "Mit deinem Werkzeugkasten kannst du Texte, Szenen und Filme untersuchen. Deine Liste hat jetzt Einträge zu Kurzgeschichten, einer Rede, einem Gedicht, einem Songtext und einer Szene. Jetzt wählst du aus, was du empfiehlst, und begründest es. Andere in deiner Klasse können anders entscheiden, wenn sie andere Karten nutzen."
