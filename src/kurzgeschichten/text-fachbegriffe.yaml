@@ -32,6 +32,14 @@ blocks:
         caption: Wörter zum Text
         languages: { source: de, target: en }
         entries:
+          - target: bakery
+            source: Bäckerei
+          - target: baker
+            source: Bäcker, Bäckerin
+          - target: oven
+            source: Backofen
+          - target: pizzeria
+            source: Pizzeria
           - target: apprentice
             source: Auszubildende, Auszubildender
           - target: dough
@@ -123,10 +131,10 @@ blocks:
         caption: Werkzeugkasten · Karten
         header: [Karte, Leitfrage, Satzanfang]
         rows:
-          - [narrator, Who tells the story?, "The narrator tells …"]
-          - [character, Who is in the story and what are they like?, "The character is …"]
-          - [setting, Where and when does it happen?, "The setting is …"]
-          - [plot, What happens and in which order?, "The plot starts with …"]
+          - [narrator, "Who tells the story?", "The narrator tells …"]
+          - [character, "Who is in the story and what are they like?", "The character is …"]
+          - [setting, "Where and when does it happen?", "The setting is …"]
+          - [plot, "What happens and in which order?", "The plot starts with …"]
       - type: note
         title: Merke
         blocks:
@@ -279,7 +287,7 @@ blocks:
         task: Hör dir jeden Satz an, sprich ihn nach und nimm dich auf. Höre dich dann an und bewerte deine Aussprache selbst.
         items:
           - audio: fachbegriffe-nachsprechen-1.mp3
-            text: The narrator speaks from outside the story.
+            text: The narrator never appears in the story.
           - audio: fachbegriffe-nachsprechen-2.mp3
             text: The setting is an old bakery in a quiet village.
           - audio: fachbegriffe-nachsprechen-3.mp3

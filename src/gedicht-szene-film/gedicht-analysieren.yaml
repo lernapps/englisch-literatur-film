@@ -32,6 +32,14 @@ blocks:
         caption: Wörter zum Text
         languages: { source: de, target: en }
         entries:
+          - target: aloud
+            source: laut
+          - target: catchy
+            source: eingängig
+          - target: melody
+            source: Melodie
+          - target: divide
+            source: teilen
           - target: lantern
             source: Laterne
           - target: gloom
@@ -49,7 +57,9 @@ blocks:
           - target: hold on
             source: durchhalten
       - type: text
-        text: "Die Zahlen in eckigen Klammern sind die Zeilennummern. Die Dichterin schreibt zu ihrem Gedicht: „Ich habe ‚Night Bus‘ auf dem letzten Bus nach einer späten Schicht geschrieben. Das Gedicht soll sich wie die Fahrt anfühlen: kurze Zeilen, ruhige Reime und am Ende ein stilles Bild.“ Der Songtext ist für ein Schulkonzert entstanden. Er ist viel lauter als das Gedicht, folgt aber seinem eigenen Muster."
+        text: "Die Zahlen in eckigen Klammern sind die Zeilennummern. Zuerst steht eine Notiz der Dichterin, dann das Gedicht und danach ein Songtext. Alle Texte sind für diese Seite geschrieben."
+      - type: text
+        text: "Note from the poet: I wrote “Night Bus” on the last bus home after a late shift. I wanted the poem to feel like the ride itself, with short lines, slow rhymes and one calm picture at the end. The song was written for a school concert. It is much louder than the poem, but it follows a pattern of its own, and that pattern is easy to hear when you read it aloud."
       - type: text
         text: |
           **Night Bus**
@@ -97,6 +107,14 @@ blocks:
           **[19]** Hold on, hold on, we are not alone,
 
           **[20]** Hold on, hold on, we are nearly home.
+
+          **[21]** When the road gets long and the night gets cold,
+
+          **[22]** Remember the stories you were told,
+
+          **[23]** Somebody waits where the porch light glows,
+
+          **[24]** And everyone there already knows.
   - type: section
     id: neu
     title: Strophe, Reimschema und Bild
@@ -181,7 +199,7 @@ blocks:
         form: { punctuation: ok, case: ok }
         items:
           - cue: metaphor · coat · darkness · safe
-            target: The metaphor shows that the darkness feels (safe|warm|protective) (l. 8).
+            target: The metaphor shows that the darkness feels (safe|warm) (l. 8).
             mistakes:
               - answer: The simile shows that the darkness feels safe (l. 8).
                 message: In Zeile 8 steht kein like und kein as. Das ist eine Metapher.

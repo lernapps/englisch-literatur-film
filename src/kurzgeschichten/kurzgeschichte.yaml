@@ -113,8 +113,8 @@ blocks:
         caption: Werkzeugkasten · neue Karten
         header: [Karte, Leitfrage, Satzanfang]
         rows:
-          - [short story, Which typical features does the text have?, "The text is a short story because …"]
-          - [plot · turning point, Where does the situation change?, "The turning point is …"]
+          - [short story, "Which typical features does the text have?", "The text is a short story because …"]
+          - [plot · turning point, "Where does the situation change?", "The turning point is …"]
       - type: note
         title: Merke
         blocks:

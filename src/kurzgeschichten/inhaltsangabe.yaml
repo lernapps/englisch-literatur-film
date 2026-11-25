@@ -251,14 +251,14 @@ blocks:
         caption: Werkzeugkasten · Kapitel 1
         header: [Karte, Leitfrage]
         rows:
-          - [narrator, Who tells the story?]
-          - [narrative perspective, Does the narrator say I or he and she?]
+          - [narrator, "Who tells the story?"]
+          - [narrative perspective, "Does the narrator say I or he and she?"]
           - [character, "Who is in the story and what are they like?"]
           - [characterisation, "What is the character like, and how do I know?"]
-          - [setting, Where and when does it happen?]
-          - [plot, What happens and in which order?]
-          - [turning point, Where does the situation change?]
-          - [short story, Which typical features does the text have?]
+          - [setting, "Where and when does it happen?"]
+          - [plot, "What happens and in which order?"]
+          - [turning point, "Where does the situation change?"]
+          - [short story, "Which typical features does the text have?"]
           - [summary, "What is the text about, in a few sentences of my own?"]
   - type: section
     id: weiter

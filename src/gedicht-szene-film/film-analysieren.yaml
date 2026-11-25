@@ -32,6 +32,10 @@ blocks:
         caption: Wörter zum Text
         languages: { source: de, target: en }
         entries:
+          - target: mood
+            source: Stimmung
+          - target: recommend
+            source: empfehlen
           - target: parcel
             source: Paket
           - target: doorstep
@@ -52,13 +56,13 @@ blocks:
         text: |
           **[1]** The screen is black. We hear rain and a bicycle bell.
 
-          **[2]** The first picture is very wide: a long grey street with houses on both sides. Far away, a tiny cyclist rides towards us. The street fills most of the screen.
+          **[2]** The first picture is very wide: a long grey street with houses on both sides. Far away, a tiny cyclist rides towards us. The street fills most of the screen, and the rain makes everything grey.
 
           **[3]** The camera follows the cyclist at the height of his chest. He stops in front of a red door and takes a parcel from his bag.
 
           **[4]** The next picture is very close: we see only his hand, the parcel and his wet finger on the doorbell.
 
-          **[5]** Nobody answers. The camera looks down from above on the man on the doorstep. He looks small and cold.
+          **[5]** Nobody answers. The camera looks down from above on the man on the doorstep. He looks small and cold, and he rings the bell again.
       - type: text
         text: |
           **[6]** The door opens slowly. Now the camera looks up from the floor at an old woman in the doorway. Mrs Dunn looks tall and strict.
@@ -70,11 +74,11 @@ blocks:
           **[9]** The picture changes to the kitchen. The light is yellow and warm, and there are two cups on the table. A soft piano starts to play.
       - type: text
         text: |
-          **[10]** The camera stays on the two cups for five seconds. Nobody speaks. Outside, the rain gets lighter, and we hear the kettle.
+          **[10]** The camera stays on the two cups for five seconds. Nobody speaks. Behind them, a photograph hangs on the wall: a young man on a bicycle. Outside, the rain gets lighter, and we hear the kettle.
 
           **[11]** The picture changes back to the street. It is the same wide, grey picture as before, but now the red door is open and a light is on.
 
-          **[12]** The cyclist rides away, and his bell rings twice. The piano gets quieter.
+          **[12]** The cyclist rides away, and his bell rings twice. The piano gets quieter, and the rain stops.
 
           **[13]** The screen goes black. The film is over after ninety seconds.
   - type: section

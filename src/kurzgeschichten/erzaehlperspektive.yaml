@@ -54,13 +54,13 @@ blocks:
 
           **[1]** I arrived twenty minutes early, and I was still too nervous to sit down.
 
-          **[2]** The boatyard office smelled of rope and coffee. A woman behind the desk smiled at me and pointed to a chair. I stayed by the window and watched the boats in the harbour.
+          **[2]** The boatyard office smelled of rope and coffee. A woman behind the desk smiled at me and pointed to a chair. The walls were covered with old photographs of ships. I stayed by the window and watched the boats in the harbour.
 
           **[3]** "Mr Hale will see you now," she said.
 
-          **[4]** My hands were cold. I told myself that I knew this work, that I had repaired my uncle's boat for two summers. But when I opened the door, my mind went white.
+          **[4]** My hands were cold. I told myself that I knew this work, that I had repaired my uncle's boat for two summers. But when I opened the door, my mind went white. I was afraid of one question: why did I want this job?
 
-          **[5]** Mr Hale looked up from a map. "Sit down," he said. "Tell me about a boat you saved."
+          **[5]** Mr Hale looked up from a map of the harbour, with small red crosses on it. "Sit down," he said. "Tell me about a boat you saved."
 
           **[6]** I took a breath and began to talk. The first words came slowly, then faster, and I forgot the clock on the wall.
       - type: text
@@ -69,13 +69,13 @@ blocks:
 
           **[7]** Sam arrived twenty minutes early, and he was still too nervous to sit down.
 
-          **[8]** The boatyard office smelled of rope and coffee. A woman behind the desk smiled at him and pointed to a chair. He stayed by the window and watched the boats in the harbour.
+          **[8]** The boatyard office smelled of rope and coffee. A woman behind the desk smiled at him and pointed to a chair. The walls were covered with old photographs of ships. He stayed by the window and watched the boats in the harbour.
 
           **[9]** "Mr Hale will see you now," she said.
 
-          **[10]** His hands were cold. He told himself that he knew this work, that he had repaired his uncle's boat for two summers. But when he opened the door, his mind went white.
+          **[10]** His hands were cold. He told himself that he knew this work, that he had repaired his uncle's boat for two summers. But when he opened the door, his mind went white. He was afraid of one question: why did he want this job?
 
-          **[11]** Mr Hale looked up from a map. "Sit down," he said. "Tell me about a boat you saved."
+          **[11]** Mr Hale looked up from a map of the harbour, with small red crosses on it. "Sit down," he said. "Tell me about a boat you saved."
 
           **[12]** Mr Hale had already read the letter twice, and he liked the careful handwriting. But he said nothing.
 
@@ -96,7 +96,7 @@ blocks:
         caption: Werkzeugkasten · neue Karte
         header: [Karte, Leitfrage, Satzanfang]
         rows:
-          - [narrative perspective, Does the narrator say I or he and she?, "The story is told in the … person …"]
+          - [narrative perspective, "Does the narrator say I or he and she?", "The story is told in the … person …"]
       - type: note
         title: Merke
         blocks:

@@ -32,6 +32,10 @@ blocks:
         caption: Wörter zum Text
         languages: { source: de, target: en }
         entries:
+          - target: audience
+            source: Publikum
+          - target: aloud
+            source: laut
           - target: pier
             source: Landungssteg
           - target: ferry
@@ -52,31 +56,31 @@ blocks:
         text: "Die Zahlen in eckigen Klammern sind die Zeilennummern des Textes. Die Namen der Figuren stehen in Großbuchstaben, die Regieanweisungen kursiv oder in Klammern."
       - type: text
         text: |
-          **[1]** *Lights up. A small wooden pier at night. A lamp swings in the wind. MARA, a ferry worker in a yellow coat, ties a rope. TOM enters quickly with a heavy bag.*
+          **[1]** *Lights up. A small wooden pier at night. A lamp swings in the wind. The air is cold, and the water is dark. MARA, a ferry worker in a yellow coat, ties a rope. TOM enters quickly with a heavy bag.*
 
           **[2]** TOM: (out of breath) Is this the last ferry to Harrow Island?
 
-          **[3]** MARA: (without looking up) It was the last ferry. Ten minutes ago.
+          **[3]** MARA: (without looking up) It was the last ferry. Ten minutes ago. Next time, come earlier.
 
           **[4]** *Tom drops his bag and stares at the empty water.*
 
           **[5]** TOM: But the timetable says 9.40!
 
-          **[6]** MARA: The timetable also says "fair weather". Look at the sky.
+          **[6]** MARA: The timetable also says "fair weather". Look at the sky. Nobody sails in this.
       - type: text
         text: |
           **[7]** *A long silence. The wind blows louder. Tom sits down slowly on his bag.*
 
-          **[8]** TOM: (quietly) My mother is on the island. Tomorrow is her birthday. I promised her.
+          **[8]** TOM: (quietly) My mother is on the island. Tomorrow is her birthday. I promised her. I have not missed one in thirty years.
 
           **[9]** MARA: (sighing) Promises are heavy things.
 
           **[10]** TOM: (standing up) I can pay double. Triple. Anything.
 
-          **[11]** MARA: (shaking her head) It is not about money. It is about the rules.
+          **[11]** MARA: (shaking her head) It is not about money. It is about the rules. Rules keep people safe.
       - type: text
         text: |
-          **[12]** *Mara looks at the little boat at the end of the pier, then at Tom. She takes a key out of her pocket and turns it over in her hand.*
+          **[12]** *Mara looks at the little boat at the end of the pier, then at Tom. She takes a key out of her pocket and turns it over in her hand. The wind drops for a moment.*
 
           **[13]** MARA: (after a pause) I am not allowed to take passengers after nine. But I am allowed to go home across the water.
 
@@ -84,7 +88,7 @@ blocks:
 
           **[15]** MARA: (walking to the boat, with her back to him) Harrow Island. Mind the rope.
 
-          **[16]** *Tom picks up his bag. The lamp goes out. The sound of waves. CURTAIN.*
+          **[16]** *Tom picks up his bag. The lamp goes out. Far away, a bell rings once. The sound of waves. CURTAIN.*
   - type: section
     id: neu
     title: Dialog und Regieanweisung

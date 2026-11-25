@@ -32,6 +32,12 @@ blocks:
         caption: Wörter zum Text
         languages: { source: de, target: en }
         entries:
+          - target: audience
+            source: Publikum, Zuhörerschaft
+          - target: listener
+            source: Zuhörer, Zuhörerin
+          - target: emphasise
+            source: betonen
           - target: heap
             source: Haufen
           - target: spade
@@ -52,18 +58,18 @@ blocks:
         text: "Die Zahlen in eckigen Klammern sind die Zeilennummern des Textes. Die Rede hält die Gründerin eines Gemeinschaftsgartens, der heute eröffnet wird."
       - type: text
         text: |
-          **[1]** Good evening, everyone, and welcome to the garden.
+          **[1]** Good evening, everyone, and welcome to the garden. Thank you for coming on such a cold evening.
 
           **[2]** A year ago this place was a heap of broken bricks and old tyres. Nobody looked at it. Nobody wanted it. Today it is the green heart of our town.
 
           **[3]** We dug. We planted. We waited. And when the first beans came up, the whole street came to see them.
 
-          **[4]** On rainy Saturdays only the brave came. We drank tea in the shed and made plans. Some of us could not tell a weed from a flower. Now they give lessons.
+          **[4]** On rainy Saturdays only the brave came. We drank tea in the shed and made plans. Some of us could not tell a weed from a flower. Now they give lessons, and the best lessons come from the people who made the most mistakes.
       - type: text
         text: |
           **[5]** Did anyone believe that a few people with spades could change a car park? Did anyone think the neighbours would come with tea and cake?
 
-          **[6]** I did not. I thought we would fail, and I was ready to be quiet about it.
+          **[6]** I did not. I thought we would fail, and I was ready to be quiet about it. In March a storm took the roof off the shed, and in May somebody took our watering cans. Each time I thought, this is the end.
 
           **[7]** But look at the beds now. The tomatoes are as red as a fire engine. The sunflowers stand in a row like tall guards. In the evening the whole garden is as quiet as a sleeping cat.
 
@@ -72,7 +78,7 @@ blocks:
         text: |
           **[9]** Together we built it. Together we looked after it. Together we will keep it.
 
-          **[10]** So, what do we do next? We open the gate, we invite everyone in, and we plant again. Thank you.
+          **[10]** So, what do we do next? We open the gate, we invite everyone in, and we plant again. If you have a free Saturday, come and bring a spade, an idea or just a friend. Thank you.
   - type: section
     id: neu
     title: Vier Stilmittel und ihre Wirkung

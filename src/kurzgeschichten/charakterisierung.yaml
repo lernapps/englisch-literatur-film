@@ -52,7 +52,7 @@ blocks:
         text: "Die Zahlen in eckigen Klammern sind die Zeilennummern des Textes."
       - type: text
         text: |
-          **[1]** The new librarian arrived on a rainy Monday, and everybody in the town knew about it before lunch.
+          **[1]** The new librarian arrived on a rainy Monday, and everybody in the town knew about it before lunch. She was the third librarian in five years, and people were not hopeful.
 
           **[2]** "She is very strict," said the baker, who had heard it from the postman.
 
@@ -70,11 +70,11 @@ blocks:
           **[8]** She was also a little forgetful. Twice that week she looked for her glasses for ten minutes before she found them on her head.
       - type: text
         text: |
-          **[9]** At the end of the week the baker came in to complain about the noise. He stayed for an hour and left with a book about bread.
+          **[9]** At the end of the week the baker came in to complain about the noise. He stayed for an hour and left with a book about bread. He had not borrowed a book in twenty years.
 
           **[10]** "She is not strict at all," he told the postman. "She is the only person in town who listens."
 
-          **[11]** Ms Ward heard it from behind her shelf and smiled. She did not say anything. She put the kettle on.
+          **[11]** Ms Ward heard it from behind her shelf and smiled. She did not say anything. She put the kettle on, and this time she took out three cups.
   - type: section
     id: neu
     title: Vom Steckbrief zur Charakterisierung
