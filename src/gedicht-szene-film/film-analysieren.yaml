@@ -86,7 +86,16 @@ blocks:
     title: Vier Karten für den Film
     blocks:
       - type: text
-        text: "Ein Film erzählt mit Bildern und Ton. Vier Karten helfen dir zu beschreiben, wie er wirkt. Wichtiger als der Name ist wieder die **Wirkung**."
+        text: "Ein Film erzählt mit Bildern und Ton. Die **Einstellungsgröße** (shot) sagt, wie nah die Kamera ist, der **Kamerawinkel** (camera angle), von wo sie schaut. Vier Karten helfen dir zu beschreiben, wie ein Film wirkt. Wichtiger als der Name ist wieder die **Wirkung**."
+      - type: definition
+        term: shot
+        explanation: Die Einstellung sagt, wie nah die Kamera an der Person oder Sache ist.
+      - type: definition
+        term: camera angle
+        explanation: Der Kamerawinkel sagt, von wo die Kamera schaut.
+      - type: definition
+        term: cut
+        explanation: Der Schnitt wechselt von einem Bild zum nächsten.
       - type: figure
         image: images/kameraeinstellungen.svg
         alt: Oben drei Bildrahmen nebeneinander. Im ersten steht eine winzige Figur zwischen zwei Häusern, darunter long shot. Im zweiten ist eine Figur bis zur Hüfte zu sehen, darunter medium shot. Im dritten füllt ein großes Gesicht den Rahmen, darunter close-up. Unten zwei Kästchen zum Kamerawinkel. Im ersten schaut eine Kamera von oben auf eine kleine Figur, im zweiten schaut eine Kamera von unten auf eine Figur.
@@ -102,10 +111,11 @@ blocks:
           - [cut, "How does the picture change?", "The cut from … to … shows …"]
           - [music, "What do we hear?", "The music makes the scene feel …"]
       - type: table
-        caption: Wirkung der Mittel
+        caption: Häufige Wirkung der Mittel
         header: [Mittel, Wirkung]
         rows:
           - [long shot, "Zeigt den Ort, die Person wirkt klein."]
+          - [medium shot, "Zeigt eine Person bis zur Hüfte und was sie tut."]
           - [close-up, "Zeigt Gefühle und Einzelheiten."]
           - [high angle, "Die Person wirkt klein und schwach."]
           - [low angle, "Die Person wirkt groß und mächtig."]
@@ -138,7 +148,7 @@ blocks:
         options:
           - text: Zeile 3
             correct: false
-            info: Hier schaut die Kamera auf Brusthöhe. Das ist ein neutraler Winkel.
+            info: Hier schaut die Kamera in Höhe des Mannes, weder von oben noch von unten.
           - text: Zeile 4
             correct: false
             info: Zeile 4 ist ein close-up. Das ist eine Einstellungsgröße und kein Winkel von unten.
@@ -191,7 +201,7 @@ blocks:
         options:
           - text: Sie macht die Küche warm und freundlich (l. 9)
             correct: true
-            info: Zusammen mit dem gelben Licht zeigt die leise Musik, dass Mrs Dunn doch freundlich ist.
+            info: Zusammen mit der warmen Küche zeigt die leise Musik, dass Mrs Dunn doch freundlich ist.
           - text: Sie zeigt Gefahr (l. 9)
             correct: false
             info: Leise Klaviermusik und gelbes Licht wirken ruhig, nicht gefährlich.
@@ -221,7 +231,7 @@ blocks:
     blocks:
       - type: open-task
         id: film-schreiben
-        task: "Deine Klasse stellt die Lese- und Sehliste für Year 10 zusammen. Welchen der Texte oder Filme aus dieser App empfiehlst du? Schreibe vier bis fünf englische Sätze: deine Empfehlung und zwei Gründe, je mit einer Karte aus deinem Werkzeugkasten und einem Beleg (Zeile). Ein Satz darf sagen, was gegen deine Wahl spricht."
+        task: "Deine Klasse stellt die Lese- und Sehliste für Year 10 zusammen. Welchen der Texte oder Filme aus dieser App empfiehlst du? Schreibe vier bis fünf englische Sätze: deine Empfehlung und zwei Gründe, je mit einer Karte aus deinem Werkzeugkasten und einem Beleg (Zeile). Ein Satz soll sagen, was gegen deine Wahl spricht."
         points:
           - text: Die Empfehlung nennt einen Text oder den Film mit dem Titel.
             source: /gedicht-szene-film/film-analysieren/#weiter

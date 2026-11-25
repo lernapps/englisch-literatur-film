@@ -105,7 +105,13 @@ blocks:
     title: Strophe, Reimschema und Bild
     blocks:
       - type: text
-        text: "Ein Gedicht besteht aus **Strophen** (stanzas), das sind Gruppen von Zeilen (lines). Das **Reimschema** (rhyme scheme) zeigt mit Buchstaben, welche Zeilenenden sich reimen. Zeilen mit demselben Buchstaben reimen sich."
+        text: "Ein Gedicht besteht aus **Strophen** (stanzas), das sind Gruppen von Zeilen (lines). Das **Reimschema** (rhyme scheme) zeigt mit Buchstaben, welche Zeilenenden sich reimen. Zeilen mit demselben Buchstaben reimen sich. **Bilder** nennen wir Metaphern und Vergleiche, die du von der Seite über Stilmittel kennst."
+      - type: definition
+        term: stanza
+        explanation: Die Strophe ist eine Gruppe von Zeilen in einem Gedicht.
+      - type: definition
+        term: rhyme scheme
+        explanation: Das Reimschema zeigt mit Buchstaben, welche Zeilenenden sich reimen.
       - type: figure
         image: images/gedichtform.svg
         alt: Drei weiße Kästchen nebeneinander. Jedes zeigt vier Striche untereinander als Zeilen, rechts daneben je einen Buchstaben A oder B. Das erste hat die Folge ABAB, das zweite AABB, das dritte ABBA.
@@ -184,7 +190,7 @@ blocks:
         form: { punctuation: ok, case: ok }
         items:
           - cue: metaphor · coat · darkness · safe
-            target: The metaphor shows that the darkness feels (safe|warm) (l. 8).
+            target: The metaphor shows that the darkness feels (safe|warm|cosy|protected) (l. 8).
             mistakes:
               - answer: The simile shows that the darkness feels safe (l. 8).
                 message: In Zeile 8 steht kein like und kein as. Das ist eine Metapher.

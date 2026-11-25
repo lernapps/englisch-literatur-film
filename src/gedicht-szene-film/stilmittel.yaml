@@ -58,6 +58,8 @@ blocks:
         text: "Die Zahlen in eckigen Klammern sind die Zeilennummern des Textes. Die Rede hält die Gründerin eines Gemeinschaftsgartens, der heute eröffnet wird."
       - type: text
         text: |
+          **Our Garden**
+
           **[1]** Good evening, everyone, and welcome to the garden. Thank you for coming on such a cold evening.
 
           **[2]** A year ago this place was a heap of broken bricks and old tyres. Nobody looked at it. Nobody wanted it. Today it is the green heart of our town.
@@ -85,6 +87,18 @@ blocks:
     blocks:
       - type: text
         text: "**Stilmittel** (stylistic devices) sind sprachliche Mittel, mit denen ein Text wirkt. Wichtiger als der Name ist die Wirkung: Was soll das Publikum fühlen oder denken?"
+      - type: definition
+        term: metaphor
+        explanation: Die Metapher nennt etwas mit dem Namen von etwas anderem, ohne like oder as.
+      - type: definition
+        term: simile
+        explanation: Der Vergleich verbindet zwei Dinge mit like oder as … as.
+      - type: definition
+        term: repetition
+        explanation: Die Wiederholung bringt Wörter oder Satzmuster zurück, um etwas zu betonen.
+      - type: definition
+        term: rhetorical question
+        explanation: Die rhetorische Frage braucht keine Antwort und lässt das Publikum nachdenken.
       - type: figure
         image: images/werkzeugkasten-stilmittel.svg
         alt: Vier weiße Karten nebeneinander. Auf der ersten steht A = B und metaphor, auf der zweiten ein Zeichen für ungefähr gleich und simile, auf der dritten zwei Kreise mit einem Strich und repetition, auf der vierten ein Fragezeichen und rhetorical question.
@@ -176,7 +190,7 @@ blocks:
         form: { punctuation: ok, case: ok }
         items:
           - cue: metaphor · show · garden · important · town
-            target: The metaphor shows that the garden is (very |)important for the town (l. 2).
+            target: The metaphor shows that the garden is (very |)(important|special|valuable) (for|to) the town (l. 2).
             mistakes:
               - answer: The simile shows that the garden is important for the town (l. 2).
                 message: In Zeile 2 steht kein like und kein as. Das ist eine Metapher, kein Vergleich.
@@ -195,7 +209,7 @@ blocks:
             info: Eine rhetorische Frage braucht keine Antwort. Sie lässt die Zuhörer die Antwort selbst finden.
           - text: Sie kennt die Antwort nicht
             correct: false
-            info: Sie sagt in Zeile 6 selbst, was sie gedacht hat. Sie kennt die Antwort.
+            info: Sie sagt in Zeile 6, was sie selbst gedacht hat. Die Fragen sind kein Zeichen von Unwissen.
           - text: Sie wartet auf Antworten aus dem Publikum
             correct: false
             info: Dann wäre es eine echte Frage. Im Text antwortet niemand.

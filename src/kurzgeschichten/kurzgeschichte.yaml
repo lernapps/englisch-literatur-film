@@ -6,7 +6,7 @@ scope: "Die Seite zeigt die typischen Merkmale einer Kurzgeschichte (short story
 blocks:
   - type: section
     id: einstieg
-    title: Welche Karte fragt nach der Reihenfolge?
+    title: Der plot im Werkzeugkasten
     blocks:
       - type: single-choice
         id: kurzgeschichte-start
@@ -105,6 +105,12 @@ blocks:
           - ["Kurze Zeit, wenige Figuren", "Es vergehen Minuten oder Stunden, eine Hauptfigur steht im Mittelpunkt."]
           - [Wendepunkt (turning point), "Eine Entscheidung oder ein Satz verändert die Lage."]
           - [Offenes Ende (open ending), "Der Text hört auf, bevor alles geklärt ist."]
+      - type: definition
+        term: turning point
+        explanation: Der Wendepunkt ist die Stelle, an der sich die Lage verändert.
+      - type: definition
+        term: open ending
+        explanation: Ein offenes Ende lässt eine Frage offen.
       - type: figure
         image: images/werkzeugkasten-kurzgeschichte.svg
         alt: Zwei weiße Karten nebeneinander, die erste mit einem Buch und dem Wort short story, die zweite mit einer Zickzacklinie und dem Wort turning point.
@@ -116,7 +122,7 @@ blocks:
         header: [Karte, Leitfrage, Satzanfang]
         rows:
           - [short story, "Which typical features does the text have?", "The text is a short story because …"]
-          - [plot · turning point, "Where does the situation change?", "The turning point is …"]
+          - [turning point (Teil der Karte plot), "Where does the situation change?", "The turning point is …"]
       - type: note
         title: Merke
         blocks:
@@ -186,11 +192,11 @@ blocks:
       - type: language-task
         id: kurzgeschichte-beleg
         languages: { source: de, target: en }
-        task: Schreibe einen Satz mit dem Satzanfang der Karte plot und gib die Zeile als Beleg an. Was ist der Wendepunkt?
+        task: Schreibe einen Satz mit dem Satzanfang der Karte turning point und gib die Zeile als Beleg an. Was ist der Wendepunkt?
         form: { punctuation: ok, case: ok }
         items:
           - cue: turning point · man · ask · Nora · sit with him
-            target: The turning point is when the man asks Nora to sit with him (l. 15).
+            target: The turning point is when (the man|he) asks Nora to (sit|come|go) with him (l. 15).
             mistakes:
               - answer: The turning point is when the man asks Nora to sit with him (l. 8).
                 message: In Zeile 8 erzählt der Mann von seiner Tochter. Die Bitte steht in einer anderen Zeile.

@@ -40,8 +40,6 @@ blocks:
             source: Briefmarke
           - target: pigeon
             source: Taube
-          - target: quarrel
-            source: Streit
           - target: harbour
             source: Hafen
           - target: boathouse
@@ -83,6 +81,9 @@ blocks:
     blocks:
       - type: text
         text: "Die story map kennst du: who, where, when und what. Eine **Inhaltsangabe** (summary) macht daraus wenige Sätze. Sie sagt, worum es geht, und nennt nur die wichtigsten Ereignisse."
+      - type: definition
+        term: summary
+        explanation: Die Inhaltsangabe sagt in wenigen eigenen Sätzen im simple present, worum es in einem Text geht.
       - type: figure
         image: images/story-map-inhaltsangabe.svg
         alt: Oben vier Felder in zwei Reihen, mit den Wörtern who, where, when und what. Ein Pfeil zeigt von den Feldern nach unten auf ein breites Feld mit den Wörtern summary, simple present und own words.
@@ -100,7 +101,7 @@ blocks:
         rows:
           - ["Einleitungssatz mit Titel, Textart und Thema", "Alle Lesenden wissen sofort, worum es geht."]
           - ["Nur die wichtigsten Ereignisse in ihrer Reihenfolge", "Nebensachen und Einzelheiten bleiben draußen."]
-          - [Present tense, "Auch wenn der Text in der Vergangenheit steht."]
+          - [Present tense, "Genauer das simple present, auch wenn der Text in der Vergangenheit steht."]
           - ["Eigene Worte, keine Zitate", "Keine wörtliche Rede und keine Sätze aus dem Text."]
           - [Keine eigene Meinung, "Die Inhaltsangabe berichtet, sie bewertet nicht."]
       - type: note
@@ -113,7 +114,7 @@ blocks:
               Der Beleg mit Zeile gehört in die Analyse. In die Inhaltsangabe schreibst du keine Zeilen, keine Zitate und keine Meinung.
   - type: section
     id: uebung
-    title: Von der story map zur Inhaltsangabe
+    title: Fülle die Map und schreibe im present tense
     blocks:
       - type: matching
         id: inhalt-map
@@ -190,7 +191,7 @@ blocks:
               - answer: Ellen is finding an old letter behind the wall.
                 message: Für Handlungen in der Inhaltsangabe nimmst du das simple present und nicht die Verlaufsform.
           - cue: Mr Bell · open · envelope
-            target: Mr Bell opens the envelope.
+            target: Mr Bell opens the (envelope|letter).
             mistakes:
               - answer: Mr Bell opened the envelope.
                 message: Das ist die Vergangenheit. Schreibe im simple present.

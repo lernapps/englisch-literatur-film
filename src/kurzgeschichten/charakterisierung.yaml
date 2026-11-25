@@ -52,6 +52,8 @@ blocks:
         text: "Die Zahlen in eckigen Klammern sind die Zeilennummern des Textes."
       - type: text
         text: |
+          **The New Librarian**
+
           **[1]** The new librarian arrived on a rainy Monday, and everybody in the town knew about it before lunch. She was the third librarian in five years, and people were not hopeful.
 
           **[2]** "She is very strict," said the baker, who had heard it from the postman.
@@ -190,7 +192,7 @@ blocks:
         form: { punctuation: ok, case: ok }
         items:
           - cue: character · patient · never · raise · voice
-            target: The character is patient, because she (never raises|does not raise) her voice (l. 7).
+            target: The character is (patient|calm|kind|friendly), because she (never raises|does not raise) her voice (l. 7).
             mistakes:
               - answer: The character is patient, because she never raised her voice (l. 7).
                 message: Beschreibe die Figur im simple present. Die Geschichte steht in der Vergangenheit, deine Charakterisierung nicht.
@@ -251,4 +253,4 @@ blocks:
     title: Dein vierter Listeneintrag
     blocks:
       - type: text
-        text: "Schreibe für die Lese- und Sehliste einen Satz zu der Figur, an der dir am meisten aufgefallen ist, mit dem Satzanfang „The character is …, because …“ und einer Zeile. Auf der nächsten Seite machst du aus deiner story map eine Inhaltsangabe."
+        text: "Schreibe für die Lese- und Sehliste einen Satz zu der Figur, an der dir am meisten aufgefallen ist, mit dem Satzanfang „The character is …, because …“ und einer Zeile. Auf der nächsten Seite machst du aus der story map eine Inhaltsangabe."

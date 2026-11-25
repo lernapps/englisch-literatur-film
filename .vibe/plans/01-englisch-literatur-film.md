@@ -58,6 +58,13 @@ Reihenfolge der Seiten in Kapitel 1: text-fachbegriffe, kurzgeschichte, erzaehlp
 
 **Offene Fragen:** keine; Annahmen sind oben mit (guess) markiert.
 
+**Geprüft und behoben (Code):**
+- Lerner-Check der Musterseite (Sub-Agent Klasse 9): Beleg-Aufgabe als Schreibaufgabe mit je einer Meldung, Zeilenauswahl eindeutig, Zeilennummern erklärt, Karten nicht dreifach erklärt, Glossar, Distraktoren, neue Hörsätze.
+- Gesamtcheck der App (Sub-Agent, Klasse 9-10, alle 11 Seiten, Zeilenangaben geprüft): Erzähler „steht außerhalb“ eingeschränkt (Ich-Erzähler kommt später), Strophen als Blöcke mit Zeilenumbruch, Mittelaufnahme [3] korrigiert (waist up), Titel für alle Lesestücke, Karte turning point als Teil von plot benannt, Steckbrief und Bilder erklärt, Glossar erweitert, Freitext-Ziele mit mehr gleichwertigen Antworten, Widersprüche in der Szene (Uhrzeit, Regieanweisungen) behoben, Teaser character → characterisation.
+- Sprachprüfung Englisch und Deutsch (Sub-Agent): rund 70 Funde (unnatürliches Englisch, deutsche Wörter im deutschen Satz, falsche Rückmeldungen, einheitliches „Höre“) behoben. Nicht übernommen (guess): einheitliche Anführungszeichen und eine geschlechtergerechte Sprache über alle Seiten, gerade und typografische Anführungszeichen bleiben gemischt.
+- Bekannt, nur Hinweis: `explainer-text-load` und `explainer-repetition` (Lesestück zählt mit, zwei Fassungen auf Seite 3 wiederholen Sätze bewusst).
+- Für die Vorlage und die Karte (nicht geändert): `ordering` zeigt Auswahlfelder, Standardmeldung „Deine Fassung kann trotzdem richtig sein“, Lizenz-Badge über Zeichnungen (Platz im Bild gelassen), in einer Lückenaufgabe darf eine Klammer keine Lücke enthalten.
+
 ## Explore
 
 <!--

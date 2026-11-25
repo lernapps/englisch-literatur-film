@@ -72,6 +72,8 @@ blocks:
         text: "Die Zahlen in eckigen Klammern sind die Zeilennummern des Textes."
       - type: text
         text: |
+          **Night Shift**
+
           **[1]** It was ten past four in the morning, and the bakery on Mill Lane was already warm and loud.
 
           **[2]** Mrs Okafor stood at the long table and cut the dough into neat pieces. She did not hurry. She had done this work for thirty years.
@@ -142,7 +144,7 @@ blocks:
             text: |
               **Ein Beleg nennt die Zeile:** *The setting is a school (l. 3).* Für mehrere Zeilen schreibst du *(ll. 2-5)*.
 
-              **Der Erzähler (narrator) ist nicht die Autorin.** Auch wenn er *ich* sagt, hat die Autorin ihn erfunden. Das setting ist mehr als ein Ort, denn zum setting gehört auch die Zeit. Der plot ist keine Liste aller Einzelheiten, sondern das, was die Geschichte vorantreibt.
+              **Der Erzähler (narrator) ist nicht die Autorin.** Auch wenn er *ich* sagt, hat die Autorin ihn erfunden. Solche Erzähler lernst du auf einer späteren Seite kennen. Das setting ist mehr als ein Ort, denn zum setting gehört auch die Zeit. Der plot ist keine Liste aller Einzelheiten, sondern das, was die Geschichte vorantreibt.
   - type: section
     id: uebung
     title: Wende die Karten auf den Text an
@@ -160,10 +162,10 @@ blocks:
           - text: Die Autorin oder der Autor
             correct: false
             info: Die Autorin oder der Autor hat die Geschichte geschrieben, aber den narrator erfunden. Die beiden sind nicht dieselbe Person.
-          - text: Ein narrator außerhalb der Geschichte
+          - text: Ein narrator, der in der Geschichte nicht vorkommt
             correct: true
-            info: Der narrator kommt in der Geschichte nicht vor. Er berichtet über Mrs Okafor und Dan und kennt ihre Gefühle.
-        explanation: Der narrator steht außerhalb der Handlung und erzählt, was die Figuren tun und fühlen.
+            info: In dieser Geschichte kommt der narrator nicht vor. Er berichtet über Mrs Okafor und Dan und kennt ihre Gefühle.
+        explanation: In dieser Geschichte steht der narrator außerhalb der Handlung und erzählt, was die Figuren tun und fühlen. Es gibt auch Erzähler, die in der Geschichte vorkommen.
       - type: multiple-choice
         id: fachbegriffe-dan
         text: Welche dieser Zeilen zeigen etwas über Dan, also über eine Figur (character)?
@@ -191,7 +193,7 @@ blocks:
         form: { punctuation: ok, case: ok }
         items:
           - cue: place · bake · loaves · next door
-            target: The setting is a pizzeria next door (l. 9).
+            target: The setting is a pizzeria( next door|) (l. 9).
             mistakes:
               - answer: The setting is a bakery next door (l. 9).
                 message: Die Bäckerei ist der Ort, an dem die Geschichte beginnt. Gefragt ist der zweite Ort, nachdem der Ofen ausgefallen ist.
@@ -287,7 +289,7 @@ blocks:
         task: Höre dir jeden Satz an, sprich ihn nach und nimm dich auf. Höre dich dann an und bewerte deine Aussprache selbst.
         items:
           - audio: fachbegriffe-nachsprechen-1.mp3
-            text: The narrator never appears in the story.
+            text: The narrator is not one of the characters.
           - audio: fachbegriffe-nachsprechen-2.mp3
             text: The setting is a busy market in a quiet village.
           - audio: fachbegriffe-nachsprechen-3.mp3

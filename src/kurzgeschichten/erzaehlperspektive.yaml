@@ -50,6 +50,8 @@ blocks:
         text: "Die Zahlen in eckigen Klammern sind die Zeilennummern des Textes. Beide Fassungen erzählen dieselbe Szene."
       - type: text
         text: |
+          **The Interview**
+
           **Fassung A**
 
           **[1]** I arrived twenty minutes early, and I was still too nervous to sit down.
@@ -208,7 +210,7 @@ blocks:
           - audio: erzaehlperspektive-hoeren-2.mp3
             target: In the third person, the narrator says he or she.
           - audio: erzaehlperspektive-hoeren-3.mp3
-            target: I always tell the story from my own point of view.
+            target: I always tell the story about myself.
         explanation: Die Sätze benutzen die Begriffe der Seite in neuen Zusammenhängen.
   - type: section
     id: anwenden
@@ -246,4 +248,4 @@ blocks:
     title: Dein dritter Listeneintrag
     blocks:
       - type: text
-        text: "Schreibe für die Lese- und Sehliste einen Satz mit dem Satzanfang „The story is told in the … person …“ zu einem Text, den du schon kennst. Nenne die Zeile. Auf der nächsten Seite wendest du die Karte character an und beschreibst eine Figur mit Belegen."
+        text: "Schreibe für die Lese- und Sehliste einen Satz mit dem Satzanfang „The story is told in the … person …“ zu einem Text, den du schon kennst. Nenne die Zeile. Auf der nächsten Seite wendest du die Karte characterisation an und beschreibst eine Figur mit Belegen."

@@ -56,6 +56,8 @@ blocks:
         text: "Die Zahlen in eckigen Klammern sind die Zeilennummern des Textes. Die Namen der Figuren stehen in Großbuchstaben, die Regieanweisungen kursiv oder in Klammern."
       - type: text
         text: |
+          **The Last Ferry**
+
           **[1]** *Lights up. A small wooden pier at night. A lamp swings in the wind. The air is cold, and the water is dark. MARA, a ferry worker in a yellow coat, ties a rope. TOM enters quickly with a heavy bag.*
 
           **[2]** TOM: (out of breath) Is this the last ferry to Harrow Island?
@@ -82,7 +84,7 @@ blocks:
         text: |
           **[12]** *Mara looks at the little boat at the end of the pier, then at Tom. She takes a key out of her pocket and turns it over in her hand. The wind drops for a moment.*
 
-          **[13]** MARA: (after a pause) I am not allowed to take passengers after nine. But I am allowed to go home across the water.
+          **[13]** MARA: (after a pause) I am not allowed to take passengers after half past nine. But I am allowed to go home across the water.
 
           **[14]** TOM: (hopeful) Home? Which way is home?
 
@@ -95,6 +97,9 @@ blocks:
     blocks:
       - type: text
         text: "Eine **Dramenszene** (drama scene) besteht aus **Dialog** und **Regieanweisungen** (stage directions). Die Anweisungen werden nicht gesprochen. Sie sagen den Schauspielern, wie sie sprechen und was sie tun, und sie beschreiben die Bühne. So zeigen sie auch, was die Figuren nicht aussprechen."
+      - type: definition
+        term: stage direction
+        explanation: Die Regieanweisung sagt, wie gesprochen und gespielt wird, und wird nicht mitgesprochen.
       - type: figure
         image: images/skript-drama.svg
         alt: Ein Skriptausschnitt mit drei Zeilen. Die erste beginnt mit dem Namen ANNA in Großbuchstaben, dann in Klammern whispering, dann der gesprochene Satz Is anyone there. Die zweite Zeile ist kursiv und beschreibt, dass Anna die Tür öffnet. Die dritte beginnt mit BEN und einem kurzen Satz. Unter dem Skript erklärt eine Legende die drei Teile.
@@ -139,7 +144,7 @@ blocks:
         id: szene-funktion
         text: Was sagt die Regieanweisung? Ordne zu.
         pairs:
-          - left: "(without looking up)"
+          - left: "(sighing)"
             right: Wie jemand spricht
           - left: "A lamp swings in the wind."
             right: Wie die Bühne aussieht
@@ -175,7 +180,7 @@ blocks:
         form: { punctuation: ok, case: ok }
         items:
           - cue: stage direction · show · Tom · shocked
-            target: The stage direction shows that Tom is (shocked|disappointed|upset|sad) (l. 4).
+            target: The stage direction shows that Tom is (shocked|disappointed|upset|sad|surprised|worried|afraid) (l. 4).
             mistakes:
               - answer: The stage direction shows that Tom is shocked (l. 7).
                 message: In Zeile 7 setzt sich Tom hin. Dass er starrt, steht in einer anderen Zeile.
@@ -222,7 +227,7 @@ blocks:
       - type: speaking-task
         id: szene-sprechen
         language: en
-        task: Sprich die vier Zeilen aus der Szene nach. Achte auf die Anweisungen in Klammern, zum Beispiel leise oder hoffnungsvoll. Nimm dich auf, höre dich an und bewerte deine Aussprache selbst. Spiele die ganze Szene danach mit einer Partnerin oder einem Partner.
+        task: Sprich die vier Zeilen aus der Szene nach. Achte auf die Anweisungen in Klammern, zum Beispiel „without looking up“ und „after a pause“. Nimm dich auf, höre dich an und bewerte deine Aussprache selbst. Spiele die ganze Szene danach mit einer Partnerin oder einem Partner.
         items:
           - audio: drama-szene-nachsprechen-1.mp3
             text: Is this the last ferry to Harrow Island?
@@ -245,7 +250,7 @@ blocks:
           - text: Die Anweisungen stehen in Klammern oder kursiv und sind kurz.
             kind: form
         solution: |
-          ANNA: (out of breath) Is the shop still open?
+          ANNA: Is the shop still open?
 
           BEN: (turning the sign on the door) No.
 
