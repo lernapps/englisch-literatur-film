@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" font-family="sans-serif">
-<rect width="480" height="320" fill="#f4efe2"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 350" role="img" font-family="sans-serif">
+<rect width="480" height="350" fill="#f4efe2"/>
 <rect x="16" y="16" width="218" height="68" rx="8" fill="#fff" stroke="#2c6fd8" stroke-width="4"/>
 <text x="30" y="56" font-size="20" font-weight="bold" fill="#2c6fd8">who</text>
 <rect x="246" y="16" width="218" height="68" rx="8" fill="#fff" stroke="#138d75" stroke-width="4"/>

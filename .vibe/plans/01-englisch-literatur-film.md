@@ -220,10 +220,10 @@ page, which a link. -->
 - [x] Kapitel 2: Seite gedicht-analysieren (eigenes Gedicht und Songtext, Strophe, Reimschema, Zeichnung der Gedichtform).
 - [x] Kapitel 2: Seite drama-szene (Szene mit Regieanweisungen, Bühnenplan, Rollen sprechen).
 - [x] Kapitel 2: Seite film-analysieren (Szenenliste eines erfundenen Kurzfilms, Zeichnung der Kameraeinstellungen, Entscheidung für die Liste), Kapitelrückblick und Selbsteinschätzung.
-- [ ] Inhaltsführer, Hörliste, Quellen, Wörterdatei und Prüfskript pflegen; Hörsätze erzeugen (bf_emma, regen_audio.py) und über alle Seiten prüfen.
+- [x] Inhaltsführer, Hörliste, Quellen, Wörterdatei und Prüfskript pflegen; Hörsätze erzeugen (bf_emma, regen_audio.py) und über alle Seiten prüfen.
 <!-- tasks: pages (9 added): the other pages or screens, after the pattern -->
-- [ ] Update the content guide so that it describes the app as built (`app-content-matches`).
-- [ ] Run `npx --no -- lernapps check` until it passes.
+- [x] Update the content guide so that it describes the app as built (`app-content-matches`).
+- [x] Run `npx --no -- lernapps check` until it passes.
 - [ ] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
       Compare each with its sketch.
 - [ ] Do the whole-app check of skill `lernapps-learner-check`. Fix what it finds and write under "Notes" what you
